@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\kalimdor_script_loader.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\zone_ashenvale.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\zone_azshara.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\zone_azuremyst_isle.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\zone_bloodmyst_isle.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\zone_darkshore.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\zone_desolace.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\zone_durotar.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\zone_dustwallow_marsh.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\zone_felwood.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\zone_feralas.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\zone_moonglade.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\zone_mulgore.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\zone_orgrimmar.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\zone_silithus.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\zone_stonetalon_mountains.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\zone_tanaris.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\zone_the_barrens.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\zone_thousand_needles.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\zone_thunder_bluff.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\zone_ungoro_crater.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\zone_winterspring.cpp">
+      <Filter>Kalimdor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\BlackfathomDeeps\blackfathom_deeps.cpp">
+      <Filter>Kalimdor\BlackfathomDeeps</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\BlackfathomDeeps\boss_aku_mai.cpp">
+      <Filter>Kalimdor\BlackfathomDeeps</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\BlackfathomDeeps\boss_gelihast.cpp">
+      <Filter>Kalimdor\BlackfathomDeeps</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\BlackfathomDeeps\boss_kelris.cpp">
+      <Filter>Kalimdor\BlackfathomDeeps</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\BlackfathomDeeps\instance_blackfathom_deeps.cpp">
+      <Filter>Kalimdor\BlackfathomDeeps</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\BattleForMountHyjal\boss_anetheron.cpp">
+      <Filter>Kalimdor\CavernsOfTime\BattleForMountHyjal</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\BattleForMountHyjal\boss_archimonde.cpp">
+      <Filter>Kalimdor\CavernsOfTime\BattleForMountHyjal</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\BattleForMountHyjal\boss_azgalor.cpp">
+      <Filter>Kalimdor\CavernsOfTime\BattleForMountHyjal</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\BattleForMountHyjal\boss_kazrogal.cpp">
+      <Filter>Kalimdor\CavernsOfTime\BattleForMountHyjal</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\BattleForMountHyjal\boss_rage_winterchill.cpp">
+      <Filter>Kalimdor\CavernsOfTime\BattleForMountHyjal</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\BattleForMountHyjal\hyjal.cpp">
+      <Filter>Kalimdor\CavernsOfTime\BattleForMountHyjal</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\BattleForMountHyjal\hyjalAI.cpp">
+      <Filter>Kalimdor\CavernsOfTime\BattleForMountHyjal</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\BattleForMountHyjal\hyjal_trash.cpp">
+      <Filter>Kalimdor\CavernsOfTime\BattleForMountHyjal</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\BattleForMountHyjal\instance_hyjal.cpp">
+      <Filter>Kalimdor\CavernsOfTime\BattleForMountHyjal</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\CullingOfStratholme\boss_chrono_lord_epoch.cpp">
+      <Filter>Kalimdor\CavernsOfTime\CullingOfStratholme</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\CullingOfStratholme\boss_infinite_corruptor.cpp">
+      <Filter>Kalimdor\CavernsOfTime\CullingOfStratholme</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\CullingOfStratholme\boss_mal_ganis.cpp">
+      <Filter>Kalimdor\CavernsOfTime\CullingOfStratholme</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\CullingOfStratholme\boss_meathook.cpp">
+      <Filter>Kalimdor\CavernsOfTime\CullingOfStratholme</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\CullingOfStratholme\boss_salramm_the_fleshcrafter.cpp">
+      <Filter>Kalimdor\CavernsOfTime\CullingOfStratholme</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\CullingOfStratholme\culling_of_stratholme.cpp">
+      <Filter>Kalimdor\CavernsOfTime\CullingOfStratholme</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\CullingOfStratholme\instance_culling_of_stratholme.cpp">
+      <Filter>Kalimdor\CavernsOfTime\CullingOfStratholme</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\EscapeFromDurnholdeKeep\boss_captain_skarloc.cpp">
+      <Filter>Kalimdor\CavernsOfTime\EscapeFromDurnholdeKeep</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\EscapeFromDurnholdeKeep\boss_epoch_hunter.cpp">
+      <Filter>Kalimdor\CavernsOfTime\EscapeFromDurnholdeKeep</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\EscapeFromDurnholdeKeep\boss_leutenant_drake.cpp">
+      <Filter>Kalimdor\CavernsOfTime\EscapeFromDurnholdeKeep</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\EscapeFromDurnholdeKeep\instance_old_hillsbrad.cpp">
+      <Filter>Kalimdor\CavernsOfTime\EscapeFromDurnholdeKeep</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\EscapeFromDurnholdeKeep\old_hillsbrad.cpp">
+      <Filter>Kalimdor\CavernsOfTime\EscapeFromDurnholdeKeep</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\TheBlackMorass\boss_aeonus.cpp">
+      <Filter>Kalimdor\CavernsOfTime\TheBlackMorass</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\TheBlackMorass\boss_chrono_lord_deja.cpp">
+      <Filter>Kalimdor\CavernsOfTime\TheBlackMorass</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\TheBlackMorass\boss_temporus.cpp">
+      <Filter>Kalimdor\CavernsOfTime\TheBlackMorass</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\TheBlackMorass\instance_the_black_morass.cpp">
+      <Filter>Kalimdor\CavernsOfTime\TheBlackMorass</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\TheBlackMorass\the_black_morass.cpp">
+      <Filter>Kalimdor\CavernsOfTime\TheBlackMorass</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\DireMaul\instance_dire_maul.cpp">
+      <Filter>Kalimdor\DireMaul</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\Firelands\boss_alysrazor.cpp">
+      <Filter>Kalimdor\Firelands</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\Firelands\boss_baleroc.cpp">
+      <Filter>Kalimdor\Firelands</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\Firelands\firelands.cpp">
+      <Filter>Kalimdor\Firelands</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\Firelands\instance_firelands.cpp">
+      <Filter>Kalimdor\Firelands</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\HallsOfOrigination\boss_anraphet.cpp">
+      <Filter>Kalimdor\HallsOfOrigination</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\HallsOfOrigination\boss_earthrager_ptah.cpp">
+      <Filter>Kalimdor\HallsOfOrigination</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\HallsOfOrigination\boss_temple_guardian_anhuur.cpp">
+      <Filter>Kalimdor\HallsOfOrigination</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\HallsOfOrigination\instance_halls_of_origination.cpp">
+      <Filter>Kalimdor\HallsOfOrigination</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\Maraudon\boss_celebras_the_cursed.cpp">
+      <Filter>Kalimdor\Maraudon</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\Maraudon\boss_landslide.cpp">
+      <Filter>Kalimdor\Maraudon</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\Maraudon\boss_noxxion.cpp">
+      <Filter>Kalimdor\Maraudon</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\Maraudon\boss_princess_theradras.cpp">
+      <Filter>Kalimdor\Maraudon</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\Maraudon\instance_maraudon.cpp">
+      <Filter>Kalimdor\Maraudon</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\OnyxiasLair\boss_onyxia.cpp">
+      <Filter>Kalimdor\OnyxiasLair</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\OnyxiasLair\instance_onyxias_lair.cpp">
+      <Filter>Kalimdor\OnyxiasLair</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\RagefireChasm\instance_ragefire_chasm.cpp">
+      <Filter>Kalimdor\RagefireChasm</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\RazorfenDowns\boss_amnennar_the_coldbringer.cpp">
+      <Filter>Kalimdor\RazorfenDowns</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\RazorfenDowns\boss_glutton.cpp">
+      <Filter>Kalimdor\RazorfenDowns</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\RazorfenDowns\boss_mordresh_fire_eye.cpp">
+      <Filter>Kalimdor\RazorfenDowns</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\RazorfenDowns\boss_tuten_kash.cpp">
+      <Filter>Kalimdor\RazorfenDowns</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\RazorfenDowns\instance_razorfen_downs.cpp">
+      <Filter>Kalimdor\RazorfenDowns</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\RazorfenDowns\razorfen_downs.cpp">
+      <Filter>Kalimdor\RazorfenDowns</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\RazorfenKraul\instance_razorfen_kraul.cpp">
+      <Filter>Kalimdor\RazorfenKraul</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\RazorfenKraul\razorfen_kraul.cpp">
+      <Filter>Kalimdor\RazorfenKraul</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\RuinsOfAhnQiraj\boss_ayamiss.cpp">
+      <Filter>Kalimdor\RuinsOfAhnQiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\RuinsOfAhnQiraj\boss_buru.cpp">
+      <Filter>Kalimdor\RuinsOfAhnQiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\RuinsOfAhnQiraj\boss_kurinnaxx.cpp">
+      <Filter>Kalimdor\RuinsOfAhnQiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\RuinsOfAhnQiraj\boss_moam.cpp">
+      <Filter>Kalimdor\RuinsOfAhnQiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\RuinsOfAhnQiraj\boss_ossirian.cpp">
+      <Filter>Kalimdor\RuinsOfAhnQiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\RuinsOfAhnQiraj\boss_rajaxx.cpp">
+      <Filter>Kalimdor\RuinsOfAhnQiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\RuinsOfAhnQiraj\instance_ruins_of_ahnqiraj.cpp">
+      <Filter>Kalimdor\RuinsOfAhnQiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\TempleOfAhnQiraj\boss_bug_trio.cpp">
+      <Filter>Kalimdor\TempleOfAhnQiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\TempleOfAhnQiraj\boss_cthun.cpp">
+      <Filter>Kalimdor\TempleOfAhnQiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\TempleOfAhnQiraj\boss_fankriss.cpp">
+      <Filter>Kalimdor\TempleOfAhnQiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\TempleOfAhnQiraj\boss_huhuran.cpp">
+      <Filter>Kalimdor\TempleOfAhnQiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\TempleOfAhnQiraj\boss_ouro.cpp">
+      <Filter>Kalimdor\TempleOfAhnQiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\TempleOfAhnQiraj\boss_sartura.cpp">
+      <Filter>Kalimdor\TempleOfAhnQiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\TempleOfAhnQiraj\boss_skeram.cpp">
+      <Filter>Kalimdor\TempleOfAhnQiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\TempleOfAhnQiraj\boss_twinemperors.cpp">
+      <Filter>Kalimdor\TempleOfAhnQiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\TempleOfAhnQiraj\boss_viscidus.cpp">
+      <Filter>Kalimdor\TempleOfAhnQiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\TempleOfAhnQiraj\instance_temple_of_ahnqiraj.cpp">
+      <Filter>Kalimdor\TempleOfAhnQiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\TempleOfAhnQiraj\mob_anubisath_sentinel.cpp">
+      <Filter>Kalimdor\TempleOfAhnQiraj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\WailingCaverns\instance_wailing_caverns.cpp">
+      <Filter>Kalimdor\WailingCaverns</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\WailingCaverns\wailing_caverns.cpp">
+      <Filter>Kalimdor\WailingCaverns</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\ZulFarrak\boss_zum_rah.cpp">
+      <Filter>Kalimdor\ZulFarrak</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\ZulFarrak\instance_zulfarrak.cpp">
+      <Filter>Kalimdor\ZulFarrak</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\ZulFarrak\zulfarrak.cpp">
+      <Filter>Kalimdor\ZulFarrak</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TC_Build_dyn\src\server\scripts\gen_scriptloader\Kalimdor\ScriptLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\BlackfathomDeeps\blackfathom_deeps.h">
+      <Filter>Kalimdor\BlackfathomDeeps</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\BattleForMountHyjal\hyjal.h">
+      <Filter>Kalimdor\CavernsOfTime\BattleForMountHyjal</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\BattleForMountHyjal\hyjalAI.h">
+      <Filter>Kalimdor\CavernsOfTime\BattleForMountHyjal</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\BattleForMountHyjal\hyjal_trash.h">
+      <Filter>Kalimdor\CavernsOfTime\BattleForMountHyjal</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\CullingOfStratholme\culling_of_stratholme.h">
+      <Filter>Kalimdor\CavernsOfTime\CullingOfStratholme</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\EscapeFromDurnholdeKeep\old_hillsbrad.h">
+      <Filter>Kalimdor\CavernsOfTime\EscapeFromDurnholdeKeep</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\CavernsOfTime\TheBlackMorass\the_black_morass.h">
+      <Filter>Kalimdor\CavernsOfTime\TheBlackMorass</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\Firelands\firelands.h">
+      <Filter>Kalimdor\Firelands</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\HallsOfOrigination\halls_of_origination.h">
+      <Filter>Kalimdor\HallsOfOrigination</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\Maraudon\maraudon.h">
+      <Filter>Kalimdor\Maraudon</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\OnyxiasLair\onyxias_lair.h">
+      <Filter>Kalimdor\OnyxiasLair</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\RazorfenDowns\razorfen_downs.h">
+      <Filter>Kalimdor\RazorfenDowns</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\RazorfenKraul\razorfen_kraul.h">
+      <Filter>Kalimdor\RazorfenKraul</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\RuinsOfAhnQiraj\ruins_of_ahnqiraj.h">
+      <Filter>Kalimdor\RuinsOfAhnQiraj</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\TempleOfAhnQiraj\temple_of_ahnqiraj.h">
+      <Filter>Kalimdor\TempleOfAhnQiraj</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\WailingCaverns\wailing_caverns.h">
+      <Filter>Kalimdor\WailingCaverns</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Kalimdor\ZulFarrak\zulfarrak.h">
+      <Filter>Kalimdor\ZulFarrak</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\TC_Build_dyn\CMakeFiles\2c7f562518f8ecd98f547c70df2007a0\scripts_kalimdor_CXX_prefix.hxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\TrinityCore-master\src\server\scripts\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{41B6D89B-2ED2-3AA6-B2F1-698E1A49DE85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor">
+      <UniqueIdentifier>{078B7E6F-8699-3C5A-BEB4-8460A7CBD3F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor\BlackfathomDeeps">
+      <UniqueIdentifier>{CB29AB0B-B8FE-3899-8C99-894D6ACF5DA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor\CavernsOfTime">
+      <UniqueIdentifier>{1BDCD55A-A8DF-3B17-BEE5-EC917BF3DB45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor\CavernsOfTime\BattleForMountHyjal">
+      <UniqueIdentifier>{C7180A9C-4F37-3268-8958-E43991536723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor\CavernsOfTime\CullingOfStratholme">
+      <UniqueIdentifier>{5B503169-5239-3CCB-A3C7-58BD32CE238E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor\CavernsOfTime\EscapeFromDurnholdeKeep">
+      <UniqueIdentifier>{7AEA827C-C3D4-3C4A-967C-E809434928CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor\CavernsOfTime\TheBlackMorass">
+      <UniqueIdentifier>{79A2431B-C331-3D8D-9A60-57183F7699CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor\DireMaul">
+      <UniqueIdentifier>{CECDD17E-DDB4-3B70-8778-881D3DAD0472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor\Firelands">
+      <UniqueIdentifier>{04CF7B0F-128C-3728-BDC0-E51CD4361F52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor\HallsOfOrigination">
+      <UniqueIdentifier>{21EE7763-1DA7-3D7F-9366-EDA2B2E859A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor\Maraudon">
+      <UniqueIdentifier>{A217E708-B913-3260-8AC6-0DE99A83D42D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor\OnyxiasLair">
+      <UniqueIdentifier>{13B171DD-A8D2-3A98-BCB1-5E742F281722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor\RagefireChasm">
+      <UniqueIdentifier>{026F1220-23FD-31AC-AD87-83A19D129000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor\RazorfenDowns">
+      <UniqueIdentifier>{AA5117D8-5C13-3889-AF19-8AA98C81ADD4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor\RazorfenKraul">
+      <UniqueIdentifier>{749679E5-45E0-3F41-A50D-8D3C70BE62DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor\RuinsOfAhnQiraj">
+      <UniqueIdentifier>{05F81A51-DA46-32B6-B450-587D2D1BFECA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor\TempleOfAhnQiraj">
+      <UniqueIdentifier>{BE551352-9F9A-3345-91E7-EB506B130709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor\WailingCaverns">
+      <UniqueIdentifier>{3BBF5020-BF51-3AAA-99B0-976C4A683B8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor\ZulFarrak">
+      <UniqueIdentifier>{56299CF1-C472-38CC-809A-B61E8DB738CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C529067D-4BB6-3F67-8D77-E972423212E1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

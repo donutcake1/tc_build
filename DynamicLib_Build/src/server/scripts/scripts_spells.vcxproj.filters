@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Spells\spell_dh.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Spells\spell_dk.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Spells\spell_druid.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Spells\spell_generic.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Spells\spell_holiday.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Spells\spell_hunter.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Spells\spell_item.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Spells\spell_mage.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Spells\spell_monk.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Spells\spell_paladin.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Spells\spell_pet.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Spells\spell_priest.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Spells\spell_quest.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Spells\spell_rogue.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Spells\spell_script_loader.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Spells\spell_shaman.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Spells\spell_warlock.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Spells\spell_warrior.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TC_Build_dyn\src\server\scripts\gen_scriptloader\Spells\ScriptLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\TC_Build_dyn\CMakeFiles\2c7f562518f8ecd98f547c70df2007a0\scripts_spells_CXX_prefix.hxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\TrinityCore-master\src\server\scripts\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{41B6D89B-2ED2-3AA6-B2F1-698E1A49DE85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C529067D-4BB6-3F67-8D77-E972423212E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spells">
+      <UniqueIdentifier>{AFE048BE-F958-3E6D-B99E-471D77E156C3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Maelstrom\kezan.cpp">
+      <Filter>Maelstrom</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Maelstrom\maelstrom_script_loader.cpp">
+      <Filter>Maelstrom</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Maelstrom\Stonecore\boss_corborus.cpp">
+      <Filter>Maelstrom\Stonecore</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Maelstrom\Stonecore\boss_high_priestess_azil.cpp">
+      <Filter>Maelstrom\Stonecore</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Maelstrom\Stonecore\boss_ozruk.cpp">
+      <Filter>Maelstrom\Stonecore</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Maelstrom\Stonecore\boss_slabhide.cpp">
+      <Filter>Maelstrom\Stonecore</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Maelstrom\Stonecore\instance_stonecore.cpp">
+      <Filter>Maelstrom\Stonecore</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Maelstrom\Stonecore\stonecore.cpp">
+      <Filter>Maelstrom\Stonecore</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TC_Build_dyn\src\server\scripts\gen_scriptloader\Maelstrom\ScriptLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Maelstrom\Stonecore\stonecore.h">
+      <Filter>Maelstrom\Stonecore</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\TC_Build_dyn\CMakeFiles\2c7f562518f8ecd98f547c70df2007a0\scripts_maelstrom_CXX_prefix.hxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\TrinityCore-master\src\server\scripts\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{41B6D89B-2ED2-3AA6-B2F1-698E1A49DE85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maelstrom">
+      <UniqueIdentifier>{1294E260-80A5-3F37-A8A2-A15F847572B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maelstrom\Stonecore">
+      <UniqueIdentifier>{02CB0DFC-8164-30D0-ADDC-D0D760BEC07C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C529067D-4BB6-3F67-8D77-E972423212E1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

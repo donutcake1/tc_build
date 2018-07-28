@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\TrinityCore-master\src\server\bnetserver\Main.cpp" />
+    <ClCompile Include="E:\TrinityCore-master\src\server\bnetserver\REST\LoginRESTService.cpp">
+      <Filter>REST</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\bnetserver\Server\Session.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\bnetserver\Server\SessionManager.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\bnetserver\Server\SslContext.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\bnetserver\Services\AccountService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\bnetserver\Services\AuthenticationService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\bnetserver\Services\ConnectionService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\bnetserver\Services\GameUtilitiesService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\bnetserver\Services\ServiceDispatcher.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\common\Debugging\WheatyExceptionReport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\common\Platform\ServiceWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\resource.h" />
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\REST\LoginRESTService.h">
+      <Filter>REST</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\Server\Session.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\Server\SessionManager.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\Server\SslContext.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\Services\AccountService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\Services\AuthenticationService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\Services\ConnectionService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\Services\GameUtilitiesService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\Services\Service.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\Services\ServiceDispatcher.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\common\Debugging\WheatyExceptionReport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\common\Platform\ServiceWin32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\TC_Build_Static\CMakeFiles\66dd8bbdbbc30a1531c05f973ede6127\bnetserver_CXX_prefix.hxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\TrinityCore-master\src\server\bnetserver\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\TrinityCore-master\src\server\bnetserver\bnetserver.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C9BCF40E-D311-325C-9404-880E3F074E0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1991612F-5E2F-3AD9-A015-A4E2BA20F631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="REST">
+      <UniqueIdentifier>{A5E16DD8-5113-3D1C-B541-BECD2674F29B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{AE24B21B-A579-3B75-AC29-36E31C33CAD1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services">
+      <UniqueIdentifier>{F84EB556-0956-3AC5-B3CD-C86FE52B5FB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D1BF3242-6E55-3E66-8C82-CDFBD57310D1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{29E2C2CE-D7A8-3CAF-A1F7-5E759C605E4C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vmap4extractor</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_dyn\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vmap4extractor.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vmap4extractor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_dyn\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vmap4extractor.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vmap4extractor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_dyn\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vmap4extractor.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vmap4extractor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_dyn\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vmap4extractor.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vmap4extractor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\tools\vmap4_extractor;E:\TC_Build_dyn\src\tools\vmap4_extractor;E:\TrinityCore-master\dep\bzip2;E:\TrinityCore-master\src\tools\extractor_common;E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep\zlib;E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;TC_HAS_BROKEN_WSTRING_REGEX;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;TC_HAS_BROKEN_WSTRING_REGEX;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\tools\vmap4_extractor;E:\TC_Build_dyn\src\tools\vmap4_extractor;E:\TrinityCore-master\dep\bzip2;E:\TrinityCore-master\src\tools\extractor_common;E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep\zlib;E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\tools\vmap4_extractor;E:\TC_Build_dyn\src\tools\vmap4_extractor;E:\TrinityCore-master\dep\bzip2;E:\TrinityCore-master\src\tools\extractor_common;E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep\zlib;E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\dep\bzip2\Debug\bzip2.lib;..\extractor_common\Debug\extractor_common.lib;..\..\..\dep\CascLib\Debug\casc.lib;..\..\common\Debug\common.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_system-vc141-mt-gd-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-gd-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_thread-vc141-mt-gd-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-gd-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_iostreams-vc141-mt-gd-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_regex-vc141-mt-gd-x64-1_66.lib;..\..\..\dep\fmt\Debug\fmt.lib;..\..\..\dep\g3dlite\Debug\g3dlib.lib;..\..\..\dep\recastnavigation\Detour\Debug\Detour.lib;..\..\..\dep\zlib\Debug\zlib.lib;C:\OpenSSL-Win64\lib\VC\libssl64MDd.lib;C:\OpenSSL-Win64\lib\VC\libcrypto64MDd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/TC_Build_dyn/src/tools/vmap4_extractor/Debug/vmap4extractor.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/TC_Build_dyn/bin/Debug/vmap4extractor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\tools\vmap4_extractor;E:\TC_Build_dyn\src\tools\vmap4_extractor;E:\TrinityCore-master\dep\bzip2;E:\TrinityCore-master\src\tools\extractor_common;E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep\zlib;E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;TC_HAS_BROKEN_WSTRING_REGEX;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;TC_HAS_BROKEN_WSTRING_REGEX;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\tools\vmap4_extractor;E:\TC_Build_dyn\src\tools\vmap4_extractor;E:\TrinityCore-master\dep\bzip2;E:\TrinityCore-master\src\tools\extractor_common;E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep\zlib;E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\tools\vmap4_extractor;E:\TC_Build_dyn\src\tools\vmap4_extractor;E:\TrinityCore-master\dep\bzip2;E:\TrinityCore-master\src\tools\extractor_common;E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep\zlib;E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\dep\bzip2\Release\bzip2.lib;..\extractor_common\Release\extractor_common.lib;..\..\..\dep\CascLib\Release\casc.lib;..\..\common\Release\common.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_system-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_thread-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_iostreams-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_regex-vc141-mt-x64-1_66.lib;..\..\..\dep\fmt\Release\fmt.lib;..\..\..\dep\g3dlite\Release\g3dlib.lib;..\..\..\dep\recastnavigation\Detour\Release\Detour.lib;..\..\..\dep\zlib\Release\zlib.lib;C:\OpenSSL-Win64\lib\VC\libssl64MD.lib;C:\OpenSSL-Win64\lib\VC\libcrypto64MD.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/TC_Build_dyn/src/tools/vmap4_extractor/Release/vmap4extractor.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/TC_Build_dyn/bin/Release/vmap4extractor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\tools\vmap4_extractor;E:\TC_Build_dyn\src\tools\vmap4_extractor;E:\TrinityCore-master\dep\bzip2;E:\TrinityCore-master\src\tools\extractor_common;E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep\zlib;E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;TC_HAS_BROKEN_WSTRING_REGEX;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;TC_HAS_BROKEN_WSTRING_REGEX;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\tools\vmap4_extractor;E:\TC_Build_dyn\src\tools\vmap4_extractor;E:\TrinityCore-master\dep\bzip2;E:\TrinityCore-master\src\tools\extractor_common;E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep\zlib;E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\tools\vmap4_extractor;E:\TC_Build_dyn\src\tools\vmap4_extractor;E:\TrinityCore-master\dep\bzip2;E:\TrinityCore-master\src\tools\extractor_common;E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep\zlib;E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\dep\bzip2\MinSizeRel\bzip2.lib;..\extractor_common\MinSizeRel\extractor_common.lib;..\..\..\dep\CascLib\MinSizeRel\casc.lib;..\..\common\MinSizeRel\common.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_system-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_thread-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_iostreams-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_regex-vc141-mt-x64-1_66.lib;..\..\..\dep\fmt\MinSizeRel\fmt.lib;..\..\..\dep\g3dlite\MinSizeRel\g3dlib.lib;..\..\..\dep\recastnavigation\Detour\MinSizeRel\Detour.lib;..\..\..\dep\zlib\MinSizeRel\zlib.lib;C:\OpenSSL-Win64\lib\VC\libssl64MD.lib;C:\OpenSSL-Win64\lib\VC\libcrypto64MD.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/TC_Build_dyn/src/tools/vmap4_extractor/MinSizeRel/vmap4extractor.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/TC_Build_dyn/bin/MinSizeRel/vmap4extractor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\tools\vmap4_extractor;E:\TC_Build_dyn\src\tools\vmap4_extractor;E:\TrinityCore-master\dep\bzip2;E:\TrinityCore-master\src\tools\extractor_common;E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep\zlib;E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512;4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;TC_HAS_BROKEN_WSTRING_REGEX;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;TC_HAS_BROKEN_WSTRING_REGEX;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\tools\vmap4_extractor;E:\TC_Build_dyn\src\tools\vmap4_extractor;E:\TrinityCore-master\dep\bzip2;E:\TrinityCore-master\src\tools\extractor_common;E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep\zlib;E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\tools\vmap4_extractor;E:\TC_Build_dyn\src\tools\vmap4_extractor;E:\TrinityCore-master\dep\bzip2;E:\TrinityCore-master\src\tools\extractor_common;E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep\zlib;E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\dep\bzip2\RelWithDebInfo\bzip2.lib;..\extractor_common\RelWithDebInfo\extractor_common.lib;..\..\..\dep\CascLib\RelWithDebInfo\casc.lib;..\..\common\RelWithDebInfo\common.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_system-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_thread-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_iostreams-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_regex-vc141-mt-x64-1_66.lib;..\..\..\dep\fmt\RelWithDebInfo\fmt.lib;..\..\..\dep\g3dlite\RelWithDebInfo\g3dlib.lib;..\..\..\dep\recastnavigation\Detour\RelWithDebInfo\Detour.lib;..\..\..\dep\zlib\RelWithDebInfo\zlib.lib;C:\OpenSSL-Win64\lib\VC\libssl64MD.lib;C:\OpenSSL-Win64\lib\VC\libcrypto64MD.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/TC_Build_dyn/src/tools/vmap4_extractor/RelWithDebInfo/vmap4extractor.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/TC_Build_dyn/bin/RelWithDebInfo/vmap4extractor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\TrinityCore-master\src\tools\vmap4_extractor\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/TrinityCore-master/src/tools/vmap4_extractor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_dyn --check-stamp-file E:/TC_Build_dyn/src/tools/vmap4_extractor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/TrinityCore-master/src/tools/vmap4_extractor/CMakeLists.txt;E:\TrinityCore-master\src\tools\vmap4_extractor\CMakeLists.txt;E:\TrinityCore-master\src\tools\vmap4_extractor\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_dyn\src\tools\vmap4_extractor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/TrinityCore-master/src/tools/vmap4_extractor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_dyn --check-stamp-file E:/TC_Build_dyn/src/tools/vmap4_extractor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/TrinityCore-master/src/tools/vmap4_extractor/CMakeLists.txt;E:\TrinityCore-master\src\tools\vmap4_extractor\CMakeLists.txt;E:\TrinityCore-master\src\tools\vmap4_extractor\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_dyn\src\tools\vmap4_extractor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/TrinityCore-master/src/tools/vmap4_extractor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_dyn --check-stamp-file E:/TC_Build_dyn/src/tools/vmap4_extractor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/TrinityCore-master/src/tools/vmap4_extractor/CMakeLists.txt;E:\TrinityCore-master\src\tools\vmap4_extractor\CMakeLists.txt;E:\TrinityCore-master\src\tools\vmap4_extractor\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_dyn\src\tools\vmap4_extractor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/TrinityCore-master/src/tools/vmap4_extractor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_dyn --check-stamp-file E:/TC_Build_dyn/src/tools/vmap4_extractor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/TrinityCore-master/src/tools/vmap4_extractor/CMakeLists.txt;E:\TrinityCore-master\src\tools\vmap4_extractor\CMakeLists.txt;E:\TrinityCore-master\src\tools\vmap4_extractor\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_dyn\src\tools\vmap4_extractor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\TrinityCore-master\src\tools\vmap4_extractor\adtfile.cpp" />
+    <ClInclude Include="E:\TrinityCore-master\src\tools\vmap4_extractor\adtfile.h" />
+    <ClCompile Include="E:\TrinityCore-master\src\tools\vmap4_extractor\cascfile.cpp" />
+    <ClInclude Include="E:\TrinityCore-master\src\tools\vmap4_extractor\cascfile.h" />
+    <ClCompile Include="E:\TrinityCore-master\src\tools\vmap4_extractor\gameobject_extract.cpp" />
+    <ClCompile Include="E:\TrinityCore-master\src\tools\vmap4_extractor\model.cpp" />
+    <ClInclude Include="E:\TrinityCore-master\src\tools\vmap4_extractor\model.h" />
+    <ClInclude Include="E:\TrinityCore-master\src\tools\vmap4_extractor\modelheaders.h" />
+    <ClInclude Include="E:\TrinityCore-master\src\tools\vmap4_extractor\vec3d.h" />
+    <ClCompile Include="E:\TrinityCore-master\src\tools\vmap4_extractor\vmapexport.cpp" />
+    <ClInclude Include="E:\TrinityCore-master\src\tools\vmap4_extractor\vmapexport.h" />
+    <ClCompile Include="E:\TrinityCore-master\src\tools\vmap4_extractor\wdtfile.cpp" />
+    <ClInclude Include="E:\TrinityCore-master\src\tools\vmap4_extractor\wdtfile.h" />
+    <ClCompile Include="E:\TrinityCore-master\src\tools\vmap4_extractor\wmo.cpp" />
+    <ClInclude Include="E:\TrinityCore-master\src\tools\vmap4_extractor\wmo.h" />
+    <ClCompile Include="E:\TrinityCore-master\src\common\Debugging\WheatyExceptionReport.cpp" />
+    <ClInclude Include="E:\TrinityCore-master\src\common\Debugging\WheatyExceptionReport.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\TC_Build_dyn\ZERO_CHECK.vcxproj">
+      <Project>{5746EE2B-DDA6-3213-9440-0EF3CA40737E}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\TC_Build_dyn\dep\recastnavigation\Detour\Detour.vcxproj">
+      <Project>{2DF5BA17-FDCC-3D5F-B07D-8EDC673FC792}</Project>
+      <Name>Detour</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\TC_Build_dyn\dep\bzip2\bzip2.vcxproj">
+      <Project>{C7FD13F6-F76C-3459-AB07-76061E13BDA4}</Project>
+      <Name>bzip2</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\TC_Build_dyn\dep\CascLib\casc.vcxproj">
+      <Project>{6C67E0EF-7B0A-36C7-98FE-56F8FE568952}</Project>
+      <Name>casc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\TC_Build_dyn\src\common\common.vcxproj">
+      <Project>{69C44556-F244-3F44-9D2E-C2D70F3682D5}</Project>
+      <Name>common</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\TC_Build_dyn\src\tools\extractor_common\extractor_common.vcxproj">
+      <Project>{256354D1-4CA2-3E7F-BD43-F3DC76422ABB}</Project>
+      <Name>extractor_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\TC_Build_dyn\dep\fmt\fmt.vcxproj">
+      <Project>{2314C1D3-2D8F-36FD-AAA7-7C317D20CF80}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\TC_Build_dyn\dep\g3dlite\g3dlib.vcxproj">
+      <Project>{60323DC6-AAD4-3C76-902A-1C409E962331}</Project>
+      <Name>g3dlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\TC_Build_dyn\dep\zlib\zlib.vcxproj">
+      <Project>{BA2C8058-BCB0-3C66-A737-51F02E458BBB}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Pet\pet_dk.cpp">
+      <Filter>Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Pet\pet_generic.cpp">
+      <Filter>Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Pet\pet_hunter.cpp">
+      <Filter>Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Pet\pet_mage.cpp">
+      <Filter>Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Pet\pet_priest.cpp">
+      <Filter>Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Pet\pet_script_loader.cpp">
+      <Filter>Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Pet\pet_shaman.cpp">
+      <Filter>Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TC_Build_dyn\src\server\scripts\gen_scriptloader\Pet\ScriptLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\TC_Build_dyn\CMakeFiles\2c7f562518f8ecd98f547c70df2007a0\scripts_pet_CXX_prefix.hxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\TrinityCore-master\src\server\scripts\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{41B6D89B-2ED2-3AA6-B2F1-698E1A49DE85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pet">
+      <UniqueIdentifier>{A17AEC10-F9D6-3373-82D5-DFC4E2E6C476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C529067D-4BB6-3F67-8D77-E972423212E1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\TrinityCore-master\src\server\database\Database\AdhocStatement.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\database\Database\DatabaseEnv.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\database\Database\DatabaseLoader.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\database\Database\DatabaseWorker.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\database\Database\DatabaseWorkerPool.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\database\Database\Field.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\database\Database\MySQLConnection.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\database\Database\MySQLThreading.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\database\Database\PreparedStatement.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\database\Database\QueryCallback.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\database\Database\QueryCallbackProcessor.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\database\Database\QueryHolder.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\database\Database\QueryResult.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\database\Database\Transaction.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\database\Database\Implementation\CharacterDatabase.cpp">
+      <Filter>Database\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\database\Database\Implementation\HotfixDatabase.cpp">
+      <Filter>Database\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\database\Database\Implementation\LoginDatabase.cpp">
+      <Filter>Database\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\database\Database\Implementation\WorldDatabase.cpp">
+      <Filter>Database\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\database\Logging\AppenderDB.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\database\Updater\DBUpdater.cpp">
+      <Filter>Updater</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\database\Updater\UpdateFetcher.cpp">
+      <Filter>Updater</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Database\AdhocStatement.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Database\DatabaseEnv.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Database\DatabaseEnvFwd.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Database\DatabaseLoader.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Database\DatabaseWorker.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Database\DatabaseWorkerPool.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Database\Field.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Database\MySQLConnection.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Database\MySQLThreading.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Database\PreparedStatement.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Database\QueryCallback.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Database\QueryCallbackProcessor.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Database\QueryHolder.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Database\QueryResult.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Database\SQLOperation.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Database\Transaction.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Database\Implementation\CharacterDatabase.h">
+      <Filter>Database\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Database\Implementation\HotfixDatabase.h">
+      <Filter>Database\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Database\Implementation\LoginDatabase.h">
+      <Filter>Database\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Database\Implementation\WorldDatabase.h">
+      <Filter>Database\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Logging\AppenderDB.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Updater\DBUpdater.h">
+      <Filter>Updater</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\database\Updater\UpdateFetcher.h">
+      <Filter>Updater</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\TC_Build_Static\CMakeFiles\0ca4d26c55388314c14f2537a0c280e3\database_CXX_prefix.hxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\TrinityCore-master\src\server\database\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C9BCF40E-D311-325C-9404-880E3F074E0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{C83510AE-A141-34EF-84B5-C08F4ADAB928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database\Implementation">
+      <UniqueIdentifier>{85945CF4-D293-3E4D-A1CC-156422D3A32D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{CBAE8BED-37EA-3007-B653-83D8B5E247FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Updater">
+      <UniqueIdentifier>{921DF99E-779E-3CAD-8B0B-2E8BA9B62317}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

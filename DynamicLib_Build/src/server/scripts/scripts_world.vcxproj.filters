@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\World\achievement_scripts.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\World\action_ip_logger.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\World\areatrigger_scripts.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\World\boss_emerald_dragons.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\World\chat_log.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\World\conversation_scripts.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\World\duel_reset.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\World\go_scripts.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\World\guards.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\World\item_scripts.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\World\mob_generic_creature.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\World\npc_innkeeper.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\World\npc_professions.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\World\npcs_special.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\World\scene_scripts.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\World\world_script_loader.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TC_Build_dyn\src\server\scripts\gen_scriptloader\World\ScriptLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\TC_Build_dyn\CMakeFiles\2c7f562518f8ecd98f547c70df2007a0\scripts_world_CXX_prefix.hxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\TrinityCore-master\src\server\scripts\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{41B6D89B-2ED2-3AA6-B2F1-698E1A49DE85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C529067D-4BB6-3F67-8D77-E972423212E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{52CC4982-0C4B-33DC-86F0-9981A96EFBB5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

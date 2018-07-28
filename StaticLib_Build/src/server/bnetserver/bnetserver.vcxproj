@@ -1,0 +1,796 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B88BFE51-1A37-38CB-8FC2-572BBAC453EA}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>bnetserver</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">bnetserver.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">bnetserver</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">bnetserver.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">bnetserver</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">bnetserver.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">bnetserver</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">bnetserver.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">bnetserver</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\server\bnetserver;E:\TrinityCore-master\src\server\bnetserver\REST;E:\TrinityCore-master\src\server\bnetserver\Server;E:\TrinityCore-master\src\server\bnetserver\Services;E:\TC_Build_Static\src\server\bnetserver;E:\TrinityCore-master\src\server\shared;E:\TrinityCore-master\src\server\shared\DataStores;E:\TrinityCore-master\src\server\shared\Dynamic;E:\TrinityCore-master\src\server\shared\Dynamic\LinkedReference;E:\TrinityCore-master\src\server\shared\JSON;E:\TrinityCore-master\src\server\shared\Networking;E:\TrinityCore-master\src\server\shared\Packets;E:\TrinityCore-master\src\server\shared\Realm;E:\TrinityCore-master\src\server\database;E:\TrinityCore-master\src\server\database\Database;E:\TrinityCore-master\src\server\database\Database\Implementation;E:\TrinityCore-master\src\server\database\Logging;E:\TrinityCore-master\src\server\database\Updater;E:\TC_Build_Static;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;E:\TrinityCore-master\dep\rapidjson;E:\TrinityCore-master\src\server\proto;E:\TrinityCore-master\src\server\proto\Client;E:\TrinityCore-master\src\server\proto\Client\client;E:\TrinityCore-master\src\server\proto\Client\client\v1;E:\TrinityCore-master\src\server\proto\Client\global_extensions;E:\TrinityCore-master\src\server\proto\Login;E:\TrinityCore-master\src\server\proto\RealmList;E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\gsoap;E:\mysql-5.6.41-winx64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;RAPIDJSON_HAS_STDSTRING;RAPIDJSON_SSE2;RAPIDJSON_48BITPOINTER_OPTIMIZATION=0;RAPIDJSON_ASSERT=WPAssert;WITH_OPENSSL;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;RAPIDJSON_HAS_STDSTRING;RAPIDJSON_SSE2;RAPIDJSON_48BITPOINTER_OPTIMIZATION=0;RAPIDJSON_ASSERT=WPAssert;WITH_OPENSSL;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\server\bnetserver;E:\TrinityCore-master\src\server\bnetserver\REST;E:\TrinityCore-master\src\server\bnetserver\Server;E:\TrinityCore-master\src\server\bnetserver\Services;E:\TC_Build_Static\src\server\bnetserver;E:\TrinityCore-master\src\server\shared;E:\TrinityCore-master\src\server\shared\DataStores;E:\TrinityCore-master\src\server\shared\Dynamic;E:\TrinityCore-master\src\server\shared\Dynamic\LinkedReference;E:\TrinityCore-master\src\server\shared\JSON;E:\TrinityCore-master\src\server\shared\Networking;E:\TrinityCore-master\src\server\shared\Packets;E:\TrinityCore-master\src\server\shared\Realm;E:\TrinityCore-master\src\server\database;E:\TrinityCore-master\src\server\database\Database;E:\TrinityCore-master\src\server\database\Database\Implementation;E:\TrinityCore-master\src\server\database\Logging;E:\TrinityCore-master\src\server\database\Updater;E:\TC_Build_Static;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;E:\TrinityCore-master\dep\rapidjson;E:\TrinityCore-master\src\server\proto;E:\TrinityCore-master\src\server\proto\Client;E:\TrinityCore-master\src\server\proto\Client\client;E:\TrinityCore-master\src\server\proto\Client\client\v1;E:\TrinityCore-master\src\server\proto\Client\global_extensions;E:\TrinityCore-master\src\server\proto\Login;E:\TrinityCore-master\src\server\proto\RealmList;E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\gsoap;E:\mysql-5.6.41-winx64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\server\bnetserver;E:\TrinityCore-master\src\server\bnetserver\REST;E:\TrinityCore-master\src\server\bnetserver\Server;E:\TrinityCore-master\src\server\bnetserver\Services;E:\TC_Build_Static\src\server\bnetserver;E:\TrinityCore-master\src\server\shared;E:\TrinityCore-master\src\server\shared\DataStores;E:\TrinityCore-master\src\server\shared\Dynamic;E:\TrinityCore-master\src\server\shared\Dynamic\LinkedReference;E:\TrinityCore-master\src\server\shared\JSON;E:\TrinityCore-master\src\server\shared\Networking;E:\TrinityCore-master\src\server\shared\Packets;E:\TrinityCore-master\src\server\shared\Realm;E:\TrinityCore-master\src\server\database;E:\TrinityCore-master\src\server\database\Database;E:\TrinityCore-master\src\server\database\Database\Implementation;E:\TrinityCore-master\src\server\database\Logging;E:\TrinityCore-master\src\server\database\Updater;E:\TC_Build_Static;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;E:\TrinityCore-master\dep\rapidjson;E:\TrinityCore-master\src\server\proto;E:\TrinityCore-master\src\server\proto\Client;E:\TrinityCore-master\src\server\proto\Client\client;E:\TrinityCore-master\src\server\proto\Client\client\v1;E:\TrinityCore-master\src\server\proto\Client\global_extensions;E:\TrinityCore-master\src\server\proto\Login;E:\TrinityCore-master\src\server\proto\RealmList;E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\gsoap;E:\mysql-5.6.41-winx64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/TrinityCore-master/src/server/bnetserver/bnetserver.conf.dist E:/TC_Build_Static/bin/$(ConfigurationName)/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/TrinityCore-master/src/server/bnetserver/bnetserver.cert.pem E:/TC_Build_Static/bin/$(ConfigurationName)/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/TrinityCore-master/src/server/bnetserver/bnetserver.key.pem E:/TC_Build_Static/bin/$(ConfigurationName)/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\shared\Debug\shared.lib;..\database\Debug\database.lib;E:\mysql-5.6.41-winx64\lib;..\proto\Debug\proto.lib;..\..\common\Debug\common.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_system-vc141-mt-gd-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-gd-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_thread-vc141-mt-gd-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-gd-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_iostreams-vc141-mt-gd-x64-1_66.lib;..\..\..\dep\fmt\Debug\fmt.lib;..\..\..\dep\g3dlite\Debug\g3dlib.lib;..\..\..\dep\recastnavigation\Detour\Debug\Detour.lib;..\..\..\dep\protobuf\Debug\protobuf.lib;..\..\..\dep\zlib\Debug\zlib.lib;..\..\..\dep\gsoap\Debug\gsoap.lib;C:\OpenSSL-Win64\lib\VC\libssl64MDd.lib;C:\OpenSSL-Win64\lib\VC\libcrypto64MDd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/TC_Build_Static/src/server/bnetserver/Debug/bnetserver.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/TC_Build_Static/bin/Debug/bnetserver.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\server\bnetserver;E:\TrinityCore-master\src\server\bnetserver\REST;E:\TrinityCore-master\src\server\bnetserver\Server;E:\TrinityCore-master\src\server\bnetserver\Services;E:\TC_Build_Static\src\server\bnetserver;E:\TrinityCore-master\src\server\shared;E:\TrinityCore-master\src\server\shared\DataStores;E:\TrinityCore-master\src\server\shared\Dynamic;E:\TrinityCore-master\src\server\shared\Dynamic\LinkedReference;E:\TrinityCore-master\src\server\shared\JSON;E:\TrinityCore-master\src\server\shared\Networking;E:\TrinityCore-master\src\server\shared\Packets;E:\TrinityCore-master\src\server\shared\Realm;E:\TrinityCore-master\src\server\database;E:\TrinityCore-master\src\server\database\Database;E:\TrinityCore-master\src\server\database\Database\Implementation;E:\TrinityCore-master\src\server\database\Logging;E:\TrinityCore-master\src\server\database\Updater;E:\TC_Build_Static;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;E:\TrinityCore-master\dep\rapidjson;E:\TrinityCore-master\src\server\proto;E:\TrinityCore-master\src\server\proto\Client;E:\TrinityCore-master\src\server\proto\Client\client;E:\TrinityCore-master\src\server\proto\Client\client\v1;E:\TrinityCore-master\src\server\proto\Client\global_extensions;E:\TrinityCore-master\src\server\proto\Login;E:\TrinityCore-master\src\server\proto\RealmList;E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\gsoap;E:\mysql-5.6.41-winx64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;RAPIDJSON_HAS_STDSTRING;RAPIDJSON_SSE2;RAPIDJSON_48BITPOINTER_OPTIMIZATION=0;RAPIDJSON_ASSERT=WPAssert;WITH_OPENSSL;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;RAPIDJSON_HAS_STDSTRING;RAPIDJSON_SSE2;RAPIDJSON_48BITPOINTER_OPTIMIZATION=0;RAPIDJSON_ASSERT=WPAssert;WITH_OPENSSL;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\server\bnetserver;E:\TrinityCore-master\src\server\bnetserver\REST;E:\TrinityCore-master\src\server\bnetserver\Server;E:\TrinityCore-master\src\server\bnetserver\Services;E:\TC_Build_Static\src\server\bnetserver;E:\TrinityCore-master\src\server\shared;E:\TrinityCore-master\src\server\shared\DataStores;E:\TrinityCore-master\src\server\shared\Dynamic;E:\TrinityCore-master\src\server\shared\Dynamic\LinkedReference;E:\TrinityCore-master\src\server\shared\JSON;E:\TrinityCore-master\src\server\shared\Networking;E:\TrinityCore-master\src\server\shared\Packets;E:\TrinityCore-master\src\server\shared\Realm;E:\TrinityCore-master\src\server\database;E:\TrinityCore-master\src\server\database\Database;E:\TrinityCore-master\src\server\database\Database\Implementation;E:\TrinityCore-master\src\server\database\Logging;E:\TrinityCore-master\src\server\database\Updater;E:\TC_Build_Static;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;E:\TrinityCore-master\dep\rapidjson;E:\TrinityCore-master\src\server\proto;E:\TrinityCore-master\src\server\proto\Client;E:\TrinityCore-master\src\server\proto\Client\client;E:\TrinityCore-master\src\server\proto\Client\client\v1;E:\TrinityCore-master\src\server\proto\Client\global_extensions;E:\TrinityCore-master\src\server\proto\Login;E:\TrinityCore-master\src\server\proto\RealmList;E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\gsoap;E:\mysql-5.6.41-winx64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\server\bnetserver;E:\TrinityCore-master\src\server\bnetserver\REST;E:\TrinityCore-master\src\server\bnetserver\Server;E:\TrinityCore-master\src\server\bnetserver\Services;E:\TC_Build_Static\src\server\bnetserver;E:\TrinityCore-master\src\server\shared;E:\TrinityCore-master\src\server\shared\DataStores;E:\TrinityCore-master\src\server\shared\Dynamic;E:\TrinityCore-master\src\server\shared\Dynamic\LinkedReference;E:\TrinityCore-master\src\server\shared\JSON;E:\TrinityCore-master\src\server\shared\Networking;E:\TrinityCore-master\src\server\shared\Packets;E:\TrinityCore-master\src\server\shared\Realm;E:\TrinityCore-master\src\server\database;E:\TrinityCore-master\src\server\database\Database;E:\TrinityCore-master\src\server\database\Database\Implementation;E:\TrinityCore-master\src\server\database\Logging;E:\TrinityCore-master\src\server\database\Updater;E:\TC_Build_Static;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;E:\TrinityCore-master\dep\rapidjson;E:\TrinityCore-master\src\server\proto;E:\TrinityCore-master\src\server\proto\Client;E:\TrinityCore-master\src\server\proto\Client\client;E:\TrinityCore-master\src\server\proto\Client\client\v1;E:\TrinityCore-master\src\server\proto\Client\global_extensions;E:\TrinityCore-master\src\server\proto\Login;E:\TrinityCore-master\src\server\proto\RealmList;E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\gsoap;E:\mysql-5.6.41-winx64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/TrinityCore-master/src/server/bnetserver/bnetserver.conf.dist E:/TC_Build_Static/bin/$(ConfigurationName)/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/TrinityCore-master/src/server/bnetserver/bnetserver.cert.pem E:/TC_Build_Static/bin/$(ConfigurationName)/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/TrinityCore-master/src/server/bnetserver/bnetserver.key.pem E:/TC_Build_Static/bin/$(ConfigurationName)/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\shared\Release\shared.lib;..\database\Release\database.lib;E:\mysql-5.6.41-winx64\lib;..\proto\Release\proto.lib;..\..\common\Release\common.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_system-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_thread-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_iostreams-vc141-mt-x64-1_66.lib;..\..\..\dep\fmt\Release\fmt.lib;..\..\..\dep\g3dlite\Release\g3dlib.lib;..\..\..\dep\recastnavigation\Detour\Release\Detour.lib;..\..\..\dep\protobuf\Release\protobuf.lib;..\..\..\dep\zlib\Release\zlib.lib;..\..\..\dep\gsoap\Release\gsoap.lib;C:\OpenSSL-Win64\lib\VC\libssl64MD.lib;C:\OpenSSL-Win64\lib\VC\libcrypto64MD.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/TC_Build_Static/src/server/bnetserver/Release/bnetserver.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/TC_Build_Static/bin/Release/bnetserver.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\server\bnetserver;E:\TrinityCore-master\src\server\bnetserver\REST;E:\TrinityCore-master\src\server\bnetserver\Server;E:\TrinityCore-master\src\server\bnetserver\Services;E:\TC_Build_Static\src\server\bnetserver;E:\TrinityCore-master\src\server\shared;E:\TrinityCore-master\src\server\shared\DataStores;E:\TrinityCore-master\src\server\shared\Dynamic;E:\TrinityCore-master\src\server\shared\Dynamic\LinkedReference;E:\TrinityCore-master\src\server\shared\JSON;E:\TrinityCore-master\src\server\shared\Networking;E:\TrinityCore-master\src\server\shared\Packets;E:\TrinityCore-master\src\server\shared\Realm;E:\TrinityCore-master\src\server\database;E:\TrinityCore-master\src\server\database\Database;E:\TrinityCore-master\src\server\database\Database\Implementation;E:\TrinityCore-master\src\server\database\Logging;E:\TrinityCore-master\src\server\database\Updater;E:\TC_Build_Static;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;E:\TrinityCore-master\dep\rapidjson;E:\TrinityCore-master\src\server\proto;E:\TrinityCore-master\src\server\proto\Client;E:\TrinityCore-master\src\server\proto\Client\client;E:\TrinityCore-master\src\server\proto\Client\client\v1;E:\TrinityCore-master\src\server\proto\Client\global_extensions;E:\TrinityCore-master\src\server\proto\Login;E:\TrinityCore-master\src\server\proto\RealmList;E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\gsoap;E:\mysql-5.6.41-winx64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;RAPIDJSON_HAS_STDSTRING;RAPIDJSON_SSE2;RAPIDJSON_48BITPOINTER_OPTIMIZATION=0;RAPIDJSON_ASSERT=WPAssert;WITH_OPENSSL;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;RAPIDJSON_HAS_STDSTRING;RAPIDJSON_SSE2;RAPIDJSON_48BITPOINTER_OPTIMIZATION=0;RAPIDJSON_ASSERT=WPAssert;WITH_OPENSSL;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\server\bnetserver;E:\TrinityCore-master\src\server\bnetserver\REST;E:\TrinityCore-master\src\server\bnetserver\Server;E:\TrinityCore-master\src\server\bnetserver\Services;E:\TC_Build_Static\src\server\bnetserver;E:\TrinityCore-master\src\server\shared;E:\TrinityCore-master\src\server\shared\DataStores;E:\TrinityCore-master\src\server\shared\Dynamic;E:\TrinityCore-master\src\server\shared\Dynamic\LinkedReference;E:\TrinityCore-master\src\server\shared\JSON;E:\TrinityCore-master\src\server\shared\Networking;E:\TrinityCore-master\src\server\shared\Packets;E:\TrinityCore-master\src\server\shared\Realm;E:\TrinityCore-master\src\server\database;E:\TrinityCore-master\src\server\database\Database;E:\TrinityCore-master\src\server\database\Database\Implementation;E:\TrinityCore-master\src\server\database\Logging;E:\TrinityCore-master\src\server\database\Updater;E:\TC_Build_Static;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;E:\TrinityCore-master\dep\rapidjson;E:\TrinityCore-master\src\server\proto;E:\TrinityCore-master\src\server\proto\Client;E:\TrinityCore-master\src\server\proto\Client\client;E:\TrinityCore-master\src\server\proto\Client\client\v1;E:\TrinityCore-master\src\server\proto\Client\global_extensions;E:\TrinityCore-master\src\server\proto\Login;E:\TrinityCore-master\src\server\proto\RealmList;E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\gsoap;E:\mysql-5.6.41-winx64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\server\bnetserver;E:\TrinityCore-master\src\server\bnetserver\REST;E:\TrinityCore-master\src\server\bnetserver\Server;E:\TrinityCore-master\src\server\bnetserver\Services;E:\TC_Build_Static\src\server\bnetserver;E:\TrinityCore-master\src\server\shared;E:\TrinityCore-master\src\server\shared\DataStores;E:\TrinityCore-master\src\server\shared\Dynamic;E:\TrinityCore-master\src\server\shared\Dynamic\LinkedReference;E:\TrinityCore-master\src\server\shared\JSON;E:\TrinityCore-master\src\server\shared\Networking;E:\TrinityCore-master\src\server\shared\Packets;E:\TrinityCore-master\src\server\shared\Realm;E:\TrinityCore-master\src\server\database;E:\TrinityCore-master\src\server\database\Database;E:\TrinityCore-master\src\server\database\Database\Implementation;E:\TrinityCore-master\src\server\database\Logging;E:\TrinityCore-master\src\server\database\Updater;E:\TC_Build_Static;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;E:\TrinityCore-master\dep\rapidjson;E:\TrinityCore-master\src\server\proto;E:\TrinityCore-master\src\server\proto\Client;E:\TrinityCore-master\src\server\proto\Client\client;E:\TrinityCore-master\src\server\proto\Client\client\v1;E:\TrinityCore-master\src\server\proto\Client\global_extensions;E:\TrinityCore-master\src\server\proto\Login;E:\TrinityCore-master\src\server\proto\RealmList;E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\gsoap;E:\mysql-5.6.41-winx64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/TrinityCore-master/src/server/bnetserver/bnetserver.conf.dist E:/TC_Build_Static/bin/$(ConfigurationName)/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/TrinityCore-master/src/server/bnetserver/bnetserver.cert.pem E:/TC_Build_Static/bin/$(ConfigurationName)/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/TrinityCore-master/src/server/bnetserver/bnetserver.key.pem E:/TC_Build_Static/bin/$(ConfigurationName)/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\shared\MinSizeRel\shared.lib;..\database\MinSizeRel\database.lib;E:\mysql-5.6.41-winx64\lib;..\proto\MinSizeRel\proto.lib;..\..\common\MinSizeRel\common.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_system-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_thread-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_iostreams-vc141-mt-x64-1_66.lib;..\..\..\dep\fmt\MinSizeRel\fmt.lib;..\..\..\dep\g3dlite\MinSizeRel\g3dlib.lib;..\..\..\dep\recastnavigation\Detour\MinSizeRel\Detour.lib;..\..\..\dep\protobuf\MinSizeRel\protobuf.lib;..\..\..\dep\zlib\MinSizeRel\zlib.lib;..\..\..\dep\gsoap\MinSizeRel\gsoap.lib;C:\OpenSSL-Win64\lib\VC\libssl64MD.lib;C:\OpenSSL-Win64\lib\VC\libcrypto64MD.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/TC_Build_Static/src/server/bnetserver/MinSizeRel/bnetserver.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/TC_Build_Static/bin/MinSizeRel/bnetserver.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\server\bnetserver;E:\TrinityCore-master\src\server\bnetserver\REST;E:\TrinityCore-master\src\server\bnetserver\Server;E:\TrinityCore-master\src\server\bnetserver\Services;E:\TC_Build_Static\src\server\bnetserver;E:\TrinityCore-master\src\server\shared;E:\TrinityCore-master\src\server\shared\DataStores;E:\TrinityCore-master\src\server\shared\Dynamic;E:\TrinityCore-master\src\server\shared\Dynamic\LinkedReference;E:\TrinityCore-master\src\server\shared\JSON;E:\TrinityCore-master\src\server\shared\Networking;E:\TrinityCore-master\src\server\shared\Packets;E:\TrinityCore-master\src\server\shared\Realm;E:\TrinityCore-master\src\server\database;E:\TrinityCore-master\src\server\database\Database;E:\TrinityCore-master\src\server\database\Database\Implementation;E:\TrinityCore-master\src\server\database\Logging;E:\TrinityCore-master\src\server\database\Updater;E:\TC_Build_Static;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;E:\TrinityCore-master\dep\rapidjson;E:\TrinityCore-master\src\server\proto;E:\TrinityCore-master\src\server\proto\Client;E:\TrinityCore-master\src\server\proto\Client\client;E:\TrinityCore-master\src\server\proto\Client\client\v1;E:\TrinityCore-master\src\server\proto\Client\global_extensions;E:\TrinityCore-master\src\server\proto\Login;E:\TrinityCore-master\src\server\proto\RealmList;E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\gsoap;E:\mysql-5.6.41-winx64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;RAPIDJSON_HAS_STDSTRING;RAPIDJSON_SSE2;RAPIDJSON_48BITPOINTER_OPTIMIZATION=0;RAPIDJSON_ASSERT=WPAssert;WITH_OPENSSL;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;RAPIDJSON_HAS_STDSTRING;RAPIDJSON_SSE2;RAPIDJSON_48BITPOINTER_OPTIMIZATION=0;RAPIDJSON_ASSERT=WPAssert;WITH_OPENSSL;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\server\bnetserver;E:\TrinityCore-master\src\server\bnetserver\REST;E:\TrinityCore-master\src\server\bnetserver\Server;E:\TrinityCore-master\src\server\bnetserver\Services;E:\TC_Build_Static\src\server\bnetserver;E:\TrinityCore-master\src\server\shared;E:\TrinityCore-master\src\server\shared\DataStores;E:\TrinityCore-master\src\server\shared\Dynamic;E:\TrinityCore-master\src\server\shared\Dynamic\LinkedReference;E:\TrinityCore-master\src\server\shared\JSON;E:\TrinityCore-master\src\server\shared\Networking;E:\TrinityCore-master\src\server\shared\Packets;E:\TrinityCore-master\src\server\shared\Realm;E:\TrinityCore-master\src\server\database;E:\TrinityCore-master\src\server\database\Database;E:\TrinityCore-master\src\server\database\Database\Implementation;E:\TrinityCore-master\src\server\database\Logging;E:\TrinityCore-master\src\server\database\Updater;E:\TC_Build_Static;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;E:\TrinityCore-master\dep\rapidjson;E:\TrinityCore-master\src\server\proto;E:\TrinityCore-master\src\server\proto\Client;E:\TrinityCore-master\src\server\proto\Client\client;E:\TrinityCore-master\src\server\proto\Client\client\v1;E:\TrinityCore-master\src\server\proto\Client\global_extensions;E:\TrinityCore-master\src\server\proto\Login;E:\TrinityCore-master\src\server\proto\RealmList;E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\gsoap;E:\mysql-5.6.41-winx64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\TrinityCore-master\src\server\bnetserver;E:\TrinityCore-master\src\server\bnetserver\REST;E:\TrinityCore-master\src\server\bnetserver\Server;E:\TrinityCore-master\src\server\bnetserver\Services;E:\TC_Build_Static\src\server\bnetserver;E:\TrinityCore-master\src\server\shared;E:\TrinityCore-master\src\server\shared\DataStores;E:\TrinityCore-master\src\server\shared\Dynamic;E:\TrinityCore-master\src\server\shared\Dynamic\LinkedReference;E:\TrinityCore-master\src\server\shared\JSON;E:\TrinityCore-master\src\server\shared\Networking;E:\TrinityCore-master\src\server\shared\Packets;E:\TrinityCore-master\src\server\shared\Realm;E:\TrinityCore-master\src\server\database;E:\TrinityCore-master\src\server\database\Database;E:\TrinityCore-master\src\server\database\Database\Implementation;E:\TrinityCore-master\src\server\database\Logging;E:\TrinityCore-master\src\server\database\Updater;E:\TC_Build_Static;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;E:\TrinityCore-master\dep\rapidjson;E:\TrinityCore-master\src\server\proto;E:\TrinityCore-master\src\server\proto\Client;E:\TrinityCore-master\src\server\proto\Client\client;E:\TrinityCore-master\src\server\proto\Client\client\v1;E:\TrinityCore-master\src\server\proto\Client\global_extensions;E:\TrinityCore-master\src\server\proto\Login;E:\TrinityCore-master\src\server\proto\RealmList;E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\gsoap;E:\mysql-5.6.41-winx64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/TrinityCore-master/src/server/bnetserver/bnetserver.conf.dist E:/TC_Build_Static/bin/$(ConfigurationName)/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/TrinityCore-master/src/server/bnetserver/bnetserver.cert.pem E:/TC_Build_Static/bin/$(ConfigurationName)/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/TrinityCore-master/src/server/bnetserver/bnetserver.key.pem E:/TC_Build_Static/bin/$(ConfigurationName)/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\shared\RelWithDebInfo\shared.lib;..\database\RelWithDebInfo\database.lib;E:\mysql-5.6.41-winx64\lib;..\proto\RelWithDebInfo\proto.lib;..\..\common\RelWithDebInfo\common.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_system-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_thread-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_iostreams-vc141-mt-x64-1_66.lib;..\..\..\dep\fmt\RelWithDebInfo\fmt.lib;..\..\..\dep\g3dlite\RelWithDebInfo\g3dlib.lib;..\..\..\dep\recastnavigation\Detour\RelWithDebInfo\Detour.lib;..\..\..\dep\protobuf\RelWithDebInfo\protobuf.lib;..\..\..\dep\zlib\RelWithDebInfo\zlib.lib;..\..\..\dep\gsoap\RelWithDebInfo\gsoap.lib;C:\OpenSSL-Win64\lib\VC\libssl64MD.lib;C:\OpenSSL-Win64\lib\VC\libcrypto64MD.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/TC_Build_Static/src/server/bnetserver/RelWithDebInfo/bnetserver.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/TC_Build_Static/bin/RelWithDebInfo/bnetserver.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\TC_Build_Static\CMakeFiles\66dd8bbdbbc30a1531c05f973ede6127\bnetserver_CXX_prefix.hxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating CXX prefix header E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd E:\TC_Build_Static
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=Debug -P E:/TrinityCore-master/dep/cotire/CMake/cotire.cmake combine E:/TC_Build_Static/src/server/bnetserver/bnetserver_CXX_cotire.cmake E:/TC_Build_Static/src/server/bnetserver/$(Configuration)/cotire/bnetserver_CXX_prefix.hxx E:/TrinityCore-master/src/server/bnetserver/PrecompiledHeaders/bnetPCH.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/TC_Build_Static/CMakeFiles/66dd8bbdbbc30a1531c05f973ede6127/bnetserver_CXX_prefix.hxx.rule;E:\TrinityCore-master\src\server\bnetserver\PrecompiledHeaders\bnetPCH.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating CXX prefix header E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd E:\TC_Build_Static
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=Release -P E:/TrinityCore-master/dep/cotire/CMake/cotire.cmake combine E:/TC_Build_Static/src/server/bnetserver/bnetserver_CXX_cotire.cmake E:/TC_Build_Static/src/server/bnetserver/$(Configuration)/cotire/bnetserver_CXX_prefix.hxx E:/TrinityCore-master/src/server/bnetserver/PrecompiledHeaders/bnetPCH.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/TC_Build_Static/CMakeFiles/66dd8bbdbbc30a1531c05f973ede6127/bnetserver_CXX_prefix.hxx.rule;E:\TrinityCore-master\src\server\bnetserver\PrecompiledHeaders\bnetPCH.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating CXX prefix header E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd E:\TC_Build_Static
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=MinSizeRel -P E:/TrinityCore-master/dep/cotire/CMake/cotire.cmake combine E:/TC_Build_Static/src/server/bnetserver/bnetserver_CXX_cotire.cmake E:/TC_Build_Static/src/server/bnetserver/$(Configuration)/cotire/bnetserver_CXX_prefix.hxx E:/TrinityCore-master/src/server/bnetserver/PrecompiledHeaders/bnetPCH.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/TC_Build_Static/CMakeFiles/66dd8bbdbbc30a1531c05f973ede6127/bnetserver_CXX_prefix.hxx.rule;E:\TrinityCore-master\src\server\bnetserver\PrecompiledHeaders\bnetPCH.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating CXX prefix header E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd E:\TC_Build_Static
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=RelWithDebInfo -P E:/TrinityCore-master/dep/cotire/CMake/cotire.cmake combine E:/TC_Build_Static/src/server/bnetserver/bnetserver_CXX_cotire.cmake E:/TC_Build_Static/src/server/bnetserver/$(Configuration)/cotire/bnetserver_CXX_prefix.hxx E:/TrinityCore-master/src/server/bnetserver/PrecompiledHeaders/bnetPCH.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/TC_Build_Static/CMakeFiles/66dd8bbdbbc30a1531c05f973ede6127/bnetserver_CXX_prefix.hxx.rule;E:\TrinityCore-master\src\server\bnetserver\PrecompiledHeaders\bnetPCH.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\TrinityCore-master\src\server\bnetserver\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/TrinityCore-master/src/server/bnetserver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_Static --check-stamp-file E:/TC_Build_Static/src/server/bnetserver/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/TrinityCore-master/src/server/bnetserver/CMakeLists.txt;E:\TrinityCore-master\src\server\bnetserver\CMakeLists.txt;E:\TrinityCore-master\src\server\bnetserver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/TrinityCore-master/src/server/bnetserver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_Static --check-stamp-file E:/TC_Build_Static/src/server/bnetserver/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/TrinityCore-master/src/server/bnetserver/CMakeLists.txt;E:\TrinityCore-master\src\server\bnetserver\CMakeLists.txt;E:\TrinityCore-master\src\server\bnetserver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/TrinityCore-master/src/server/bnetserver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_Static --check-stamp-file E:/TC_Build_Static/src/server/bnetserver/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/TrinityCore-master/src/server/bnetserver/CMakeLists.txt;E:\TrinityCore-master\src\server\bnetserver\CMakeLists.txt;E:\TrinityCore-master\src\server\bnetserver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/TrinityCore-master/src/server/bnetserver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_Static --check-stamp-file E:/TC_Build_Static/src/server/bnetserver/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/TrinityCore-master/src/server/bnetserver/CMakeLists.txt;E:\TrinityCore-master\src\server\bnetserver\CMakeLists.txt;E:\TrinityCore-master\src\server\bnetserver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\TrinityCore-master\src\server\bnetserver\Main.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\resource.h" />
+    <ClCompile Include="E:\TrinityCore-master\src\server\bnetserver\REST\LoginRESTService.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\REST\LoginRESTService.h" />
+    <ClCompile Include="E:\TrinityCore-master\src\server\bnetserver\Server\Session.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\Server\Session.h" />
+    <ClCompile Include="E:\TrinityCore-master\src\server\bnetserver\Server\SessionManager.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\Server\SessionManager.h" />
+    <ClCompile Include="E:\TrinityCore-master\src\server\bnetserver\Server\SslContext.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\Server\SslContext.h" />
+    <ClCompile Include="E:\TrinityCore-master\src\server\bnetserver\Services\AccountService.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\Services\AccountService.h" />
+    <ClCompile Include="E:\TrinityCore-master\src\server\bnetserver\Services\AuthenticationService.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\Services\AuthenticationService.h" />
+    <ClCompile Include="E:\TrinityCore-master\src\server\bnetserver\Services\ConnectionService.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\Services\ConnectionService.h" />
+    <ClCompile Include="E:\TrinityCore-master\src\server\bnetserver\Services\GameUtilitiesService.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\Services\GameUtilitiesService.h" />
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\Services\Service.h" />
+    <ClCompile Include="E:\TrinityCore-master\src\server\bnetserver\Services\ServiceDispatcher.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="E:\TrinityCore-master\src\server\bnetserver\Services\ServiceDispatcher.h" />
+    <ClCompile Include="E:\TrinityCore-master\src\common\Debugging\WheatyExceptionReport.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="E:\TrinityCore-master\src\common\Debugging\WheatyExceptionReport.h" />
+    <ClCompile Include="E:\TrinityCore-master\src\common\Platform\ServiceWin32.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalOptions) /Zm500</AdditionalOptions>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\server\bnetserver\$(Configuration)\cotire\bnetserver_CXX_prefix.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="E:\TrinityCore-master\src\common\Platform\ServiceWin32.h" />
+    <ResourceCompile Include="E:\TrinityCore-master\src\server\bnetserver\bnetserver.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\TC_Build_Static\ZERO_CHECK.vcxproj">
+      <Project>{5076ACBC-691D-3525-A753-5CEA6DC4ADBF}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\TC_Build_Static\dep\recastnavigation\Detour\Detour.vcxproj">
+      <Project>{126355DC-0130-34F5-B567-653221CC02F1}</Project>
+      <Name>Detour</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\TC_Build_Static\src\common\common.vcxproj">
+      <Project>{72E2ECE7-BDCB-310B-839A-0E67A2D2A1C1}</Project>
+      <Name>common</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\TC_Build_Static\src\server\database\database.vcxproj">
+      <Project>{A63B8CB8-E5FE-3D54-8D81-06A43CA8FABE}</Project>
+      <Name>database</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\TC_Build_Static\dep\fmt\fmt.vcxproj">
+      <Project>{53FE7EFC-EE9C-362B-A2B4-EFDDB44CF262}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\TC_Build_Static\dep\g3dlite\g3dlib.vcxproj">
+      <Project>{15D95E65-2385-3530-8EDD-6027ED1DF290}</Project>
+      <Name>g3dlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\TC_Build_Static\dep\gsoap\gsoap.vcxproj">
+      <Project>{2D98B7D3-C006-36E6-B4DA-CBAF0F2E4E3E}</Project>
+      <Name>gsoap</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\TC_Build_Static\src\server\proto\proto.vcxproj">
+      <Project>{8A165EAB-7177-39F6-ADCF-27317CEBB126}</Project>
+      <Name>proto</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\TC_Build_Static\dep\protobuf\protobuf.vcxproj">
+      <Project>{47DF1903-394A-34F0-89CF-FB4CFEE33A10}</Project>
+      <Name>protobuf</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\TC_Build_Static\src\server\shared\shared.vcxproj">
+      <Project>{C17CA120-D185-35C5-ABF6-1FB86BF419BB}</Project>
+      <Name>shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\TC_Build_Static\dep\zlib\zlib.vcxproj">
+      <Project>{9772F744-20A2-3C11-B83B-56B95293D35C}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\TrinityCore-master\src\server\worldserver\Main.cpp" />
+    <ClCompile Include="E:\TrinityCore-master\src\server\worldserver\CommandLine\CliRunnable.cpp">
+      <Filter>CommandLine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\worldserver\RemoteAccess\RASession.cpp">
+      <Filter>RemoteAccess</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\worldserver\TCSoap\TCSoap.cpp">
+      <Filter>TCSoap</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\common\Debugging\WheatyExceptionReport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\common\Platform\ServiceWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\TrinityCore-master\src\server\worldserver\resource.h" />
+    <ClInclude Include="E:\TrinityCore-master\src\server\worldserver\CommandLine\CliRunnable.h">
+      <Filter>CommandLine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\worldserver\RemoteAccess\RASession.h">
+      <Filter>RemoteAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\worldserver\TCSoap\TCSoap.h">
+      <Filter>TCSoap</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\common\Debugging\WheatyExceptionReport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\common\Platform\ServiceWin32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\TC_Build_dyn\CMakeFiles\2678281de26a6b38f98d0385ba0c02ca\worldserver_CXX_prefix.hxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\TrinityCore-master\src\server\worldserver\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\TrinityCore-master\src\server\worldserver\worldserver.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{41B6D89B-2ED2-3AA6-B2F1-698E1A49DE85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommandLine">
+      <UniqueIdentifier>{C0F8A8E9-FFAF-3ED2-993C-FEBAB44D8894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5D1C7575-8EE5-34CF-B664-33DF1FE92AB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RemoteAccess">
+      <UniqueIdentifier>{0C3F5A17-453F-37D6-AED1-1770935A57D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C529067D-4BB6-3F67-8D77-E972423212E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TCSoap">
+      <UniqueIdentifier>{39581FC2-209E-38CF-94F0-68DD36233E55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
