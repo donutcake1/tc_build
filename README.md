@@ -1,5 +1,6 @@
-# Trinity Core Build 7.3.5.26972
-TrinityCore built with CMake. You still need to compile it using any C++ compiler.
+# Trinity Core Build 7.3.5.26972 (master)
+TrinityCore built with CMake. You still need to compile it using any C++ compiler. The build is actual on 13:43 GMT+3 28/07/2018.
+
 # Description (from official repo)
 TrinityCore is a MMORPG Framework based mostly in C++.
 
