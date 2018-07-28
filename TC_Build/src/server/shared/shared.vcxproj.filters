@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\TrinityCore-master\src\server\shared\DataStores\DB2DatabaseLoader.cpp">
+      <Filter>DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\shared\DataStores\DB2Store.cpp">
+      <Filter>DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\shared\JSON\ProtobufJSON.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\shared\Packets\ByteBuffer.cpp">
+      <Filter>Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\shared\Realm\Realm.cpp">
+      <Filter>Realm</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\TrinityCore-master\src\server\shared\Realm\RealmList.cpp">
+      <Filter>Realm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Memory.h" />
+    <ClInclude Include="E:\TrinityCore-master\src\server\shared\DataStores\DB2DatabaseLoader.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\shared\DataStores\DB2Store.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\shared\DataStores\DBStorageIterator.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Dynamic\FactoryHolder.h">
+      <Filter>Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Dynamic\LinkedList.h">
+      <Filter>Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Dynamic\ObjectRegistry.h">
+      <Filter>Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Dynamic\TypeList.h">
+      <Filter>Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Dynamic\LinkedReference\RefManager.h">
+      <Filter>Dynamic\LinkedReference</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Dynamic\LinkedReference\Reference.h">
+      <Filter>Dynamic\LinkedReference</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\shared\JSON\ProtobufJSON.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Networking\AsyncAcceptor.h">
+      <Filter>Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Networking\NetworkThread.h">
+      <Filter>Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Networking\Socket.h">
+      <Filter>Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Networking\SocketMgr.h">
+      <Filter>Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Networking\SslSocket.h">
+      <Filter>Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Packets\ByteBuffer.h">
+      <Filter>Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Realm\Realm.h">
+      <Filter>Realm</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Realm\RealmList.h">
+      <Filter>Realm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\TC_Build\CMakeFiles\92878485564258a843ce5cb1340e0e2e\shared_CXX_prefix.hxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\TrinityCore-master\src\server\shared\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FC8B1DBB-A19A-3060-9B66-A4B77F46A57E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStores">
+      <UniqueIdentifier>{C24D4A98-05F2-3980-BDDC-4EC4C7421925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamic">
+      <UniqueIdentifier>{29EA73A4-8C4E-3823-BD75-8997E15BC0D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamic\LinkedReference">
+      <UniqueIdentifier>{51C72E27-F866-3CFF-9F0D-ED2100D6B144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{EE9CEA15-731B-35AE-B34A-85A3A2D1E785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking">
+      <UniqueIdentifier>{4A3BC7F9-4655-3426-8666-240513C4250F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packets">
+      <UniqueIdentifier>{045441A8-9B13-3BCA-96ED-6C6B77590DE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Realm">
+      <UniqueIdentifier>{E694B081-21D9-3927-8D3D-FB979B4FB2A0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
