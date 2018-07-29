@@ -2,6 +2,10 @@
 TrinityCore built with CMake. You still need to compile it using any C++ compiler.
 The build is actual on 13:43 GMT+3 28/07/2018.
 
+# Info
+There are two builds made with CMake:
+- Static: you have to recompile the whole project if anything is changed.
+- Dynamic: you have to recompile only the \*scripts\* part of the project, to get the certain scripts module aka DLL (e.g. if you added some code to the spell that doesn't works, then recompile part of the project that contains fix). __***However, you still need to recompile project if you changed something in the core***__
 # Description (from official repo)
 TrinityCore is a MMORPG Framework based mostly in C++.
 
