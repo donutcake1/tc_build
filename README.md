@@ -1,6 +1,6 @@
 # Trinity Core Build 7.3.5.26972 (master)
 TrinityCore built with CMake.
-The build is actual on 13:43 GMT+3 28/07/2018.
+The build is actual on 12:19 GMT+3 29/07/2018.
 
 # Info
 There are two builds made with CMake:
