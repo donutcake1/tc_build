@@ -1,154 +1,154 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_account.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_account.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_achievement.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_achievement.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_ahbot.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_ahbot.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_arena.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_arena.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_ban.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_ban.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_battlenet_account.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_battlenet_account.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_bf.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_bf.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_cast.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_cast.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_character.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_character.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_cheat.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_cheat.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_debug.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_debug.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_deserter.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_deserter.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_disable.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_disable.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_event.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_event.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_gm.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_gm.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_go.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_go.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_gobject.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_gobject.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_group.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_group.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_guild.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_guild.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_honor.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_honor.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_instance.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_instance.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_learn.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_learn.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_lfg.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_lfg.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_list.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_list.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_lookup.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_lookup.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_message.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_message.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_misc.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_misc.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_mmaps.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_mmaps.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_modify.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_modify.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_npc.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_npc.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_pet.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_pet.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_quest.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_quest.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_rbac.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_rbac.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_reload.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_reload.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_reset.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_reset.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_scene.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_scene.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_script_loader.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_script_loader.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_send.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_send.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_server.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_server.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_tele.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_tele.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_ticket.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_ticket.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_titles.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_titles.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Commands\cs_wp.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Commands\cs_wp.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TC_Build_dyn\src\server\scripts\gen_scriptloader\Commands\ScriptLoader.cpp">
+    <ClCompile Include="F:\tt2g\TC\DynamicLib_Build\src\server\scripts\gen_scriptloader\Commands\ScriptLoader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\TC_Build_dyn\CMakeFiles\2c7f562518f8ecd98f547c70df2007a0\scripts_commands_CXX_prefix.hxx.rule">
+    <CustomBuild Include="F:\tt2g\TC\DynamicLib_Build\CMakeFiles\0cddcbf7994714881d1f9220de4ecd92\scripts_commands_CXX_prefix.hxx.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="E:\TrinityCore-master\src\server\scripts\CMakeLists.txt" />
+    <CustomBuild Include="F:\tt2g\Trinity2\src\server\scripts\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{41B6D89B-2ED2-3AA6-B2F1-698E1A49DE85}</UniqueIdentifier>
+      <UniqueIdentifier>{0C5CD29E-FB95-35DA-AEAB-014F6BCEE985}</UniqueIdentifier>
     </Filter>
     <Filter Include="Commands">
-      <UniqueIdentifier>{C3975973-4595-352F-BA3E-04ECB1332A02}</UniqueIdentifier>
+      <UniqueIdentifier>{F451888E-0B07-30D0-B53E-2FD76168BB9B}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{C529067D-4BB6-3F67-8D77-E972423212E1}</UniqueIdentifier>
+      <UniqueIdentifier>{ECDD3141-97E1-34E9-B477-4ED06314660A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

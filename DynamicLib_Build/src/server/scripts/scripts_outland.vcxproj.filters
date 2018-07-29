@@ -1,444 +1,444 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\boss_doomlord_kazzak.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\boss_doomlord_kazzak.cpp">
       <Filter>Outland</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\boss_doomwalker.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\boss_doomwalker.cpp">
       <Filter>Outland</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\outland_script_loader.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\outland_script_loader.cpp">
       <Filter>Outland</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\zone_blades_edge_mountains.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\zone_blades_edge_mountains.cpp">
       <Filter>Outland</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\zone_hellfire_peninsula.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\zone_hellfire_peninsula.cpp">
       <Filter>Outland</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\zone_nagrand.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\zone_nagrand.cpp">
       <Filter>Outland</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\zone_netherstorm.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\zone_netherstorm.cpp">
       <Filter>Outland</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\zone_shadowmoon_valley.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\zone_shadowmoon_valley.cpp">
       <Filter>Outland</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\zone_shattrath_city.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\zone_shattrath_city.cpp">
       <Filter>Outland</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\zone_terokkar_forest.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\zone_terokkar_forest.cpp">
       <Filter>Outland</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\zone_zangarmarsh.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\zone_zangarmarsh.cpp">
       <Filter>Outland</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\Auchindoun\AuchenaiCrypts\boss_exarch_maladaar.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\Auchindoun\AuchenaiCrypts\boss_exarch_maladaar.cpp">
       <Filter>Outland\Auchindoun\AuchenaiCrypts</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\Auchindoun\AuchenaiCrypts\boss_shirrak_the_dead_watcher.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\Auchindoun\AuchenaiCrypts\boss_shirrak_the_dead_watcher.cpp">
       <Filter>Outland\Auchindoun\AuchenaiCrypts</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\Auchindoun\AuchenaiCrypts\instance_auchenai_crypts.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\Auchindoun\AuchenaiCrypts\instance_auchenai_crypts.cpp">
       <Filter>Outland\Auchindoun\AuchenaiCrypts</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\Auchindoun\ManaTombs\boss_nexusprince_shaffar.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\Auchindoun\ManaTombs\boss_nexusprince_shaffar.cpp">
       <Filter>Outland\Auchindoun\ManaTombs</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\Auchindoun\ManaTombs\boss_pandemonius.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\Auchindoun\ManaTombs\boss_pandemonius.cpp">
       <Filter>Outland\Auchindoun\ManaTombs</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\Auchindoun\ManaTombs\instance_mana_tombs.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\Auchindoun\ManaTombs\instance_mana_tombs.cpp">
       <Filter>Outland\Auchindoun\ManaTombs</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\Auchindoun\SethekkHalls\boss_anzu.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\Auchindoun\SethekkHalls\boss_anzu.cpp">
       <Filter>Outland\Auchindoun\SethekkHalls</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\Auchindoun\SethekkHalls\boss_darkweaver_syth.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\Auchindoun\SethekkHalls\boss_darkweaver_syth.cpp">
       <Filter>Outland\Auchindoun\SethekkHalls</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\Auchindoun\SethekkHalls\boss_talon_king_ikiss.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\Auchindoun\SethekkHalls\boss_talon_king_ikiss.cpp">
       <Filter>Outland\Auchindoun\SethekkHalls</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\Auchindoun\SethekkHalls\instance_sethekk_halls.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\Auchindoun\SethekkHalls\instance_sethekk_halls.cpp">
       <Filter>Outland\Auchindoun\SethekkHalls</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\Auchindoun\ShadowLabyrinth\boss_ambassador_hellmaw.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\Auchindoun\ShadowLabyrinth\boss_ambassador_hellmaw.cpp">
       <Filter>Outland\Auchindoun\ShadowLabyrinth</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\Auchindoun\ShadowLabyrinth\boss_blackheart_the_inciter.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\Auchindoun\ShadowLabyrinth\boss_blackheart_the_inciter.cpp">
       <Filter>Outland\Auchindoun\ShadowLabyrinth</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\Auchindoun\ShadowLabyrinth\boss_grandmaster_vorpil.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\Auchindoun\ShadowLabyrinth\boss_grandmaster_vorpil.cpp">
       <Filter>Outland\Auchindoun\ShadowLabyrinth</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\Auchindoun\ShadowLabyrinth\boss_murmur.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\Auchindoun\ShadowLabyrinth\boss_murmur.cpp">
       <Filter>Outland\Auchindoun\ShadowLabyrinth</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\Auchindoun\ShadowLabyrinth\instance_shadow_labyrinth.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\Auchindoun\ShadowLabyrinth\instance_shadow_labyrinth.cpp">
       <Filter>Outland\Auchindoun\ShadowLabyrinth</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\Auchindoun\ShadowLabyrinth\shadow_labyrinth.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\Auchindoun\ShadowLabyrinth\shadow_labyrinth.cpp">
       <Filter>Outland\Auchindoun\ShadowLabyrinth</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\BlackTemple\black_temple.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\BlackTemple\black_temple.cpp">
       <Filter>Outland\BlackTemple</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\BlackTemple\boss_gurtogg_bloodboil.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\BlackTemple\boss_gurtogg_bloodboil.cpp">
       <Filter>Outland\BlackTemple</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\BlackTemple\boss_illidan.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\BlackTemple\boss_illidan.cpp">
       <Filter>Outland\BlackTemple</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\BlackTemple\boss_illidari_council.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\BlackTemple\boss_illidari_council.cpp">
       <Filter>Outland\BlackTemple</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\BlackTemple\boss_mother_shahraz.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\BlackTemple\boss_mother_shahraz.cpp">
       <Filter>Outland\BlackTemple</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\BlackTemple\boss_reliquary_of_souls.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\BlackTemple\boss_reliquary_of_souls.cpp">
       <Filter>Outland\BlackTemple</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\BlackTemple\boss_shade_of_akama.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\BlackTemple\boss_shade_of_akama.cpp">
       <Filter>Outland\BlackTemple</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\BlackTemple\boss_supremus.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\BlackTemple\boss_supremus.cpp">
       <Filter>Outland\BlackTemple</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\BlackTemple\boss_teron_gorefiend.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\BlackTemple\boss_teron_gorefiend.cpp">
       <Filter>Outland\BlackTemple</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\BlackTemple\boss_warlord_najentus.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\BlackTemple\boss_warlord_najentus.cpp">
       <Filter>Outland\BlackTemple</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\BlackTemple\instance_black_temple.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\BlackTemple\instance_black_temple.cpp">
       <Filter>Outland\BlackTemple</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\SerpentShrine\boss_fathomlord_karathress.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\SerpentShrine\boss_fathomlord_karathress.cpp">
       <Filter>Outland\CoilfangReservoir\SerpentShrine</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\SerpentShrine\boss_hydross_the_unstable.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\SerpentShrine\boss_hydross_the_unstable.cpp">
       <Filter>Outland\CoilfangReservoir\SerpentShrine</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\SerpentShrine\boss_lady_vashj.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\SerpentShrine\boss_lady_vashj.cpp">
       <Filter>Outland\CoilfangReservoir\SerpentShrine</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\SerpentShrine\boss_leotheras_the_blind.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\SerpentShrine\boss_leotheras_the_blind.cpp">
       <Filter>Outland\CoilfangReservoir\SerpentShrine</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\SerpentShrine\boss_lurker_below.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\SerpentShrine\boss_lurker_below.cpp">
       <Filter>Outland\CoilfangReservoir\SerpentShrine</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\SerpentShrine\boss_morogrim_tidewalker.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\SerpentShrine\boss_morogrim_tidewalker.cpp">
       <Filter>Outland\CoilfangReservoir\SerpentShrine</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\SerpentShrine\instance_serpent_shrine.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\SerpentShrine\instance_serpent_shrine.cpp">
       <Filter>Outland\CoilfangReservoir\SerpentShrine</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\SteamVault\boss_hydromancer_thespia.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\SteamVault\boss_hydromancer_thespia.cpp">
       <Filter>Outland\CoilfangReservoir\SteamVault</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\SteamVault\boss_mekgineer_steamrigger.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\SteamVault\boss_mekgineer_steamrigger.cpp">
       <Filter>Outland\CoilfangReservoir\SteamVault</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\SteamVault\boss_warlord_kalithresh.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\SteamVault\boss_warlord_kalithresh.cpp">
       <Filter>Outland\CoilfangReservoir\SteamVault</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\SteamVault\instance_steam_vault.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\SteamVault\instance_steam_vault.cpp">
       <Filter>Outland\CoilfangReservoir\SteamVault</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\TheSlavePens\boss_ahune.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\TheSlavePens\boss_ahune.cpp">
       <Filter>Outland\CoilfangReservoir\TheSlavePens</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\TheSlavePens\boss_mennu_the_betrayer.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\TheSlavePens\boss_mennu_the_betrayer.cpp">
       <Filter>Outland\CoilfangReservoir\TheSlavePens</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\TheSlavePens\boss_quagmirran.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\TheSlavePens\boss_quagmirran.cpp">
       <Filter>Outland\CoilfangReservoir\TheSlavePens</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\TheSlavePens\boss_rokmar_the_crackler.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\TheSlavePens\boss_rokmar_the_crackler.cpp">
       <Filter>Outland\CoilfangReservoir\TheSlavePens</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\TheSlavePens\instance_the_slave_pens.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\TheSlavePens\instance_the_slave_pens.cpp">
       <Filter>Outland\CoilfangReservoir\TheSlavePens</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\TheUnderbog\boss_hungarfen.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\TheUnderbog\boss_hungarfen.cpp">
       <Filter>Outland\CoilfangReservoir\TheUnderbog</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\TheUnderbog\boss_the_black_stalker.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\TheUnderbog\boss_the_black_stalker.cpp">
       <Filter>Outland\CoilfangReservoir\TheUnderbog</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\TheUnderbog\instance_the_underbog.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\TheUnderbog\instance_the_underbog.cpp">
       <Filter>Outland\CoilfangReservoir\TheUnderbog</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\GruulsLair\boss_gruul.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\GruulsLair\boss_gruul.cpp">
       <Filter>Outland\GruulsLair</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\GruulsLair\boss_high_king_maulgar.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\GruulsLair\boss_high_king_maulgar.cpp">
       <Filter>Outland\GruulsLair</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\GruulsLair\instance_gruuls_lair.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\GruulsLair\instance_gruuls_lair.cpp">
       <Filter>Outland\GruulsLair</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\HellfireCitadel\BloodFurnace\boss_broggok.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\HellfireCitadel\BloodFurnace\boss_broggok.cpp">
       <Filter>Outland\HellfireCitadel\BloodFurnace</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\HellfireCitadel\BloodFurnace\boss_kelidan_the_breaker.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\HellfireCitadel\BloodFurnace\boss_kelidan_the_breaker.cpp">
       <Filter>Outland\HellfireCitadel\BloodFurnace</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\HellfireCitadel\BloodFurnace\boss_the_maker.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\HellfireCitadel\BloodFurnace\boss_the_maker.cpp">
       <Filter>Outland\HellfireCitadel\BloodFurnace</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\HellfireCitadel\BloodFurnace\instance_blood_furnace.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\HellfireCitadel\BloodFurnace\instance_blood_furnace.cpp">
       <Filter>Outland\HellfireCitadel\BloodFurnace</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\HellfireCitadel\HellfireRamparts\boss_omor_the_unscarred.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\HellfireCitadel\HellfireRamparts\boss_omor_the_unscarred.cpp">
       <Filter>Outland\HellfireCitadel\HellfireRamparts</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\HellfireCitadel\HellfireRamparts\boss_vazruden_the_herald.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\HellfireCitadel\HellfireRamparts\boss_vazruden_the_herald.cpp">
       <Filter>Outland\HellfireCitadel\HellfireRamparts</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\HellfireCitadel\HellfireRamparts\boss_watchkeeper_gargolmar.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\HellfireCitadel\HellfireRamparts\boss_watchkeeper_gargolmar.cpp">
       <Filter>Outland\HellfireCitadel\HellfireRamparts</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\HellfireCitadel\HellfireRamparts\instance_hellfire_ramparts.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\HellfireCitadel\HellfireRamparts\instance_hellfire_ramparts.cpp">
       <Filter>Outland\HellfireCitadel\HellfireRamparts</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\HellfireCitadel\MagtheridonsLair\boss_magtheridon.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\HellfireCitadel\MagtheridonsLair\boss_magtheridon.cpp">
       <Filter>Outland\HellfireCitadel\MagtheridonsLair</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\HellfireCitadel\MagtheridonsLair\instance_magtheridons_lair.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\HellfireCitadel\MagtheridonsLair\instance_magtheridons_lair.cpp">
       <Filter>Outland\HellfireCitadel\MagtheridonsLair</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\HellfireCitadel\ShatteredHalls\boss_nethekurse.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\HellfireCitadel\ShatteredHalls\boss_nethekurse.cpp">
       <Filter>Outland\HellfireCitadel\ShatteredHalls</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\HellfireCitadel\ShatteredHalls\boss_warbringer_omrogg.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\HellfireCitadel\ShatteredHalls\boss_warbringer_omrogg.cpp">
       <Filter>Outland\HellfireCitadel\ShatteredHalls</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\HellfireCitadel\ShatteredHalls\boss_warchief_kargath_bladefist.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\HellfireCitadel\ShatteredHalls\boss_warchief_kargath_bladefist.cpp">
       <Filter>Outland\HellfireCitadel\ShatteredHalls</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\HellfireCitadel\ShatteredHalls\instance_shattered_halls.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\HellfireCitadel\ShatteredHalls\instance_shattered_halls.cpp">
       <Filter>Outland\HellfireCitadel\ShatteredHalls</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\HellfireCitadel\ShatteredHalls\shattered_halls.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\HellfireCitadel\ShatteredHalls\shattered_halls.cpp">
       <Filter>Outland\HellfireCitadel\ShatteredHalls</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\Eye\boss_alar.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\Eye\boss_alar.cpp">
       <Filter>Outland\TempestKeep\Eye</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\Eye\boss_astromancer.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\Eye\boss_astromancer.cpp">
       <Filter>Outland\TempestKeep\Eye</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\Eye\boss_kaelthas.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\Eye\boss_kaelthas.cpp">
       <Filter>Outland\TempestKeep\Eye</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\Eye\boss_void_reaver.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\Eye\boss_void_reaver.cpp">
       <Filter>Outland\TempestKeep\Eye</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\Eye\instance_the_eye.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\Eye\instance_the_eye.cpp">
       <Filter>Outland\TempestKeep\Eye</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\Eye\the_eye.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\Eye\the_eye.cpp">
       <Filter>Outland\TempestKeep\Eye</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\Mechanar\boss_gatewatcher_gyrokill.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\Mechanar\boss_gatewatcher_gyrokill.cpp">
       <Filter>Outland\TempestKeep\Mechanar</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\Mechanar\boss_gatewatcher_ironhand.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\Mechanar\boss_gatewatcher_ironhand.cpp">
       <Filter>Outland\TempestKeep\Mechanar</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\Mechanar\boss_mechano_lord_capacitus.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\Mechanar\boss_mechano_lord_capacitus.cpp">
       <Filter>Outland\TempestKeep\Mechanar</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\Mechanar\boss_nethermancer_sepethrea.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\Mechanar\boss_nethermancer_sepethrea.cpp">
       <Filter>Outland\TempestKeep\Mechanar</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\Mechanar\boss_pathaleon_the_calculator.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\Mechanar\boss_pathaleon_the_calculator.cpp">
       <Filter>Outland\TempestKeep\Mechanar</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\Mechanar\instance_mechanar.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\Mechanar\instance_mechanar.cpp">
       <Filter>Outland\TempestKeep\Mechanar</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\arcatraz\arcatraz.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\arcatraz\arcatraz.cpp">
       <Filter>Outland\TempestKeep\arcatraz</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\arcatraz\boss_dalliah_the_doomsayer.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\arcatraz\boss_dalliah_the_doomsayer.cpp">
       <Filter>Outland\TempestKeep\arcatraz</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\arcatraz\boss_harbinger_skyriss.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\arcatraz\boss_harbinger_skyriss.cpp">
       <Filter>Outland\TempestKeep\arcatraz</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\arcatraz\boss_wrath_scryer_soccothrates.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\arcatraz\boss_wrath_scryer_soccothrates.cpp">
       <Filter>Outland\TempestKeep\arcatraz</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\arcatraz\boss_zereketh_the_unbound.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\arcatraz\boss_zereketh_the_unbound.cpp">
       <Filter>Outland\TempestKeep\arcatraz</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\arcatraz\instance_arcatraz.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\arcatraz\instance_arcatraz.cpp">
       <Filter>Outland\TempestKeep\arcatraz</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\botanica\boss_commander_sarannis.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\botanica\boss_commander_sarannis.cpp">
       <Filter>Outland\TempestKeep\botanica</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\botanica\boss_high_botanist_freywinn.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\botanica\boss_high_botanist_freywinn.cpp">
       <Filter>Outland\TempestKeep\botanica</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\botanica\boss_laj.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\botanica\boss_laj.cpp">
       <Filter>Outland\TempestKeep\botanica</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\botanica\boss_thorngrin_the_tender.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\botanica\boss_thorngrin_the_tender.cpp">
       <Filter>Outland\TempestKeep\botanica</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\botanica\boss_warp_splinter.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\botanica\boss_warp_splinter.cpp">
       <Filter>Outland\TempestKeep\botanica</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\botanica\instance_the_botanica.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\botanica\instance_the_botanica.cpp">
       <Filter>Outland\TempestKeep\botanica</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TC_Build_dyn\src\server\scripts\gen_scriptloader\Outland\ScriptLoader.cpp">
+    <ClCompile Include="F:\tt2g\TC\DynamicLib_Build\src\server\scripts\gen_scriptloader\Outland\ScriptLoader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Outland\Auchindoun\AuchenaiCrypts\auchenai_crypts.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\Outland\Auchindoun\AuchenaiCrypts\auchenai_crypts.h">
       <Filter>Outland\Auchindoun\AuchenaiCrypts</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Outland\Auchindoun\ManaTombs\mana_tombs.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\Outland\Auchindoun\ManaTombs\mana_tombs.h">
       <Filter>Outland\Auchindoun\ManaTombs</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Outland\Auchindoun\SethekkHalls\sethekk_halls.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\Outland\Auchindoun\SethekkHalls\sethekk_halls.h">
       <Filter>Outland\Auchindoun\SethekkHalls</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Outland\Auchindoun\ShadowLabyrinth\shadow_labyrinth.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\Outland\Auchindoun\ShadowLabyrinth\shadow_labyrinth.h">
       <Filter>Outland\Auchindoun\ShadowLabyrinth</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Outland\BlackTemple\black_temple.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\Outland\BlackTemple\black_temple.h">
       <Filter>Outland\BlackTemple</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\SerpentShrine\serpent_shrine.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\SerpentShrine\serpent_shrine.h">
       <Filter>Outland\CoilfangReservoir\SerpentShrine</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\SteamVault\steam_vault.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\SteamVault\steam_vault.h">
       <Filter>Outland\CoilfangReservoir\SteamVault</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\TheSlavePens\the_slave_pens.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\TheSlavePens\the_slave_pens.h">
       <Filter>Outland\CoilfangReservoir\TheSlavePens</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Outland\CoilfangReservoir\TheUnderbog\the_underbog.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\Outland\CoilfangReservoir\TheUnderbog\the_underbog.h">
       <Filter>Outland\CoilfangReservoir\TheUnderbog</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Outland\GruulsLair\gruuls_lair.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\Outland\GruulsLair\gruuls_lair.h">
       <Filter>Outland\GruulsLair</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Outland\HellfireCitadel\BloodFurnace\blood_furnace.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\Outland\HellfireCitadel\BloodFurnace\blood_furnace.h">
       <Filter>Outland\HellfireCitadel\BloodFurnace</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Outland\HellfireCitadel\HellfireRamparts\hellfire_ramparts.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\Outland\HellfireCitadel\HellfireRamparts\hellfire_ramparts.h">
       <Filter>Outland\HellfireCitadel\HellfireRamparts</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Outland\HellfireCitadel\MagtheridonsLair\magtheridons_lair.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\Outland\HellfireCitadel\MagtheridonsLair\magtheridons_lair.h">
       <Filter>Outland\HellfireCitadel\MagtheridonsLair</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Outland\HellfireCitadel\ShatteredHalls\shattered_halls.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\Outland\HellfireCitadel\ShatteredHalls\shattered_halls.h">
       <Filter>Outland\HellfireCitadel\ShatteredHalls</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\Eye\the_eye.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\Eye\the_eye.h">
       <Filter>Outland\TempestKeep\Eye</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\Mechanar\mechanar.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\Mechanar\mechanar.h">
       <Filter>Outland\TempestKeep\Mechanar</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\arcatraz\arcatraz.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\arcatraz\arcatraz.h">
       <Filter>Outland\TempestKeep\arcatraz</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\Outland\TempestKeep\botanica\the_botanica.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\Outland\TempestKeep\botanica\the_botanica.h">
       <Filter>Outland\TempestKeep\botanica</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\TC_Build_dyn\CMakeFiles\2c7f562518f8ecd98f547c70df2007a0\scripts_outland_CXX_prefix.hxx.rule">
+    <CustomBuild Include="F:\tt2g\TC\DynamicLib_Build\CMakeFiles\0cddcbf7994714881d1f9220de4ecd92\scripts_outland_CXX_prefix.hxx.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="E:\TrinityCore-master\src\server\scripts\CMakeLists.txt" />
+    <CustomBuild Include="F:\tt2g\Trinity2\src\server\scripts\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{41B6D89B-2ED2-3AA6-B2F1-698E1A49DE85}</UniqueIdentifier>
+      <UniqueIdentifier>{0C5CD29E-FB95-35DA-AEAB-014F6BCEE985}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland">
-      <UniqueIdentifier>{02A15DA5-B25C-3AC4-AA85-8C4263A5EEAC}</UniqueIdentifier>
+      <UniqueIdentifier>{642E198F-8217-3EBD-9439-91FD133594DB}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\Auchindoun">
-      <UniqueIdentifier>{776CF12F-EDE3-315D-8E55-7FC5611F655C}</UniqueIdentifier>
+      <UniqueIdentifier>{D21EED66-F15E-39E9-95A4-A04C345B8E97}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\Auchindoun\AuchenaiCrypts">
-      <UniqueIdentifier>{B123F07F-3883-3F29-822D-CE584B2CEE6D}</UniqueIdentifier>
+      <UniqueIdentifier>{80C2D076-057D-3D37-A1A9-6FB48C2C293E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\Auchindoun\ManaTombs">
-      <UniqueIdentifier>{B6213155-9FE0-371D-8619-5AC9A6C4755A}</UniqueIdentifier>
+      <UniqueIdentifier>{D294AD61-C03F-3EE5-8DBB-5445A68DE27B}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\Auchindoun\SethekkHalls">
-      <UniqueIdentifier>{D57241CB-A002-3920-A404-A5A510CECAE3}</UniqueIdentifier>
+      <UniqueIdentifier>{9291B662-E2BE-3667-AB27-26D42BD8E15A}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\Auchindoun\ShadowLabyrinth">
-      <UniqueIdentifier>{166A35CB-AF6E-3943-AE96-DE247F8AE248}</UniqueIdentifier>
+      <UniqueIdentifier>{B077C286-7EF5-3299-A6A0-98615EC3F0DC}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\BlackTemple">
-      <UniqueIdentifier>{ED729A97-9A48-3DA6-AEFB-40FA3492F9E0}</UniqueIdentifier>
+      <UniqueIdentifier>{5BB3D446-C808-34D0-A76E-A2CC6F3A0909}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\CoilfangReservoir">
-      <UniqueIdentifier>{572CDCE4-E8B3-39DC-8DE8-148B494DA9D2}</UniqueIdentifier>
+      <UniqueIdentifier>{8A401478-1B80-32B3-8D3D-0CDD565B05D4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\CoilfangReservoir\SerpentShrine">
-      <UniqueIdentifier>{7B3E5CA1-4496-345B-9E52-99305AC45E88}</UniqueIdentifier>
+      <UniqueIdentifier>{FF143CF8-8B92-3B17-A1F0-D5B67B4E98BD}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\CoilfangReservoir\SteamVault">
-      <UniqueIdentifier>{B2A60512-C0CF-3492-BCEE-676D41B4B534}</UniqueIdentifier>
+      <UniqueIdentifier>{836F527F-F83D-33BF-9BB5-7628683A6CBC}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\CoilfangReservoir\TheSlavePens">
-      <UniqueIdentifier>{49F46B4D-05DD-316D-81EC-1F613B792033}</UniqueIdentifier>
+      <UniqueIdentifier>{5BE27BFC-DB70-3AE0-B1E0-CC54FA63AAFE}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\CoilfangReservoir\TheUnderbog">
-      <UniqueIdentifier>{1ED17604-8ABB-3418-B40B-42D2F57099EB}</UniqueIdentifier>
+      <UniqueIdentifier>{5E1664A9-684F-39CF-B712-BA4383098C82}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\GruulsLair">
-      <UniqueIdentifier>{49EA61D8-126E-3773-968A-634B1A058738}</UniqueIdentifier>
+      <UniqueIdentifier>{A8495699-C6EA-3A90-B9A1-530D4CAC170A}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\HellfireCitadel">
-      <UniqueIdentifier>{2C621153-1E4D-34E1-A16A-D5635A2BFACE}</UniqueIdentifier>
+      <UniqueIdentifier>{036428C3-88B1-38FD-999E-E68CE8CEF785}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\HellfireCitadel\BloodFurnace">
-      <UniqueIdentifier>{DB67D8F4-1897-36DE-A1AC-25A998CD54D1}</UniqueIdentifier>
+      <UniqueIdentifier>{B34401E4-04FD-3617-8E96-51EA379CECC9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\HellfireCitadel\HellfireRamparts">
-      <UniqueIdentifier>{F303F878-1CEE-32A5-A8A2-602836237D43}</UniqueIdentifier>
+      <UniqueIdentifier>{1C3C1C5C-03F9-397E-9E8D-1EC6D2AF8A78}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\HellfireCitadel\MagtheridonsLair">
-      <UniqueIdentifier>{B3F21D40-7686-39CE-BBB8-BE62D19547DC}</UniqueIdentifier>
+      <UniqueIdentifier>{EC00D27D-9DA5-39B4-8842-5C4CD939773A}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\HellfireCitadel\ShatteredHalls">
-      <UniqueIdentifier>{ABAB43EE-AA2C-3B8C-B4C6-5A8E0693B61E}</UniqueIdentifier>
+      <UniqueIdentifier>{A3235AFA-365D-399D-8E74-74EBDF949A6F}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\TempestKeep">
-      <UniqueIdentifier>{EAF29712-E852-323D-A83D-C705AB64E5E9}</UniqueIdentifier>
+      <UniqueIdentifier>{3A835B5C-76BF-3DD2-BD78-CC55A79E9E7C}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\TempestKeep\Eye">
-      <UniqueIdentifier>{334EC071-A01E-329B-B694-C897AC62C3AC}</UniqueIdentifier>
+      <UniqueIdentifier>{1CB2A3BC-E526-31EE-81E1-CBA369C0F048}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\TempestKeep\Mechanar">
-      <UniqueIdentifier>{8A3B4B6F-C9AA-3E30-A07D-69638BF5D6A1}</UniqueIdentifier>
+      <UniqueIdentifier>{3CD356CB-1C58-34E4-A87C-BA10F24678A1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\TempestKeep\arcatraz">
-      <UniqueIdentifier>{26B4CE56-D2FE-3DC7-B199-E3D833C5BCCA}</UniqueIdentifier>
+      <UniqueIdentifier>{4F72F8CC-3288-399D-AD7E-2849DF859563}</UniqueIdentifier>
     </Filter>
     <Filter Include="Outland\TempestKeep\botanica">
-      <UniqueIdentifier>{19CCE4AD-52EC-3507-BF47-345F59E619F8}</UniqueIdentifier>
+      <UniqueIdentifier>{BFBDB11B-89EE-3AE2-B9D4-12C1178DBD1D}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{C529067D-4BB6-3F67-8D77-E972423212E1}</UniqueIdentifier>
+      <UniqueIdentifier>{ECDD3141-97E1-34E9-B477-4ED06314660A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

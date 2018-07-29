@@ -1,4 +1,4 @@
-# Install script for directory: E:/TrinityCore-master/dep/openssl
+# Install script for directory: F:/tt2g/Trinity2/dep/openssl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

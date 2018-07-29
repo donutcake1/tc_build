@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\TC_Build_dyn\src\server\scripts\gen_scriptloader\static\ScriptLoader.cpp">
+    <ClCompile Include="F:\tt2g\TC\DynamicLib_Build\src\server\scripts\gen_scriptloader\static\ScriptLoader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\ScriptLoader.h" />
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\ScriptLoader.h" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\TC_Build_dyn\CMakeFiles\2c7f562518f8ecd98f547c70df2007a0\scripts_CXX_prefix.hxx.rule">
+    <CustomBuild Include="F:\tt2g\TC\DynamicLib_Build\CMakeFiles\0cddcbf7994714881d1f9220de4ecd92\scripts_CXX_prefix.hxx.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="E:\TrinityCore-master\src\server\scripts\CMakeLists.txt" />
+    <CustomBuild Include="F:\tt2g\Trinity2\src\server\scripts\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{41B6D89B-2ED2-3AA6-B2F1-698E1A49DE85}</UniqueIdentifier>
+      <UniqueIdentifier>{0C5CD29E-FB95-35DA-AEAB-014F6BCEE985}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{C529067D-4BB6-3F67-8D77-E972423212E1}</UniqueIdentifier>
+      <UniqueIdentifier>{ECDD3141-97E1-34E9-B477-4ED06314660A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-# Install script for directory: E:/TrinityCore-master
+# Install script for directory: F:/tt2g/Trinity2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/TC_Build_Static/dep/cmake_install.cmake")
-  include("E:/TC_Build_Static/src/cmake_install.cmake")
+  include("F:/tt2g/TC/StaticLib_Build/dep/cmake_install.cmake")
+  include("F:/tt2g/TC/StaticLib_Build/src/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/TC_Build_Static/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/tt2g/TC/StaticLib_Build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

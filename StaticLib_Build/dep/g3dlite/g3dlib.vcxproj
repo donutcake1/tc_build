@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{15D95E65-2385-3530-8EDD-6027ED1DF290}</ProjectGuid>
+    <ProjectGuid>{C5FC6EA7-1798-33C7-96D9-DD77C10AF5A1}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -56,26 +56,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\dep\g3dlite\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\tt2g\TC\StaticLib_Build\dep\g3dlite\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">g3dlib.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">g3dlib</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\dep\g3dlite\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\tt2g\TC\StaticLib_Build\dep\g3dlite\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">g3dlib.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">g3dlib</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\dep\g3dlite\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\tt2g\TC\StaticLib_Build\dep\g3dlite\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">g3dlib.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">g3dlib</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\dep\g3dlite\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\tt2g\TC\StaticLib_Build\dep\g3dlite\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">g3dlib.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">g3dlib</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -96,10 +96,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -112,7 +112,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -133,10 +133,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -149,7 +149,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -170,10 +170,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -186,7 +186,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -206,10 +206,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -221,10 +221,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\TrinityCore-master\dep\g3dlite\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/TrinityCore-master/dep/g3dlite/CMakeLists.txt</Message>
+    <CustomBuild Include="F:\tt2g\Trinity2\dep\g3dlite\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/tt2g/Trinity2/dep/g3dlite/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_Static --check-stamp-file E:/TC_Build_Static/dep/g3dlite/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/StaticLib_Build --check-stamp-file F:/tt2g/TC/StaticLib_Build/dep/g3dlite/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -232,12 +232,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/TrinityCore-master/dep/g3dlite/CMakeLists.txt;E:\TrinityCore-master\dep\g3dlite\CMakeLists.txt;E:\TrinityCore-master\dep\g3dlite\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\dep\g3dlite\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/tt2g/Trinity2/dep/g3dlite/CMakeLists.txt;F:\tt2g\Trinity2\dep\g3dlite\CMakeLists.txt;F:\tt2g\Trinity2\dep\g3dlite\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\tt2g\TC\StaticLib_Build\dep\g3dlite\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/TrinityCore-master/dep/g3dlite/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/tt2g/Trinity2/dep/g3dlite/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_Static --check-stamp-file E:/TC_Build_Static/dep/g3dlite/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/StaticLib_Build --check-stamp-file F:/tt2g/TC/StaticLib_Build/dep/g3dlite/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -245,12 +245,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/TrinityCore-master/dep/g3dlite/CMakeLists.txt;E:\TrinityCore-master\dep\g3dlite\CMakeLists.txt;E:\TrinityCore-master\dep\g3dlite\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\dep\g3dlite\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/tt2g/Trinity2/dep/g3dlite/CMakeLists.txt;F:\tt2g\Trinity2\dep\g3dlite\CMakeLists.txt;F:\tt2g\Trinity2\dep\g3dlite\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\tt2g\TC\StaticLib_Build\dep\g3dlite\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/TrinityCore-master/dep/g3dlite/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/tt2g/Trinity2/dep/g3dlite/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_Static --check-stamp-file E:/TC_Build_Static/dep/g3dlite/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/StaticLib_Build --check-stamp-file F:/tt2g/TC/StaticLib_Build/dep/g3dlite/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -258,12 +258,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/TrinityCore-master/dep/g3dlite/CMakeLists.txt;E:\TrinityCore-master\dep\g3dlite\CMakeLists.txt;E:\TrinityCore-master\dep\g3dlite\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\dep\g3dlite\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/tt2g/Trinity2/dep/g3dlite/CMakeLists.txt;F:\tt2g\Trinity2\dep\g3dlite\CMakeLists.txt;F:\tt2g\Trinity2\dep\g3dlite\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\tt2g\TC\StaticLib_Build\dep\g3dlite\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/TrinityCore-master/dep/g3dlite/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/tt2g/Trinity2/dep/g3dlite/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_Static --check-stamp-file E:/TC_Build_Static/dep/g3dlite/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/StaticLib_Build --check-stamp-file F:/tt2g/TC/StaticLib_Build/dep/g3dlite/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -271,63 +271,63 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/TrinityCore-master/dep/g3dlite/CMakeLists.txt;E:\TrinityCore-master\dep\g3dlite\CMakeLists.txt;E:\TrinityCore-master\dep\g3dlite\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\dep\g3dlite\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/tt2g/Trinity2/dep/g3dlite/CMakeLists.txt;F:\tt2g\Trinity2\dep\g3dlite\CMakeLists.txt;F:\tt2g\Trinity2\dep\g3dlite\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\tt2g\TC\StaticLib_Build\dep\g3dlite\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\AABox.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\Any.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\AnyTableReader.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\BinaryFormat.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\BinaryInput.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\BinaryOutput.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\Box.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\Capsule.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\CollisionDetection.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\CoordinateFrame.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\Crypto.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\Cylinder.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\debugAssert.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\FileSystem.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\fileutils.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\format.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\g3dfnmatch.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\g3dmath.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\GThread.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\Line.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\LineSegment.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\Log.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\Matrix3.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\Matrix4.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\MemoryManager.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\PhysicsFrame.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\Plane.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\prompt.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\Quat.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\Random.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\Ray.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\RegistryUtil.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\Sphere.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\stringutils.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\System.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\TextInput.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\TextOutput.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\Triangle.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\uint128.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\UprightFrame.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\Vector2.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\Vector3.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\g3dlite\source\Vector4.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\AABox.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\Any.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\AnyTableReader.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\BinaryFormat.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\BinaryInput.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\BinaryOutput.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\Box.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\Capsule.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\CollisionDetection.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\CoordinateFrame.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\Crypto.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\Cylinder.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\debugAssert.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\FileSystem.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\fileutils.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\format.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\g3dfnmatch.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\g3dmath.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\GThread.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\Line.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\LineSegment.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\Log.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\Matrix3.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\Matrix4.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\MemoryManager.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\PhysicsFrame.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\Plane.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\prompt.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\Quat.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\Random.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\Ray.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\RegistryUtil.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\Sphere.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\stringutils.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\System.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\TextInput.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\TextOutput.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\Triangle.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\uint128.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\UprightFrame.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\Vector2.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\Vector3.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\g3dlite\source\Vector4.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\TC_Build_Static\ZERO_CHECK.vcxproj">
-      <Project>{5076ACBC-691D-3525-A753-5CEA6DC4ADBF}</Project>
+    <ProjectReference Include="F:\tt2g\TC\StaticLib_Build\ZERO_CHECK.vcxproj">
+      <Project>{68DD6EE8-2A2B-38F4-8A7E-EDD5DD296D63}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\TC_Build_Static\dep\zlib\zlib.vcxproj">
-      <Project>{9772F744-20A2-3C11-B83B-56B95293D35C}</Project>
+    <ProjectReference Include="F:\tt2g\TC\StaticLib_Build\dep\zlib\zlib.vcxproj">
+      <Project>{11D7B9BF-8674-3744-81CC-605A21EEC263}</Project>
       <Name>zlib</Name>
     </ProjectReference>
   </ItemGroup>

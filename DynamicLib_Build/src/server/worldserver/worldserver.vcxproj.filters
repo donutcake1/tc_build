@@ -1,70 +1,70 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\TrinityCore-master\src\server\worldserver\Main.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\src\server\worldserver\CommandLine\CliRunnable.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\worldserver\Main.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\worldserver\CommandLine\CliRunnable.cpp">
       <Filter>CommandLine</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\worldserver\RemoteAccess\RASession.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\worldserver\RemoteAccess\RASession.cpp">
       <Filter>RemoteAccess</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\worldserver\TCSoap\TCSoap.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\worldserver\TCSoap\TCSoap.cpp">
       <Filter>TCSoap</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\common\Debugging\WheatyExceptionReport.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\common\Debugging\WheatyExceptionReport.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\common\Platform\ServiceWin32.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\common\Platform\ServiceWin32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\TrinityCore-master\src\server\worldserver\resource.h" />
-    <ClInclude Include="E:\TrinityCore-master\src\server\worldserver\CommandLine\CliRunnable.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\worldserver\resource.h" />
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\worldserver\CommandLine\CliRunnable.h">
       <Filter>CommandLine</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\worldserver\RemoteAccess\RASession.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\worldserver\RemoteAccess\RASession.h">
       <Filter>RemoteAccess</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\worldserver\TCSoap\TCSoap.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\worldserver\TCSoap\TCSoap.h">
       <Filter>TCSoap</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\common\Debugging\WheatyExceptionReport.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\common\Debugging\WheatyExceptionReport.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\common\Platform\ServiceWin32.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\common\Platform\ServiceWin32.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\TC_Build_dyn\CMakeFiles\2678281de26a6b38f98d0385ba0c02ca\worldserver_CXX_prefix.hxx.rule">
+    <CustomBuild Include="F:\tt2g\TC\DynamicLib_Build\CMakeFiles\a8b8b38856f334d614a9063587ecdb2d\worldserver_CXX_prefix.hxx.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="E:\TrinityCore-master\src\server\worldserver\CMakeLists.txt" />
+    <CustomBuild Include="F:\tt2g\Trinity2\src\server\worldserver\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="E:\TrinityCore-master\src\server\worldserver\worldserver.rc">
+    <ResourceCompile Include="F:\tt2g\Trinity2\src\server\worldserver\worldserver.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{41B6D89B-2ED2-3AA6-B2F1-698E1A49DE85}</UniqueIdentifier>
+      <UniqueIdentifier>{0C5CD29E-FB95-35DA-AEAB-014F6BCEE985}</UniqueIdentifier>
     </Filter>
     <Filter Include="CommandLine">
-      <UniqueIdentifier>{C0F8A8E9-FFAF-3ED2-993C-FEBAB44D8894}</UniqueIdentifier>
+      <UniqueIdentifier>{3D549A86-1669-37D6-8FD5-7C18190955D6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{5D1C7575-8EE5-34CF-B664-33DF1FE92AB0}</UniqueIdentifier>
+      <UniqueIdentifier>{56D84660-51A6-381B-B1D9-1F13E8C4BB99}</UniqueIdentifier>
     </Filter>
     <Filter Include="RemoteAccess">
-      <UniqueIdentifier>{0C3F5A17-453F-37D6-AED1-1770935A57D6}</UniqueIdentifier>
+      <UniqueIdentifier>{8AE9EB00-F831-3DB9-9890-E941B56ACBA4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{C529067D-4BB6-3F67-8D77-E972423212E1}</UniqueIdentifier>
+      <UniqueIdentifier>{ECDD3141-97E1-34E9-B477-4ED06314660A}</UniqueIdentifier>
     </Filter>
     <Filter Include="TCSoap">
-      <UniqueIdentifier>{39581FC2-209E-38CF-94F0-68DD36233E55}</UniqueIdentifier>
+      <UniqueIdentifier>{EBB3156F-95A4-3DDB-8BE4-CE5F68B9456D}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

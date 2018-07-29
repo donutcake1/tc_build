@@ -20,23 +20,23 @@ C:/Program Files/CMake/share/cmake-3.12/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-3.12/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-3.12/Modules/Platform/WindowsPaths.cmake
 C:/Program Files/CMake/share/cmake-3.12/Modules/ProcessorCount.cmake
-E:/TC_Build_dyn/CMakeFiles/3.12.0/CMakeCCompiler.cmake
-E:/TC_Build_dyn/CMakeFiles/3.12.0/CMakeCXXCompiler.cmake
-E:/TC_Build_dyn/CMakeFiles/3.12.0/CMakeRCCompiler.cmake
-E:/TC_Build_dyn/CMakeFiles/3.12.0/CMakeSystem.cmake
-E:/TrinityCore-master/CMakeLists.txt
-E:/TrinityCore-master/cmake/compiler/msvc/settings.cmake
-E:/TrinityCore-master/cmake/genrev.cmake
-E:/TrinityCore-master/cmake/macros/AutoCollect.cmake
-E:/TrinityCore-master/cmake/macros/CheckPlatform.cmake
-E:/TrinityCore-master/cmake/macros/ConfigureBaseTargets.cmake
-E:/TrinityCore-master/cmake/macros/ConfigureScripts.cmake
-E:/TrinityCore-master/cmake/macros/EnsureVersion.cmake
-E:/TrinityCore-master/cmake/macros/FindGit.cmake
-E:/TrinityCore-master/cmake/macros/FindMySQL.cmake
-E:/TrinityCore-master/cmake/macros/FindPCHSupport.cmake
-E:/TrinityCore-master/cmake/macros/GroupSources.cmake
-E:/TrinityCore-master/cmake/options.cmake
-E:/TrinityCore-master/cmake/platform/win/settings.cmake
-E:/TrinityCore-master/cmake/showoptions.cmake
-E:/TrinityCore-master/dep/cotire/CMake/cotire.cmake
+F:/tt2g/TC/DynamicLib_Build/CMakeFiles/3.12.0/CMakeCCompiler.cmake
+F:/tt2g/TC/DynamicLib_Build/CMakeFiles/3.12.0/CMakeCXXCompiler.cmake
+F:/tt2g/TC/DynamicLib_Build/CMakeFiles/3.12.0/CMakeRCCompiler.cmake
+F:/tt2g/TC/DynamicLib_Build/CMakeFiles/3.12.0/CMakeSystem.cmake
+F:/tt2g/Trinity2/CMakeLists.txt
+F:/tt2g/Trinity2/cmake/compiler/msvc/settings.cmake
+F:/tt2g/Trinity2/cmake/genrev.cmake
+F:/tt2g/Trinity2/cmake/macros/AutoCollect.cmake
+F:/tt2g/Trinity2/cmake/macros/CheckPlatform.cmake
+F:/tt2g/Trinity2/cmake/macros/ConfigureBaseTargets.cmake
+F:/tt2g/Trinity2/cmake/macros/ConfigureScripts.cmake
+F:/tt2g/Trinity2/cmake/macros/EnsureVersion.cmake
+F:/tt2g/Trinity2/cmake/macros/FindGit.cmake
+F:/tt2g/Trinity2/cmake/macros/FindMySQL.cmake
+F:/tt2g/Trinity2/cmake/macros/FindPCHSupport.cmake
+F:/tt2g/Trinity2/cmake/macros/GroupSources.cmake
+F:/tt2g/Trinity2/cmake/options.cmake
+F:/tt2g/Trinity2/cmake/platform/win/settings.cmake
+F:/tt2g/Trinity2/cmake/showoptions.cmake
+F:/tt2g/Trinity2/dep/cotire/CMake/cotire.cmake

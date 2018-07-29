@@ -1,4 +1,4 @@
-# Install script for directory: E:/TrinityCore-master/dep/bzip2
+# Install script for directory: F:/tt2g/Trinity2/dep/bzip2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

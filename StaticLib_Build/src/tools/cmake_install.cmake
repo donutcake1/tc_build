@@ -1,4 +1,4 @@
-# Install script for directory: E:/TrinityCore-master/src/tools
+# Install script for directory: F:/tt2g/Trinity2/src/tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/TC_Build_Static/src/tools/connection_patcher/cmake_install.cmake")
-  include("E:/TC_Build_Static/src/tools/extractor_common/cmake_install.cmake")
-  include("E:/TC_Build_Static/src/tools/map_extractor/cmake_install.cmake")
-  include("E:/TC_Build_Static/src/tools/vmap4_assembler/cmake_install.cmake")
-  include("E:/TC_Build_Static/src/tools/vmap4_extractor/cmake_install.cmake")
-  include("E:/TC_Build_Static/src/tools/mmaps_generator/cmake_install.cmake")
+  include("F:/tt2g/TC/StaticLib_Build/src/tools/connection_patcher/cmake_install.cmake")
+  include("F:/tt2g/TC/StaticLib_Build/src/tools/extractor_common/cmake_install.cmake")
+  include("F:/tt2g/TC/StaticLib_Build/src/tools/map_extractor/cmake_install.cmake")
+  include("F:/tt2g/TC/StaticLib_Build/src/tools/vmap4_assembler/cmake_install.cmake")
+  include("F:/tt2g/TC/StaticLib_Build/src/tools/vmap4_extractor/cmake_install.cmake")
+  include("F:/tt2g/TC/StaticLib_Build/src/tools/mmaps_generator/cmake_install.cmake")
 
 endif()
 

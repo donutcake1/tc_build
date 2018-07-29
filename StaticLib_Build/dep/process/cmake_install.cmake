@@ -1,4 +1,4 @@
-# Install script for directory: E:/TrinityCore-master/dep/process
+# Install script for directory: F:/tt2g/Trinity2/dep/process
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

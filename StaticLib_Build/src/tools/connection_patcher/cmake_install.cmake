@@ -1,4 +1,4 @@
-# Install script for directory: E:/TrinityCore-master/src/tools/connection_patcher
+# Install script for directory: F:/tt2g/Trinity2/src/tools/connection_patcher
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,7 +42,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE EXECUTABLE FILES "E:/TC_Build_Static/bin/Debug/connection_patcher.exe")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE EXECUTABLE FILES "F:/tt2g/TC/StaticLib_Build/bin/Debug/connection_patcher.exe")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/connection_patcher.exe")
@@ -52,7 +52,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE EXECUTABLE FILES "E
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE EXECUTABLE FILES "E:/TC_Build_Static/bin/Release/connection_patcher.exe")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE EXECUTABLE FILES "F:/tt2g/TC/StaticLib_Build/bin/Release/connection_patcher.exe")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/connection_patcher.exe")
@@ -62,7 +62,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE EXECUTABLE FILES "E
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE EXECUTABLE FILES "E:/TC_Build_Static/bin/MinSizeRel/connection_patcher.exe")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE EXECUTABLE FILES "F:/tt2g/TC/StaticLib_Build/bin/MinSizeRel/connection_patcher.exe")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/connection_patcher.exe")
@@ -72,7 +72,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE EXECUTABLE FILES "E
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE EXECUTABLE FILES "E:/TC_Build_Static/bin/RelWithDebInfo/connection_patcher.exe")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE EXECUTABLE FILES "F:/tt2g/TC/StaticLib_Build/bin/RelWithDebInfo/connection_patcher.exe")
   endif()
 endif()
 

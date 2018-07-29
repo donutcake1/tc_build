@@ -1,4 +1,4 @@
-# Install script for directory: E:/TrinityCore-master/dep/protobuf
+# Install script for directory: F:/tt2g/Trinity2/dep/protobuf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

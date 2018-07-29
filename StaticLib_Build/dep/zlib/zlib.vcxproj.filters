@@ -1,46 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\TrinityCore-master\dep\zlib\adler32.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\zlib\adler32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\zlib\compress.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\zlib\compress.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\zlib\crc32.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\zlib\crc32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\zlib\deflate.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\zlib\deflate.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\zlib\infback.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\zlib\infback.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\zlib\inffast.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\zlib\inffast.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\zlib\inflate.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\zlib\inflate.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\zlib\inftrees.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\zlib\inftrees.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\zlib\trees.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\zlib\trees.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\zlib\uncompr.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\zlib\uncompr.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\zlib\zutil.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\zlib\zutil.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\TrinityCore-master\dep\zlib\CMakeLists.txt" />
+    <CustomBuild Include="F:\tt2g\Trinity2\dep\zlib\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{D1BF3242-6E55-3E66-8C82-CDFBD57310D1}</UniqueIdentifier>
+      <UniqueIdentifier>{2E8771F7-D197-3328-A22D-BB9ABC3088C2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

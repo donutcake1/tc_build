@@ -1,4 +1,4 @@
 # CMake generation dependency list for this directory.
 C:/Program Files/CMake/share/cmake-3.12/Modules/CheckCXXSourceCompiles.cmake
-E:/TrinityCore-master/cmake/macros/FindBoost.cmake
-E:/TrinityCore-master/dep/boost/CMakeLists.txt
+F:/tt2g/Trinity2/cmake/macros/FindBoost.cmake
+F:/tt2g/Trinity2/dep/boost/CMakeLists.txt

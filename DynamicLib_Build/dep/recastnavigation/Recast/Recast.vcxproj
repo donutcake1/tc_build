@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{14D81770-274A-3DEE-A940-8604743F86D7}</ProjectGuid>
+    <ProjectGuid>{E3F4D162-2E38-303B-868C-2767F652BF71}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -56,26 +56,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_dyn\dep\recastnavigation\Recast\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\tt2g\TC\DynamicLib_Build\dep\recastnavigation\Recast\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Recast.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Recast</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_dyn\dep\recastnavigation\Recast\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\tt2g\TC\DynamicLib_Build\dep\recastnavigation\Recast\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Recast.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Recast</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_dyn\dep\recastnavigation\Recast\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\tt2g\TC\DynamicLib_Build\dep\recastnavigation\Recast\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Recast.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Recast</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_dyn\dep\recastnavigation\Recast\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\tt2g\TC\DynamicLib_Build\dep\recastnavigation\Recast\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Recast.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Recast</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\recastnavigation\Recast\Include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\recastnavigation\Recast\Include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -96,10 +96,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\recastnavigation\Recast\Include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\recastnavigation\Recast\Include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\recastnavigation\Recast\Include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\recastnavigation\Recast\Include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -112,7 +112,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\recastnavigation\Recast\Include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\recastnavigation\Recast\Include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -133,10 +133,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\recastnavigation\Recast\Include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\recastnavigation\Recast\Include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\recastnavigation\Recast\Include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\recastnavigation\Recast\Include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -149,7 +149,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\recastnavigation\Recast\Include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\recastnavigation\Recast\Include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -170,10 +170,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\recastnavigation\Recast\Include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\recastnavigation\Recast\Include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\recastnavigation\Recast\Include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\recastnavigation\Recast\Include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -186,7 +186,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\recastnavigation\Recast\Include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\recastnavigation\Recast\Include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -206,10 +206,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\recastnavigation\Recast\Include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\recastnavigation\Recast\Include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\recastnavigation\Recast\Include;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\recastnavigation\Recast\Include;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -221,10 +221,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\TrinityCore-master\dep\recastnavigation\Recast\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/TrinityCore-master/dep/recastnavigation/Recast/CMakeLists.txt</Message>
+    <CustomBuild Include="F:\tt2g\Trinity2\dep\recastnavigation\Recast\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/tt2g/Trinity2/dep/recastnavigation/Recast/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_dyn --check-stamp-file E:/TC_Build_dyn/dep/recastnavigation/Recast/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/DynamicLib_Build --check-stamp-file F:/tt2g/TC/DynamicLib_Build/dep/recastnavigation/Recast/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -232,12 +232,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/TrinityCore-master/dep/recastnavigation/Recast/CMakeLists.txt;E:\TrinityCore-master\dep\recastnavigation\Recast\CMakeLists.txt;E:\TrinityCore-master\dep\recastnavigation\Recast\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_dyn\dep\recastnavigation\Recast\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/tt2g/Trinity2/dep/recastnavigation/Recast/CMakeLists.txt;F:\tt2g\Trinity2\dep\recastnavigation\Recast\CMakeLists.txt;F:\tt2g\Trinity2\dep\recastnavigation\Recast\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\tt2g\TC\DynamicLib_Build\dep\recastnavigation\Recast\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/TrinityCore-master/dep/recastnavigation/Recast/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/tt2g/Trinity2/dep/recastnavigation/Recast/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_dyn --check-stamp-file E:/TC_Build_dyn/dep/recastnavigation/Recast/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/DynamicLib_Build --check-stamp-file F:/tt2g/TC/DynamicLib_Build/dep/recastnavigation/Recast/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -245,12 +245,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/TrinityCore-master/dep/recastnavigation/Recast/CMakeLists.txt;E:\TrinityCore-master\dep\recastnavigation\Recast\CMakeLists.txt;E:\TrinityCore-master\dep\recastnavigation\Recast\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_dyn\dep\recastnavigation\Recast\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/tt2g/Trinity2/dep/recastnavigation/Recast/CMakeLists.txt;F:\tt2g\Trinity2\dep\recastnavigation\Recast\CMakeLists.txt;F:\tt2g\Trinity2\dep\recastnavigation\Recast\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\tt2g\TC\DynamicLib_Build\dep\recastnavigation\Recast\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/TrinityCore-master/dep/recastnavigation/Recast/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/tt2g/Trinity2/dep/recastnavigation/Recast/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_dyn --check-stamp-file E:/TC_Build_dyn/dep/recastnavigation/Recast/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/DynamicLib_Build --check-stamp-file F:/tt2g/TC/DynamicLib_Build/dep/recastnavigation/Recast/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -258,12 +258,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/TrinityCore-master/dep/recastnavigation/Recast/CMakeLists.txt;E:\TrinityCore-master\dep\recastnavigation\Recast\CMakeLists.txt;E:\TrinityCore-master\dep\recastnavigation\Recast\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_dyn\dep\recastnavigation\Recast\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/tt2g/Trinity2/dep/recastnavigation/Recast/CMakeLists.txt;F:\tt2g\Trinity2\dep\recastnavigation\Recast\CMakeLists.txt;F:\tt2g\Trinity2\dep\recastnavigation\Recast\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\tt2g\TC\DynamicLib_Build\dep\recastnavigation\Recast\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/TrinityCore-master/dep/recastnavigation/Recast/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/tt2g/Trinity2/dep/recastnavigation/Recast/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_dyn --check-stamp-file E:/TC_Build_dyn/dep/recastnavigation/Recast/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/DynamicLib_Build --check-stamp-file F:/tt2g/TC/DynamicLib_Build/dep/recastnavigation/Recast/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -271,30 +271,30 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/TrinityCore-master/dep/recastnavigation/Recast/CMakeLists.txt;E:\TrinityCore-master\dep\recastnavigation\Recast\CMakeLists.txt;E:\TrinityCore-master\dep\recastnavigation\Recast\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_dyn\dep\recastnavigation\Recast\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/tt2g/Trinity2/dep/recastnavigation/Recast/CMakeLists.txt;F:\tt2g\Trinity2\dep\recastnavigation\Recast\CMakeLists.txt;F:\tt2g\Trinity2\dep\recastnavigation\Recast\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\tt2g\TC\DynamicLib_Build\dep\recastnavigation\Recast\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\TrinityCore-master\dep\recastnavigation\Recast\Source\Recast.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\recastnavigation\Recast\Source\RecastAlloc.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\recastnavigation\Recast\Source\RecastArea.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\recastnavigation\Recast\Source\RecastContour.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\recastnavigation\Recast\Source\RecastFilter.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\recastnavigation\Recast\Source\RecastLayers.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\recastnavigation\Recast\Source\RecastMesh.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\recastnavigation\Recast\Source\RecastMeshDetail.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\recastnavigation\Recast\Source\RecastRasterization.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\recastnavigation\Recast\Source\RecastRegion.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\recastnavigation\Recast\Source\Recast.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\recastnavigation\Recast\Source\RecastAlloc.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\recastnavigation\Recast\Source\RecastArea.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\recastnavigation\Recast\Source\RecastContour.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\recastnavigation\Recast\Source\RecastFilter.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\recastnavigation\Recast\Source\RecastLayers.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\recastnavigation\Recast\Source\RecastMesh.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\recastnavigation\Recast\Source\RecastMeshDetail.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\recastnavigation\Recast\Source\RecastRasterization.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\recastnavigation\Recast\Source\RecastRegion.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\TC_Build_dyn\ZERO_CHECK.vcxproj">
-      <Project>{5746EE2B-DDA6-3213-9440-0EF3CA40737E}</Project>
+    <ProjectReference Include="F:\tt2g\TC\DynamicLib_Build\ZERO_CHECK.vcxproj">
+      <Project>{DEA9712D-D0B4-3EF7-9E6C-8614A015C13A}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\TC_Build_dyn\dep\zlib\zlib.vcxproj">
-      <Project>{BA2C8058-BCB0-3C66-A737-51F02E458BBB}</Project>
+    <ProjectReference Include="F:\tt2g\TC\DynamicLib_Build\dep\zlib\zlib.vcxproj">
+      <Project>{D8F421E5-B4D4-3559-A347-646603DF8665}</Project>
       <Name>zlib</Name>
     </ProjectReference>
   </ItemGroup>

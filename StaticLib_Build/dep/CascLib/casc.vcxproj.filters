@@ -1,100 +1,100 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\common\Common.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\common\Common.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\common\Directory.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\common\Directory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\common\DumpContext.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\common\DumpContext.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\common\DynamicArray.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\common\DynamicArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\common\FileStream.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\common\FileStream.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\common\ListFile.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\common\ListFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\common\Map.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\common\Map.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\common\RootHandler.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\common\RootHandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\jenkins\lookup3.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\jenkins\lookup3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascCommon.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascCommon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascDecompress.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascDecompress.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascDecrypt.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascDecrypt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascDumpData.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascDumpData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascFiles.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascFiles.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascFindFile.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascFindFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascOpenFile.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascOpenFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascOpenStorage.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascOpenStorage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascReadFile.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascReadFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascRootFile_Diablo3.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascRootFile_Diablo3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascRootFile_Mndx.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascRootFile_Mndx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascRootFile_Ovr.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascRootFile_Ovr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascRootFile_SC1.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascRootFile_SC1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascRootFile_WoW6.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascRootFile_WoW6.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\libtomcrypt\src\hashes\hash_memory.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\libtomcrypt\src\hashes\hash_memory.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\libtomcrypt\src\hashes\md5.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\libtomcrypt\src\hashes\md5.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\libtomcrypt\src\misc\crypt_argchk.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\libtomcrypt\src\misc\crypt_argchk.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\libtomcrypt\src\misc\crypt_hash_descriptor.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\libtomcrypt\src\misc\crypt_hash_descriptor.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\libtomcrypt\src\misc\crypt_hash_is_valid.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\libtomcrypt\src\misc\crypt_hash_is_valid.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\libtomcrypt\src\misc\crypt_libc.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\libtomcrypt\src\misc\crypt_libc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\TrinityCore-master\dep\CascLib\CMakeLists.txt" />
+    <CustomBuild Include="F:\tt2g\Trinity2\dep\CascLib\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{D1BF3242-6E55-3E66-8C82-CDFBD57310D1}</UniqueIdentifier>
+      <UniqueIdentifier>{2E8771F7-D197-3328-A22D-BB9ABC3088C2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

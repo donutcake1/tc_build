@@ -1,48 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\TrinityCore-master\dep\gsoap\httpget.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\gsoap\httpget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\gsoap\httppost.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\gsoap\httppost.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\gsoap\soapC.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\gsoap\soapC.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\gsoap\soapServer.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\gsoap\soapServer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\gsoap\stdsoap2.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\gsoap\stdsoap2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\TrinityCore-master\dep\gsoap\httpget.h">
+    <ClInclude Include="F:\tt2g\Trinity2\dep\gsoap\httpget.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\dep\gsoap\httppost.h">
+    <ClInclude Include="F:\tt2g\Trinity2\dep\gsoap\httppost.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\dep\gsoap\soapH.h">
+    <ClInclude Include="F:\tt2g\Trinity2\dep\gsoap\soapH.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\dep\gsoap\soapStub.h">
+    <ClInclude Include="F:\tt2g\Trinity2\dep\gsoap\soapStub.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\dep\gsoap\stdsoap2.h">
+    <ClInclude Include="F:\tt2g\Trinity2\dep\gsoap\stdsoap2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\TrinityCore-master\dep\gsoap\CMakeLists.txt" />
+    <CustomBuild Include="F:\tt2g\Trinity2\dep\gsoap\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{1991612F-5E2F-3AD9-A015-A4E2BA20F631}</UniqueIdentifier>
+      <UniqueIdentifier>{F01496A6-6A29-3685-8A3A-E54C54CCABF7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{D1BF3242-6E55-3E66-8C82-CDFBD57310D1}</UniqueIdentifier>
+      <UniqueIdentifier>{2E8771F7-D197-3328-A22D-BB9ABC3088C2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

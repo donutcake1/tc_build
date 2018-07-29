@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="E:\TC_Build_dyn\CMakeFiles\b8823268811d2bc00630d83ce8ccaf26\clean_cotire.rule">
+    <CustomBuild Include="F:\tt2g\TC\DynamicLib_Build\CMakeFiles\60b7cc4df3d5ef03e04d167dd2e5cc84\clean_cotire.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="E:\TrinityCore-master\src\common\CMakeLists.txt" />
+    <CustomBuild Include="F:\tt2g\Trinity2\src\common\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="E:\TC_Build_dyn\src\common\CMakeFiles\clean_cotire" />
+    <None Include="F:\tt2g\TC\DynamicLib_Build\src\common\CMakeFiles\clean_cotire" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{41B6D89B-2ED2-3AA6-B2F1-698E1A49DE85}</UniqueIdentifier>
+      <UniqueIdentifier>{0C5CD29E-FB95-35DA-AEAB-014F6BCEE985}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

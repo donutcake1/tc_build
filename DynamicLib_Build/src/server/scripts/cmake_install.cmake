@@ -1,4 +1,4 @@
-# Install script for directory: E:/TrinityCore-master/src/server/scripts
+# Install script for directory: F:/tt2g/Trinity2/src/server/scripts
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,7 +42,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xscripts_commandsx" OR NOT CMAKE_INS
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Debug/scripts/scripts_commands.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Debug/scripts/scripts_commands.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_commands.dll")
@@ -52,7 +52,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Release/scripts/scripts_commands.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Release/scripts/scripts_commands.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_commands.dll")
@@ -62,7 +62,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/MinSizeRel/scripts/scripts_commands.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/MinSizeRel/scripts/scripts_commands.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_commands.dll")
@@ -72,7 +72,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/RelWithDebInfo/scripts/scripts_commands.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/RelWithDebInfo/scripts/scripts_commands.dll")
   endif()
 endif()
 
@@ -86,7 +86,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xscripts_customx" OR NOT CMAKE_INSTA
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Debug/scripts/scripts_custom.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Debug/scripts/scripts_custom.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_custom.dll")
@@ -96,7 +96,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Release/scripts/scripts_custom.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Release/scripts/scripts_custom.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_custom.dll")
@@ -106,7 +106,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/MinSizeRel/scripts/scripts_custom.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/MinSizeRel/scripts/scripts_custom.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_custom.dll")
@@ -116,7 +116,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/RelWithDebInfo/scripts/scripts_custom.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/RelWithDebInfo/scripts/scripts_custom.dll")
   endif()
 endif()
 
@@ -130,7 +130,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xscripts_easternkingdomsx" OR NOT CM
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Debug/scripts/scripts_easternkingdoms.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Debug/scripts/scripts_easternkingdoms.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_easternkingdoms.dll")
@@ -140,7 +140,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Release/scripts/scripts_easternkingdoms.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Release/scripts/scripts_easternkingdoms.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_easternkingdoms.dll")
@@ -150,7 +150,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/MinSizeRel/scripts/scripts_easternkingdoms.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/MinSizeRel/scripts/scripts_easternkingdoms.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_easternkingdoms.dll")
@@ -160,7 +160,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/RelWithDebInfo/scripts/scripts_easternkingdoms.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/RelWithDebInfo/scripts/scripts_easternkingdoms.dll")
   endif()
 endif()
 
@@ -174,7 +174,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xscripts_eventsx" OR NOT CMAKE_INSTA
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Debug/scripts/scripts_events.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Debug/scripts/scripts_events.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_events.dll")
@@ -184,7 +184,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Release/scripts/scripts_events.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Release/scripts/scripts_events.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_events.dll")
@@ -194,7 +194,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/MinSizeRel/scripts/scripts_events.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/MinSizeRel/scripts/scripts_events.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_events.dll")
@@ -204,7 +204,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/RelWithDebInfo/scripts/scripts_events.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/RelWithDebInfo/scripts/scripts_events.dll")
   endif()
 endif()
 
@@ -218,7 +218,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xscripts_kalimdorx" OR NOT CMAKE_INS
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Debug/scripts/scripts_kalimdor.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Debug/scripts/scripts_kalimdor.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_kalimdor.dll")
@@ -228,7 +228,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Release/scripts/scripts_kalimdor.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Release/scripts/scripts_kalimdor.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_kalimdor.dll")
@@ -238,7 +238,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/MinSizeRel/scripts/scripts_kalimdor.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/MinSizeRel/scripts/scripts_kalimdor.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_kalimdor.dll")
@@ -248,7 +248,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/RelWithDebInfo/scripts/scripts_kalimdor.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/RelWithDebInfo/scripts/scripts_kalimdor.dll")
   endif()
 endif()
 
@@ -262,7 +262,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xscripts_maelstromx" OR NOT CMAKE_IN
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Debug/scripts/scripts_maelstrom.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Debug/scripts/scripts_maelstrom.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_maelstrom.dll")
@@ -272,7 +272,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Release/scripts/scripts_maelstrom.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Release/scripts/scripts_maelstrom.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_maelstrom.dll")
@@ -282,7 +282,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/MinSizeRel/scripts/scripts_maelstrom.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/MinSizeRel/scripts/scripts_maelstrom.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_maelstrom.dll")
@@ -292,7 +292,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/RelWithDebInfo/scripts/scripts_maelstrom.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/RelWithDebInfo/scripts/scripts_maelstrom.dll")
   endif()
 endif()
 
@@ -306,7 +306,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xscripts_northrendx" OR NOT CMAKE_IN
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Debug/scripts/scripts_northrend.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Debug/scripts/scripts_northrend.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_northrend.dll")
@@ -316,7 +316,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Release/scripts/scripts_northrend.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Release/scripts/scripts_northrend.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_northrend.dll")
@@ -326,7 +326,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/MinSizeRel/scripts/scripts_northrend.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/MinSizeRel/scripts/scripts_northrend.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_northrend.dll")
@@ -336,7 +336,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/RelWithDebInfo/scripts/scripts_northrend.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/RelWithDebInfo/scripts/scripts_northrend.dll")
   endif()
 endif()
 
@@ -350,7 +350,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xscripts_outdoorpvpx" OR NOT CMAKE_I
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Debug/scripts/scripts_outdoorpvp.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Debug/scripts/scripts_outdoorpvp.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_outdoorpvp.dll")
@@ -360,7 +360,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Release/scripts/scripts_outdoorpvp.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Release/scripts/scripts_outdoorpvp.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_outdoorpvp.dll")
@@ -370,7 +370,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/MinSizeRel/scripts/scripts_outdoorpvp.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/MinSizeRel/scripts/scripts_outdoorpvp.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_outdoorpvp.dll")
@@ -380,7 +380,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/RelWithDebInfo/scripts/scripts_outdoorpvp.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/RelWithDebInfo/scripts/scripts_outdoorpvp.dll")
   endif()
 endif()
 
@@ -394,7 +394,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xscripts_outlandx" OR NOT CMAKE_INST
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Debug/scripts/scripts_outland.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Debug/scripts/scripts_outland.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_outland.dll")
@@ -404,7 +404,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Release/scripts/scripts_outland.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Release/scripts/scripts_outland.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_outland.dll")
@@ -414,7 +414,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/MinSizeRel/scripts/scripts_outland.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/MinSizeRel/scripts/scripts_outland.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_outland.dll")
@@ -424,7 +424,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/RelWithDebInfo/scripts/scripts_outland.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/RelWithDebInfo/scripts/scripts_outland.dll")
   endif()
 endif()
 
@@ -438,7 +438,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xscripts_petx" OR NOT CMAKE_INSTALL_
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Debug/scripts/scripts_pet.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Debug/scripts/scripts_pet.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_pet.dll")
@@ -448,7 +448,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Release/scripts/scripts_pet.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Release/scripts/scripts_pet.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_pet.dll")
@@ -458,7 +458,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/MinSizeRel/scripts/scripts_pet.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/MinSizeRel/scripts/scripts_pet.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_pet.dll")
@@ -468,7 +468,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/RelWithDebInfo/scripts/scripts_pet.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/RelWithDebInfo/scripts/scripts_pet.dll")
   endif()
 endif()
 
@@ -482,7 +482,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xscripts_spellsx" OR NOT CMAKE_INSTA
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Debug/scripts/scripts_spells.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Debug/scripts/scripts_spells.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_spells.dll")
@@ -492,7 +492,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Release/scripts/scripts_spells.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Release/scripts/scripts_spells.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_spells.dll")
@@ -502,7 +502,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/MinSizeRel/scripts/scripts_spells.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/MinSizeRel/scripts/scripts_spells.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_spells.dll")
@@ -512,7 +512,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/RelWithDebInfo/scripts/scripts_spells.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/RelWithDebInfo/scripts/scripts_spells.dll")
   endif()
 endif()
 
@@ -526,7 +526,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xscripts_worldx" OR NOT CMAKE_INSTAL
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Debug/scripts/scripts_world.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Debug/scripts/scripts_world.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_world.dll")
@@ -536,7 +536,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Release/scripts/scripts_world.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Release/scripts/scripts_world.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_world.dll")
@@ -546,7 +546,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/MinSizeRel/scripts/scripts_world.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/MinSizeRel/scripts/scripts_world.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/scripts/scripts_world.dll")
@@ -556,7 +556,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBR
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/RelWithDebInfo/scripts/scripts_world.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore/scripts" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/RelWithDebInfo/scripts/scripts_world.dll")
   endif()
 endif()
 

@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{EE828D0F-D790-395B-9C73-97F6EDEA661A}</ProjectGuid>
+    <ProjectGuid>{0B1D366D-3C3A-327E-B61A-25C847AE31E2}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -102,14 +102,14 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\TC_Build_Static\CMakeFiles\3c3ab7092554c693bb1a6e8a6d5eec10\clean_cotire.rule">
+    <CustomBuild Include="F:\tt2g\TC\StaticLib_Build\CMakeFiles\a3e8b75636cedfbbcd2a924c32ee8cf9\clean_cotire.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Cleaning up all cotire generated files</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd E:\TC_Build_Static
+cd F:\tt2g\TC\StaticLib_Build
 if %errorlevel% neq 0 goto :cmEnd
-E:
+F:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=Debug -P E:/TrinityCore-master/dep/cotire/CMake/cotire.cmake cleanup E:/TC_Build_Static cotire
+"C:\Program Files\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=Debug -P F:/tt2g/Trinity2/dep/cotire/CMake/cotire.cmake cleanup F:/tt2g/TC/StaticLib_Build cotire
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -117,16 +117,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/TC_Build_Static/CMakeFiles/3c3ab7092554c693bb1a6e8a6d5eec10/clean_cotire.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\common\CMakeFiles\clean_cotire</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/tt2g/TC/StaticLib_Build/CMakeFiles/a3e8b75636cedfbbcd2a924c32ee8cf9/clean_cotire.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\tt2g\TC\StaticLib_Build\src\common\CMakeFiles\clean_cotire</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Cleaning up all cotire generated files</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd E:\TC_Build_Static
+cd F:\tt2g\TC\StaticLib_Build
 if %errorlevel% neq 0 goto :cmEnd
-E:
+F:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=Release -P E:/TrinityCore-master/dep/cotire/CMake/cotire.cmake cleanup E:/TC_Build_Static cotire
+"C:\Program Files\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=Release -P F:/tt2g/Trinity2/dep/cotire/CMake/cotire.cmake cleanup F:/tt2g/TC/StaticLib_Build cotire
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -134,16 +134,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/TC_Build_Static/CMakeFiles/3c3ab7092554c693bb1a6e8a6d5eec10/clean_cotire.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\common\CMakeFiles\clean_cotire</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/tt2g/TC/StaticLib_Build/CMakeFiles/a3e8b75636cedfbbcd2a924c32ee8cf9/clean_cotire.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\tt2g\TC\StaticLib_Build\src\common\CMakeFiles\clean_cotire</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Cleaning up all cotire generated files</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd E:\TC_Build_Static
+cd F:\tt2g\TC\StaticLib_Build
 if %errorlevel% neq 0 goto :cmEnd
-E:
+F:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=MinSizeRel -P E:/TrinityCore-master/dep/cotire/CMake/cotire.cmake cleanup E:/TC_Build_Static cotire
+"C:\Program Files\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=MinSizeRel -P F:/tt2g/Trinity2/dep/cotire/CMake/cotire.cmake cleanup F:/tt2g/TC/StaticLib_Build cotire
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -151,16 +151,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/TC_Build_Static/CMakeFiles/3c3ab7092554c693bb1a6e8a6d5eec10/clean_cotire.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\common\CMakeFiles\clean_cotire</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/tt2g/TC/StaticLib_Build/CMakeFiles/a3e8b75636cedfbbcd2a924c32ee8cf9/clean_cotire.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\tt2g\TC\StaticLib_Build\src\common\CMakeFiles\clean_cotire</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Cleaning up all cotire generated files</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd E:\TC_Build_Static
+cd F:\tt2g\TC\StaticLib_Build
 if %errorlevel% neq 0 goto :cmEnd
-E:
+F:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=RelWithDebInfo -P E:/TrinityCore-master/dep/cotire/CMake/cotire.cmake cleanup E:/TC_Build_Static cotire
+"C:\Program Files\CMake\bin\cmake.exe" -DCOTIRE_BUILD_TYPE:STRING=RelWithDebInfo -P F:/tt2g/Trinity2/dep/cotire/CMake/cotire.cmake cleanup F:/tt2g/TC/StaticLib_Build cotire
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -168,16 +168,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/TC_Build_Static/CMakeFiles/3c3ab7092554c693bb1a6e8a6d5eec10/clean_cotire.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\common\CMakeFiles\clean_cotire</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/tt2g/TC/StaticLib_Build/CMakeFiles/a3e8b75636cedfbbcd2a924c32ee8cf9/clean_cotire.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\tt2g\TC\StaticLib_Build\src\common\CMakeFiles\clean_cotire</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\TrinityCore-master\src\common\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/TrinityCore-master/src/common/CMakeLists.txt</Message>
+    <CustomBuild Include="F:\tt2g\Trinity2\src\common\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/tt2g/Trinity2/src/common/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_Static --check-stamp-file E:/TC_Build_Static/src/common/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/StaticLib_Build --check-stamp-file F:/tt2g/TC/StaticLib_Build/src/common/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -185,12 +185,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/TrinityCore-master/src/common/CMakeLists.txt;E:\TrinityCore-master\src\common\CMakeLists.txt;E:\TrinityCore-master\src\common\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\src\common\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/tt2g/Trinity2/src/common/CMakeLists.txt;F:\tt2g\Trinity2\src\common\CMakeLists.txt;F:\tt2g\Trinity2\src\common\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\tt2g\TC\StaticLib_Build\src\common\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/TrinityCore-master/src/common/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/tt2g/Trinity2/src/common/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_Static --check-stamp-file E:/TC_Build_Static/src/common/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/StaticLib_Build --check-stamp-file F:/tt2g/TC/StaticLib_Build/src/common/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -198,12 +198,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/TrinityCore-master/src/common/CMakeLists.txt;E:\TrinityCore-master\src\common\CMakeLists.txt;E:\TrinityCore-master\src\common\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\src\common\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/tt2g/Trinity2/src/common/CMakeLists.txt;F:\tt2g\Trinity2\src\common\CMakeLists.txt;F:\tt2g\Trinity2\src\common\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\tt2g\TC\StaticLib_Build\src\common\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/TrinityCore-master/src/common/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/tt2g/Trinity2/src/common/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_Static --check-stamp-file E:/TC_Build_Static/src/common/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/StaticLib_Build --check-stamp-file F:/tt2g/TC/StaticLib_Build/src/common/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -211,12 +211,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/TrinityCore-master/src/common/CMakeLists.txt;E:\TrinityCore-master\src\common\CMakeLists.txt;E:\TrinityCore-master\src\common\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\src\common\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/tt2g/Trinity2/src/common/CMakeLists.txt;F:\tt2g\Trinity2\src\common\CMakeLists.txt;F:\tt2g\Trinity2\src\common\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\tt2g\TC\StaticLib_Build\src\common\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/TrinityCore-master/src/common/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/tt2g/Trinity2/src/common/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_Static --check-stamp-file E:/TC_Build_Static/src/common/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/StaticLib_Build --check-stamp-file F:/tt2g/TC/StaticLib_Build/src/common/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -224,17 +224,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/TrinityCore-master/src/common/CMakeLists.txt;E:\TrinityCore-master\src\common\CMakeLists.txt;E:\TrinityCore-master\src\common\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\src\common\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/tt2g/Trinity2/src/common/CMakeLists.txt;F:\tt2g\Trinity2\src\common\CMakeLists.txt;F:\tt2g\Trinity2\src\common\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\tt2g\TC\StaticLib_Build\src\common\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="E:\TC_Build_Static\src\common\CMakeFiles\clean_cotire" />
+    <None Include="F:\tt2g\TC\StaticLib_Build\src\common\CMakeFiles\clean_cotire" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\TC_Build_Static\ZERO_CHECK.vcxproj">
-      <Project>{5076ACBC-691D-3525-A753-5CEA6DC4ADBF}</Project>
+    <ProjectReference Include="F:\tt2g\TC\StaticLib_Build\ZERO_CHECK.vcxproj">
+      <Project>{68DD6EE8-2A2B-38F4-8A7E-EDD5DD296D63}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
   </ItemGroup>

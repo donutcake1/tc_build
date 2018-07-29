@@ -1,59 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\TrinityCore-master\src\tools\connection_patcher\Helper.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\src\tools\connection_patcher\Patcher.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\src\tools\connection_patcher\Program.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\src\common\Debugging\WheatyExceptionReport.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Helper.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Patcher.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Program.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\src\common\Debugging\WheatyExceptionReport.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\TrinityCore-master\src\tools\connection_patcher\Helper.hpp" />
-    <ClInclude Include="E:\TrinityCore-master\src\tools\connection_patcher\Patcher.hpp" />
-    <ClInclude Include="E:\TrinityCore-master\src\tools\connection_patcher\Constants\BinaryTypes.hpp">
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Helper.hpp" />
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Patcher.hpp" />
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Constants\BinaryTypes.hpp">
       <Filter>Constants</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\tools\connection_patcher\Patches\Common.hpp">
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Patches\Common.hpp">
       <Filter>Patches</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\tools\connection_patcher\Patches\Mac.hpp">
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Patches\Mac.hpp">
       <Filter>Patches</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\tools\connection_patcher\Patches\Windows.hpp">
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Patches\Windows.hpp">
       <Filter>Patches</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\tools\connection_patcher\Patterns\Common.hpp">
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Patterns\Common.hpp">
       <Filter>Patterns</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\tools\connection_patcher\Patterns\Mac.hpp">
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Patterns\Mac.hpp">
       <Filter>Patterns</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\tools\connection_patcher\Patterns\Windows.hpp">
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Patterns\Windows.hpp">
       <Filter>Patterns</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\common\Debugging\WheatyExceptionReport.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\common\Debugging\WheatyExceptionReport.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\TrinityCore-master\src\tools\connection_patcher\CMakeLists.txt" />
+    <CustomBuild Include="F:\tt2g\Trinity2\src\tools\connection_patcher\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Constants">
-      <UniqueIdentifier>{EDA5DF32-7A04-3B4B-9FAB-DF5DB9357A4E}</UniqueIdentifier>
+      <UniqueIdentifier>{E2476E60-E526-302C-B4F0-1680B79F2B32}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{1991612F-5E2F-3AD9-A015-A4E2BA20F631}</UniqueIdentifier>
+      <UniqueIdentifier>{F01496A6-6A29-3685-8A3A-E54C54CCABF7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Patches">
-      <UniqueIdentifier>{B4AE8F93-2CD9-3412-AEE3-601DB2144046}</UniqueIdentifier>
+      <UniqueIdentifier>{5EDCFAC5-1EC8-3EFD-B6CE-69205E0EBC73}</UniqueIdentifier>
     </Filter>
     <Filter Include="Patterns">
-      <UniqueIdentifier>{8AA36675-1CDC-3BE8-B302-726D945314D1}</UniqueIdentifier>
+      <UniqueIdentifier>{9BD40B5F-4A77-3A5B-8832-C60D9DF6C9B7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{D1BF3242-6E55-3E66-8C82-CDFBD57310D1}</UniqueIdentifier>
+      <UniqueIdentifier>{2E8771F7-D197-3328-A22D-BB9ABC3088C2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-# Install script for directory: E:/TrinityCore-master/src
+# Install script for directory: F:/tt2g/Trinity2/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/TC_Build_dyn/src/genrev/cmake_install.cmake")
-  include("E:/TC_Build_dyn/src/common/cmake_install.cmake")
-  include("E:/TC_Build_dyn/src/server/cmake_install.cmake")
-  include("E:/TC_Build_dyn/src/tools/cmake_install.cmake")
+  include("F:/tt2g/TC/DynamicLib_Build/src/genrev/cmake_install.cmake")
+  include("F:/tt2g/TC/DynamicLib_Build/src/common/cmake_install.cmake")
+  include("F:/tt2g/TC/DynamicLib_Build/src/server/cmake_install.cmake")
+  include("F:/tt2g/TC/DynamicLib_Build/src/tools/cmake_install.cmake")
 
 endif()
 

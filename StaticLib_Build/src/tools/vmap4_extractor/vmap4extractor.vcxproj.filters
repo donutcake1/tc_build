@@ -1,69 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\TrinityCore-master\src\tools\vmap4_extractor\adtfile.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\tools\vmap4_extractor\adtfile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\tools\vmap4_extractor\cascfile.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\tools\vmap4_extractor\cascfile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\tools\vmap4_extractor\gameobject_extract.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\tools\vmap4_extractor\gameobject_extract.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\tools\vmap4_extractor\model.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\tools\vmap4_extractor\model.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\tools\vmap4_extractor\vmapexport.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\tools\vmap4_extractor\vmapexport.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\tools\vmap4_extractor\wdtfile.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\tools\vmap4_extractor\wdtfile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\tools\vmap4_extractor\wmo.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\tools\vmap4_extractor\wmo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\common\Debugging\WheatyExceptionReport.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\common\Debugging\WheatyExceptionReport.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\TrinityCore-master\src\tools\vmap4_extractor\adtfile.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\vmap4_extractor\adtfile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\tools\vmap4_extractor\cascfile.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\vmap4_extractor\cascfile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\tools\vmap4_extractor\model.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\vmap4_extractor\model.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\tools\vmap4_extractor\modelheaders.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\vmap4_extractor\modelheaders.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\tools\vmap4_extractor\vec3d.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\vmap4_extractor\vec3d.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\tools\vmap4_extractor\vmapexport.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\vmap4_extractor\vmapexport.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\tools\vmap4_extractor\wdtfile.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\vmap4_extractor\wdtfile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\tools\vmap4_extractor\wmo.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\vmap4_extractor\wmo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\common\Debugging\WheatyExceptionReport.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\common\Debugging\WheatyExceptionReport.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\TrinityCore-master\src\tools\vmap4_extractor\CMakeLists.txt" />
+    <CustomBuild Include="F:\tt2g\Trinity2\src\tools\vmap4_extractor\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{1991612F-5E2F-3AD9-A015-A4E2BA20F631}</UniqueIdentifier>
+      <UniqueIdentifier>{F01496A6-6A29-3685-8A3A-E54C54CCABF7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{D1BF3242-6E55-3E66-8C82-CDFBD57310D1}</UniqueIdentifier>
+      <UniqueIdentifier>{2E8771F7-D197-3328-A22D-BB9ABC3088C2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

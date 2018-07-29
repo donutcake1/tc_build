@@ -1,60 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\OutdoorPvP\OutdoorPvPHP.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\OutdoorPvP\OutdoorPvPHP.cpp">
       <Filter>OutdoorPvP</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\OutdoorPvP\OutdoorPvPNA.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\OutdoorPvP\OutdoorPvPNA.cpp">
       <Filter>OutdoorPvP</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\OutdoorPvP\OutdoorPvPSI.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\OutdoorPvP\OutdoorPvPSI.cpp">
       <Filter>OutdoorPvP</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\OutdoorPvP\OutdoorPvPScriptLoader.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\OutdoorPvP\OutdoorPvPScriptLoader.cpp">
       <Filter>OutdoorPvP</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\OutdoorPvP\OutdoorPvPTF.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\OutdoorPvP\OutdoorPvPTF.cpp">
       <Filter>OutdoorPvP</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\scripts\OutdoorPvP\OutdoorPvPZM.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\scripts\OutdoorPvP\OutdoorPvPZM.cpp">
       <Filter>OutdoorPvP</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TC_Build_dyn\src\server\scripts\gen_scriptloader\OutdoorPvP\ScriptLoader.cpp">
+    <ClCompile Include="F:\tt2g\TC\DynamicLib_Build\src\server\scripts\gen_scriptloader\OutdoorPvP\ScriptLoader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\OutdoorPvP\OutdoorPvPHP.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\OutdoorPvP\OutdoorPvPHP.h">
       <Filter>OutdoorPvP</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\OutdoorPvP\OutdoorPvPNA.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\OutdoorPvP\OutdoorPvPNA.h">
       <Filter>OutdoorPvP</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\OutdoorPvP\OutdoorPvPSI.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\OutdoorPvP\OutdoorPvPSI.h">
       <Filter>OutdoorPvP</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\OutdoorPvP\OutdoorPvPTF.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\OutdoorPvP\OutdoorPvPTF.h">
       <Filter>OutdoorPvP</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\scripts\OutdoorPvP\OutdoorPvPZM.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\scripts\OutdoorPvP\OutdoorPvPZM.h">
       <Filter>OutdoorPvP</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\TC_Build_dyn\CMakeFiles\2c7f562518f8ecd98f547c70df2007a0\scripts_outdoorpvp_CXX_prefix.hxx.rule">
+    <CustomBuild Include="F:\tt2g\TC\DynamicLib_Build\CMakeFiles\0cddcbf7994714881d1f9220de4ecd92\scripts_outdoorpvp_CXX_prefix.hxx.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="E:\TrinityCore-master\src\server\scripts\CMakeLists.txt" />
+    <CustomBuild Include="F:\tt2g\Trinity2\src\server\scripts\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{41B6D89B-2ED2-3AA6-B2F1-698E1A49DE85}</UniqueIdentifier>
+      <UniqueIdentifier>{0C5CD29E-FB95-35DA-AEAB-014F6BCEE985}</UniqueIdentifier>
     </Filter>
     <Filter Include="OutdoorPvP">
-      <UniqueIdentifier>{B6C5833A-7F00-3AAD-BEB0-D5E9A31DD404}</UniqueIdentifier>
+      <UniqueIdentifier>{6C1FB2A5-D85D-369E-9D4A-4CB3AE0F3820}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{C529067D-4BB6-3F67-8D77-E972423212E1}</UniqueIdentifier>
+      <UniqueIdentifier>{ECDD3141-97E1-34E9-B477-4ED06314660A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\TrinityCore-master\src\tools\map_extractor\System.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\tools\map_extractor\System.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\tools\map_extractor\loadlib.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\tools\map_extractor\loadlib.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\common\Debugging\WheatyExceptionReport.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\common\Debugging\WheatyExceptionReport.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\TrinityCore-master\src\tools\map_extractor\adt.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\map_extractor\adt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\tools\map_extractor\wdt.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\map_extractor\wdt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\tools\map_extractor\loadlib\DBFilesClientList.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\map_extractor\loadlib\DBFilesClientList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\tools\map_extractor\loadlib\loadlib.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\map_extractor\loadlib\loadlib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\common\Debugging\WheatyExceptionReport.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\common\Debugging\WheatyExceptionReport.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\TrinityCore-master\src\tools\map_extractor\CMakeLists.txt" />
+    <CustomBuild Include="F:\tt2g\Trinity2\src\tools\map_extractor\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{5D1C7575-8EE5-34CF-B664-33DF1FE92AB0}</UniqueIdentifier>
+      <UniqueIdentifier>{56D84660-51A6-381B-B1D9-1F13E8C4BB99}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{C529067D-4BB6-3F67-8D77-E972423212E1}</UniqueIdentifier>
+      <UniqueIdentifier>{ECDD3141-97E1-34E9-B477-4ED06314660A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -9,8 +9,8 @@ The output was:
 Microsoft (R) Build Engine ���ᨨ 15.7.180.61344 ��� .NET Framework
 (C) ��௮��� �������� (Microsoft Corporation). �� �ࠢ� ���饭�.
 
-���ઠ ���� 28.07.2018 18:24:05.
-�஥�� "E:\TC_Build_dyn\CMakeFiles\3.12.0\CompilerIdC\CompilerIdC.vcxproj" � 㧫� 1 (楫��� ��ꥪ�� �� 㬮�砭��).
+���ઠ ���� 29.07.2018 12:12:41.
+�஥�� "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\3.12.0\CompilerIdC\CompilerIdC.vcxproj" � 㧫� 1 (楫��� ��ꥪ�� �� 㬮�砭��).
 PrepareForBuild:
   �������� ��⠫��� "Debug\".
   �������� ��⠫��� "Debug\CompilerIdC.tlog\".
@@ -21,7 +21,7 @@ ClCompile:
   CMakeCCompilerId.c
 Link:
   E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> E:\TC_Build_dyn\CMakeFiles\3.12.0\CompilerIdC\.\CompilerIdC.exe
+  CompilerIdC.vcxproj -> F:\tt2g\TC\DynamicLib_Build\CMakeFiles\3.12.0\CompilerIdC\.\CompilerIdC.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
   :VCEnd
@@ -29,20 +29,20 @@ PostBuildEvent:
 FinalizeBuildStatus:
   ���� "Debug\CompilerIdC.tlog\unsuccessfulbuild" 㤠�����.
   ���饭�� � "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
-���ઠ �஥�� "E:\TC_Build_dyn\CMakeFiles\3.12.0\CompilerIdC\CompilerIdC.vcxproj" �����襭� (楫��� ��ꥪ�� �� 㬮�砭��).
+���ઠ �஥�� "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\3.12.0\CompilerIdC\CompilerIdC.vcxproj" �����襭� (楫��� ��ꥪ�� �� 㬮�砭��).
 
 ���ઠ �ᯥ譮 �����襭�.
     �।�०�����: 0
     �訡��: 0
 
-��諮 �६��� 00:00:02.40
+��諮 �६��� 00:00:02.26
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
 
-The C compiler identification is MSVC, found in "E:/TC_Build_dyn/CMakeFiles/3.12.0/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is MSVC, found in "F:/tt2g/TC/DynamicLib_Build/CMakeFiles/3.12.0/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
@@ -54,8 +54,8 @@ The output was:
 Microsoft (R) Build Engine ���ᨨ 15.7.180.61344 ��� .NET Framework
 (C) ��௮��� �������� (Microsoft Corporation). �� �ࠢ� ���饭�.
 
-���ઠ ���� 28.07.2018 18:24:08.
-�஥�� "E:\TC_Build_dyn\CMakeFiles\3.12.0\CompilerIdCXX\CompilerIdCXX.vcxproj" � 㧫� 1 (楫��� ��ꥪ�� �� 㬮�砭��).
+���ઠ ���� 29.07.2018 12:12:44.
+�஥�� "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\3.12.0\CompilerIdCXX\CompilerIdCXX.vcxproj" � 㧫� 1 (楫��� ��ꥪ�� �� 㬮�砭��).
 PrepareForBuild:
   �������� ��⠫��� "Debug\".
   �������� ��⠫��� "Debug\CompilerIdCXX.tlog\".
@@ -66,7 +66,7 @@ ClCompile:
   CMakeCXXCompilerId.cpp
 Link:
   E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> E:\TC_Build_dyn\CMakeFiles\3.12.0\CompilerIdCXX\.\CompilerIdCXX.exe
+  CompilerIdCXX.vcxproj -> F:\tt2g\TC\DynamicLib_Build\CMakeFiles\3.12.0\CompilerIdCXX\.\CompilerIdCXX.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
   :VCEnd
@@ -74,253 +74,253 @@ PostBuildEvent:
 FinalizeBuildStatus:
   ���� "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" 㤠�����.
   ���饭�� � "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
-���ઠ �஥�� "E:\TC_Build_dyn\CMakeFiles\3.12.0\CompilerIdCXX\CompilerIdCXX.vcxproj" �����襭� (楫��� ��ꥪ�� �� 㬮�砭��).
+���ઠ �஥�� "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\3.12.0\CompilerIdCXX\CompilerIdCXX.vcxproj" �����襭� (楫��� ��ꥪ�� �� 㬮�砭��).
 
 ���ઠ �ᯥ譮 �����襭�.
     �।�०�����: 0
     �訡��: 0
 
-��諮 �६��� 00:00:02.18
+��諮 �६��� 00:00:02.72
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The CXX compiler identification is MSVC, found in "E:/TC_Build_dyn/CMakeFiles/3.12.0/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is MSVC, found in "F:/tt2g/TC/DynamicLib_Build/CMakeFiles/3.12.0/CompilerIdCXX/CompilerIdCXX.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: E:/TC_Build_dyn/CMakeFiles/CMakeTmp
+Change Dir: F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:/VSS/Main/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_a02ad.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"E:/VSS/Main/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_0adc8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine ўҐабЁЁ 15.7.180.61344 ¤«п .NET Framework
 (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
 
-‘Ў®аЄ  ­ з в  28.07.2018 18:24:11.
-Џа®ҐЄв "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\cmTC_a02ad.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+‘Ў®аЄ  ­ з в  29.07.2018 12:12:47.
+Џа®ҐЄв "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\cmTC_0adc8.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
 PrepareForBuild:
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_a02ad.dir\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_a02ad.dir\Debug\cmTC_a02ad.tlog\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_0adc8.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_0adc8.dir\Debug\cmTC_0adc8.tlog\".
 InitializeBuildStatus:
-  ‘®§¤ ­ЁҐ "cmTC_a02ad.dir\Debug\cmTC_a02ad.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+  ‘®§¤ ­ЁҐ "cmTC_0adc8.dir\Debug\cmTC_0adc8.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
 ClCompile:
-  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a02ad.dir\Debug\\" /Fd"cmTC_a02ad.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue E:\TC_Build_dyn\CMakeFiles\CMakeTmp\testCCompiler.c
+  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0adc8.dir\Debug\\" /Fd"cmTC_0adc8.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\testCCompiler.c
   ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.14.26433 ¤«п x64
   (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
   
   testCCompiler.c
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a02ad.dir\Debug\\" /Fd"cmTC_a02ad.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue E:\TC_Build_dyn\CMakeFiles\CMakeTmp\testCCompiler.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0adc8.dir\Debug\\" /Fd"cmTC_0adc8.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\testCCompiler.c
   
 Link:
-  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\cmTC_a02ad.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/TC_Build_dyn/CMakeFiles/CMakeTmp/Debug/cmTC_a02ad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/TC_Build_dyn/CMakeFiles/CMakeTmp/Debug/cmTC_a02ad.lib" /MACHINE:X64  /machine:x64 cmTC_a02ad.dir\Debug\testCCompiler.obj
-  cmTC_a02ad.vcxproj -> E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\cmTC_a02ad.exe
+  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\cmTC_0adc8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp/Debug/cmTC_0adc8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp/Debug/cmTC_0adc8.lib" /MACHINE:X64  /machine:x64 cmTC_0adc8.dir\Debug\testCCompiler.obj
+  cmTC_0adc8.vcxproj -> F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\cmTC_0adc8.exe
 FinalizeBuildStatus:
-  ” ©« "cmTC_a02ad.dir\Debug\cmTC_a02ad.tlog\unsuccessfulbuild" г¤ «пҐвбп.
-  ЋЎа йҐ­ЁҐ Є "cmTC_a02ad.dir\Debug\cmTC_a02ad.tlog\cmTC_a02ad.lastbuildstate".
-‘Ў®аЄ  Їа®ҐЄв  "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\cmTC_a02ad.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+  ” ©« "cmTC_0adc8.dir\Debug\cmTC_0adc8.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_0adc8.dir\Debug\cmTC_0adc8.tlog\cmTC_0adc8.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\cmTC_0adc8.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
 
 ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
     ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
     ЋиЁЎ®Є: 0
 
-Џа®и«® ўаҐ¬Ґ­Ё 00:00:02.08
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:02.32
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: E:/TC_Build_dyn/CMakeFiles/CMakeTmp
+Change Dir: F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:/VSS/Main/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_2adf9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"E:/VSS/Main/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_570cc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine ўҐабЁЁ 15.7.180.61344 ¤«п .NET Framework
 (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
 
-‘Ў®аЄ  ­ з в  28.07.2018 18:24:14.
-Џа®ҐЄв "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\cmTC_2adf9.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+‘Ў®аЄ  ­ з в  29.07.2018 12:12:50.
+Џа®ҐЄв "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\cmTC_570cc.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
 PrepareForBuild:
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_2adf9.dir\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_2adf9.dir\Debug\cmTC_2adf9.tlog\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_570cc.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_570cc.dir\Debug\cmTC_570cc.tlog\".
 InitializeBuildStatus:
-  ‘®§¤ ­ЁҐ "cmTC_2adf9.dir\Debug\cmTC_2adf9.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+  ‘®§¤ ­ЁҐ "cmTC_570cc.dir\Debug\cmTC_570cc.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
 ClCompile:
-  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2adf9.dir\Debug\\" /Fd"cmTC_2adf9.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_570cc.dir\Debug\\" /Fd"cmTC_570cc.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
   ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.14.26433 ¤«п x64
   (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
   
   CMakeCCompilerABI.c
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2adf9.dir\Debug\\" /Fd"cmTC_2adf9.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_570cc.dir\Debug\\" /Fd"cmTC_570cc.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
   
 Link:
-  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\cmTC_2adf9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/TC_Build_dyn/CMakeFiles/CMakeTmp/Debug/cmTC_2adf9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/TC_Build_dyn/CMakeFiles/CMakeTmp/Debug/cmTC_2adf9.lib" /MACHINE:X64  /machine:x64 cmTC_2adf9.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_2adf9.vcxproj -> E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\cmTC_2adf9.exe
+  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\cmTC_570cc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp/Debug/cmTC_570cc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp/Debug/cmTC_570cc.lib" /MACHINE:X64  /machine:x64 cmTC_570cc.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_570cc.vcxproj -> F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\cmTC_570cc.exe
 FinalizeBuildStatus:
-  ” ©« "cmTC_2adf9.dir\Debug\cmTC_2adf9.tlog\unsuccessfulbuild" г¤ «пҐвбп.
-  ЋЎа йҐ­ЁҐ Є "cmTC_2adf9.dir\Debug\cmTC_2adf9.tlog\cmTC_2adf9.lastbuildstate".
-‘Ў®аЄ  Їа®ҐЄв  "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\cmTC_2adf9.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+  ” ©« "cmTC_570cc.dir\Debug\cmTC_570cc.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_570cc.dir\Debug\cmTC_570cc.tlog\cmTC_570cc.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\cmTC_570cc.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
 
 ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
     ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
     ЋиЁЎ®Є: 0
 
-Џа®и«® ўаҐ¬Ґ­Ё 00:00:02.23
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:02.20
 
 
 
 
 Detecting C [] compiler features compiled with the following output:
-Change Dir: E:/TC_Build_dyn/CMakeFiles/CMakeTmp
+Change Dir: F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:/VSS/Main/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_517f1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"E:/VSS/Main/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_f886a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine ўҐабЁЁ 15.7.180.61344 ¤«п .NET Framework
 (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
 
-‘Ў®аЄ  ­ з в  28.07.2018 18:24:17.
-Џа®ҐЄв "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\cmTC_517f1.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+‘Ў®аЄ  ­ з в  29.07.2018 12:12:53.
+Џа®ҐЄв "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\cmTC_f886a.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
 PrepareForBuild:
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_517f1.dir\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_517f1.dir\Debug\cmTC_517f1.tlog\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_f886a.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_f886a.dir\Debug\cmTC_f886a.tlog\".
 InitializeBuildStatus:
-  ‘®§¤ ­ЁҐ "cmTC_517f1.dir\Debug\cmTC_517f1.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+  ‘®§¤ ­ЁҐ "cmTC_f886a.dir\Debug\cmTC_f886a.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
 ClCompile:
-  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_517f1.dir\Debug\\" /Fd"cmTC_517f1.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue E:\TC_Build_dyn\CMakeFiles\feature_tests.c
+  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f886a.dir\Debug\\" /Fd"cmTC_f886a.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue F:\tt2g\TC\DynamicLib_Build\CMakeFiles\feature_tests.c
   ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.14.26433 ¤«п x64
   (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
   
   feature_tests.c
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_517f1.dir\Debug\\" /Fd"cmTC_517f1.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue E:\TC_Build_dyn\CMakeFiles\feature_tests.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f886a.dir\Debug\\" /Fd"cmTC_f886a.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue F:\tt2g\TC\DynamicLib_Build\CMakeFiles\feature_tests.c
   
 Link:
-  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\cmTC_517f1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/TC_Build_dyn/CMakeFiles/CMakeTmp/Debug/cmTC_517f1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/TC_Build_dyn/CMakeFiles/CMakeTmp/Debug/cmTC_517f1.lib" /MACHINE:X64  /machine:x64 cmTC_517f1.dir\Debug\feature_tests.obj
-  cmTC_517f1.vcxproj -> E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\cmTC_517f1.exe
+  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\cmTC_f886a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp/Debug/cmTC_f886a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp/Debug/cmTC_f886a.lib" /MACHINE:X64  /machine:x64 cmTC_f886a.dir\Debug\feature_tests.obj
+  cmTC_f886a.vcxproj -> F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\cmTC_f886a.exe
 FinalizeBuildStatus:
-  ” ©« "cmTC_517f1.dir\Debug\cmTC_517f1.tlog\unsuccessfulbuild" г¤ «пҐвбп.
-  ЋЎа йҐ­ЁҐ Є "cmTC_517f1.dir\Debug\cmTC_517f1.tlog\cmTC_517f1.lastbuildstate".
-‘Ў®аЄ  Їа®ҐЄв  "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\cmTC_517f1.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+  ” ©« "cmTC_f886a.dir\Debug\cmTC_f886a.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_f886a.dir\Debug\cmTC_f886a.tlog\cmTC_f886a.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\cmTC_f886a.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:02.28
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/VSS/Main/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_3d502.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine ўҐабЁЁ 15.7.180.61344 ¤«п .NET Framework
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  29.07.2018 12:12:56.
+Џа®ҐЄв "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\cmTC_3d502.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_3d502.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_3d502.dir\Debug\cmTC_3d502.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_3d502.dir\Debug\cmTC_3d502.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3d502.dir\Debug\\" /Fd"cmTC_3d502.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.14.26433 ¤«п x64
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  testCXXCompiler.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3d502.dir\Debug\\" /Fd"cmTC_3d502.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+Link:
+  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\cmTC_3d502.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp/Debug/cmTC_3d502.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp/Debug/cmTC_3d502.lib" /MACHINE:X64  /machine:x64 cmTC_3d502.dir\Debug\testCXXCompiler.obj
+  cmTC_3d502.vcxproj -> F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\cmTC_3d502.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_3d502.dir\Debug\cmTC_3d502.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_3d502.dir\Debug\cmTC_3d502.tlog\cmTC_3d502.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\cmTC_3d502.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:02.27
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/VSS/Main/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_3d306.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine ўҐабЁЁ 15.7.180.61344 ¤«п .NET Framework
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  29.07.2018 12:12:59.
+Џа®ҐЄв "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\cmTC_3d306.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_3d306.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_3d306.dir\Debug\cmTC_3d306.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_3d306.dir\Debug\cmTC_3d306.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3d306.dir\Debug\\" /Fd"cmTC_3d306.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.14.26433 ¤«п x64
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  CMakeCXXCompilerABI.cpp
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3d306.dir\Debug\\" /Fd"cmTC_3d306.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  
+Link:
+  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\cmTC_3d306.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp/Debug/cmTC_3d306.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp/Debug/cmTC_3d306.lib" /MACHINE:X64  /machine:x64 cmTC_3d306.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_3d306.vcxproj -> F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\cmTC_3d306.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_3d306.dir\Debug\cmTC_3d306.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_3d306.dir\Debug\cmTC_3d306.tlog\cmTC_3d306.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\cmTC_3d306.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:02.01
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/VSS/Main/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_b1855.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine ўҐабЁЁ 15.7.180.61344 ¤«п .NET Framework
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  29.07.2018 12:13:01.
+Џа®ҐЄв "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\cmTC_b1855.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_b1855.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_b1855.dir\Debug\cmTC_b1855.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_b1855.dir\Debug\cmTC_b1855.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b1855.dir\Debug\\" /Fd"cmTC_b1855.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue F:\tt2g\TC\DynamicLib_Build\CMakeFiles\feature_tests.cxx
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.14.26433 ¤«п x64
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  feature_tests.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b1855.dir\Debug\\" /Fd"cmTC_b1855.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue F:\tt2g\TC\DynamicLib_Build\CMakeFiles\feature_tests.cxx
+  
+Link:
+  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\cmTC_b1855.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp/Debug/cmTC_b1855.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp/Debug/cmTC_b1855.lib" /MACHINE:X64  /machine:x64 cmTC_b1855.dir\Debug\feature_tests.obj
+  cmTC_b1855.vcxproj -> F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\cmTC_b1855.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_b1855.dir\Debug\cmTC_b1855.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_b1855.dir\Debug\cmTC_b1855.tlog\cmTC_b1855.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\cmTC_b1855.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
 
 ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
     ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
     ЋиЁЎ®Є: 0
 
 Џа®и«® ўаҐ¬Ґ­Ё 00:00:02.21
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_variadic_macros
-Determining if the CXX compiler works passed with the following output:
-Change Dir: E:/TC_Build_dyn/CMakeFiles/CMakeTmp
-
-Run Build Command:"E:/VSS/Main/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_b8043.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-Microsoft (R) Build Engine ўҐабЁЁ 15.7.180.61344 ¤«п .NET Framework
-(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
-
-‘Ў®аЄ  ­ з в  28.07.2018 18:24:19.
-Џа®ҐЄв "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\cmTC_b8043.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
-PrepareForBuild:
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_b8043.dir\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_b8043.dir\Debug\cmTC_b8043.tlog\".
-InitializeBuildStatus:
-  ‘®§¤ ­ЁҐ "cmTC_b8043.dir\Debug\cmTC_b8043.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
-ClCompile:
-  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b8043.dir\Debug\\" /Fd"cmTC_b8043.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue E:\TC_Build_dyn\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.14.26433 ¤«п x64
-  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
-  
-  testCXXCompiler.cxx
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b8043.dir\Debug\\" /Fd"cmTC_b8043.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue E:\TC_Build_dyn\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-  
-Link:
-  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\cmTC_b8043.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/TC_Build_dyn/CMakeFiles/CMakeTmp/Debug/cmTC_b8043.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/TC_Build_dyn/CMakeFiles/CMakeTmp/Debug/cmTC_b8043.lib" /MACHINE:X64  /machine:x64 cmTC_b8043.dir\Debug\testCXXCompiler.obj
-  cmTC_b8043.vcxproj -> E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\cmTC_b8043.exe
-FinalizeBuildStatus:
-  ” ©« "cmTC_b8043.dir\Debug\cmTC_b8043.tlog\unsuccessfulbuild" г¤ «пҐвбп.
-  ЋЎа йҐ­ЁҐ Є "cmTC_b8043.dir\Debug\cmTC_b8043.tlog\cmTC_b8043.lastbuildstate".
-‘Ў®аЄ  Їа®ҐЄв  "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\cmTC_b8043.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
-
-‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
-    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
-    ЋиЁЎ®Є: 0
-
-Џа®и«® ўаҐ¬Ґ­Ё 00:00:02.33
-
-
-Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: E:/TC_Build_dyn/CMakeFiles/CMakeTmp
-
-Run Build Command:"E:/VSS/Main/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_a56ba.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-Microsoft (R) Build Engine ўҐабЁЁ 15.7.180.61344 ¤«п .NET Framework
-(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
-
-‘Ў®аЄ  ­ з в  28.07.2018 18:24:22.
-Џа®ҐЄв "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\cmTC_a56ba.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
-PrepareForBuild:
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_a56ba.dir\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_a56ba.dir\Debug\cmTC_a56ba.tlog\".
-InitializeBuildStatus:
-  ‘®§¤ ­ЁҐ "cmTC_a56ba.dir\Debug\cmTC_a56ba.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
-ClCompile:
-  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a56ba.dir\Debug\\" /Fd"cmTC_a56ba.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
-  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.14.26433 ¤«п x64
-  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
-  
-  CMakeCXXCompilerABI.cpp
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a56ba.dir\Debug\\" /Fd"cmTC_a56ba.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
-  
-Link:
-  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\cmTC_a56ba.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/TC_Build_dyn/CMakeFiles/CMakeTmp/Debug/cmTC_a56ba.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/TC_Build_dyn/CMakeFiles/CMakeTmp/Debug/cmTC_a56ba.lib" /MACHINE:X64  /machine:x64 cmTC_a56ba.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_a56ba.vcxproj -> E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\cmTC_a56ba.exe
-FinalizeBuildStatus:
-  ” ©« "cmTC_a56ba.dir\Debug\cmTC_a56ba.tlog\unsuccessfulbuild" г¤ «пҐвбп.
-  ЋЎа йҐ­ЁҐ Є "cmTC_a56ba.dir\Debug\cmTC_a56ba.tlog\cmTC_a56ba.lastbuildstate".
-‘Ў®аЄ  Їа®ҐЄв  "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\cmTC_a56ba.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
-
-‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
-    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
-    ЋиЁЎ®Є: 0
-
-Џа®и«® ўаҐ¬Ґ­Ё 00:00:02.13
-
-
-
-
-Detecting CXX [] compiler features compiled with the following output:
-Change Dir: E:/TC_Build_dyn/CMakeFiles/CMakeTmp
-
-Run Build Command:"E:/VSS/Main/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_c31db.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-Microsoft (R) Build Engine ўҐабЁЁ 15.7.180.61344 ¤«п .NET Framework
-(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
-
-‘Ў®аЄ  ­ з в  28.07.2018 18:24:25.
-Џа®ҐЄв "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\cmTC_c31db.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
-PrepareForBuild:
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_c31db.dir\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_c31db.dir\Debug\cmTC_c31db.tlog\".
-InitializeBuildStatus:
-  ‘®§¤ ­ЁҐ "cmTC_c31db.dir\Debug\cmTC_c31db.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
-ClCompile:
-  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c31db.dir\Debug\\" /Fd"cmTC_c31db.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue E:\TC_Build_dyn\CMakeFiles\feature_tests.cxx
-  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.14.26433 ¤«п x64
-  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
-  
-  feature_tests.cxx
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c31db.dir\Debug\\" /Fd"cmTC_c31db.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue E:\TC_Build_dyn\CMakeFiles\feature_tests.cxx
-  
-Link:
-  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\cmTC_c31db.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/TC_Build_dyn/CMakeFiles/CMakeTmp/Debug/cmTC_c31db.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/TC_Build_dyn/CMakeFiles/CMakeTmp/Debug/cmTC_c31db.lib" /MACHINE:X64  /machine:x64 cmTC_c31db.dir\Debug\feature_tests.obj
-  cmTC_c31db.vcxproj -> E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\cmTC_c31db.exe
-FinalizeBuildStatus:
-  ” ©« "cmTC_c31db.dir\Debug\cmTC_c31db.tlog\unsuccessfulbuild" г¤ «пҐвбп.
-  ЋЎа йҐ­ЁҐ Є "cmTC_c31db.dir\Debug\cmTC_c31db.tlog\cmTC_c31db.lastbuildstate".
-‘Ў®аЄ  Їа®ҐЄв  "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\cmTC_c31db.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
-
-‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
-    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
-    ЋиЁЎ®Є: 0
-
-Џа®и«® ўаҐ¬Ґ­Ё 00:00:02.06
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -379,43 +379,84 @@ FinalizeBuildStatus:
     Feature record: CXX_FEATURE:1cxx_variable_templates
     Feature record: CXX_FEATURE:1cxx_variadic_macros
     Feature record: CXX_FEATURE:1cxx_variadic_templates
-Performing C++ SOURCE FILE Test boost_filesystem_copy_links_without_NO_SCOPED_ENUM succeeded with the following output:
-Change Dir: E:/TC_Build_dyn/CMakeFiles/CMakeTmp
+Performing C++ SOURCE FILE Test STD_HAS_WORKING_WREGEX succeeded with the following output:
+Change Dir: F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:/VSS/Main/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_9af47.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"E:/VSS/Main/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_48ed0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine ўҐабЁЁ 15.7.180.61344 ¤«п .NET Framework
 (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
 
-‘Ў®аЄ  ­ з в  28.07.2018 18:24:57.
-Џа®ҐЄв "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\cmTC_9af47.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+‘Ў®аЄ  ­ з в  29.07.2018 12:13:07.
+Џа®ҐЄв "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\cmTC_48ed0.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
 PrepareForBuild:
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_9af47.dir\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_9af47.dir\Debug\cmTC_9af47.tlog\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_48ed0.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_48ed0.dir\Debug\cmTC_48ed0.tlog\".
 InitializeBuildStatus:
-  ‘®§¤ ­ЁҐ "cmTC_9af47.dir\Debug\cmTC_9af47.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+  ‘®§¤ ­ЁҐ "cmTC_48ed0.dir\Debug\cmTC_48ed0.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
 ClCompile:
-  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /IC:\local\boost_1_66_0 /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D boost_filesystem_copy_links_without_NO_SCOPED_ENUM /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9af47.dir\Debug\\" /Fd"cmTC_9af47.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue E:\TC_Build_dyn\CMakeFiles\CMakeTmp\src.cxx
+  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D STD_HAS_WORKING_WREGEX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_48ed0.dir\Debug\\" /Fd"cmTC_48ed0.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\src.cxx
   ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.14.26433 ¤«п x64
   (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
   
   src.cxx
-  cl /c /IC:\local\boost_1_66_0 /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D boost_filesystem_copy_links_without_NO_SCOPED_ENUM /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9af47.dir\Debug\\" /Fd"cmTC_9af47.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue E:\TC_Build_dyn\CMakeFiles\CMakeTmp\src.cxx
+  cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D STD_HAS_WORKING_WREGEX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_48ed0.dir\Debug\\" /Fd"cmTC_48ed0.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\src.cxx
   
-  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
 Link:
-  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\cmTC_9af47.exe" /INCREMENTAL /NOLOGO "C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_system-vc141-mt-gd-x64-1_66.lib" "C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-gd-x64-1_66.lib" "C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_iostreams-vc141-mt-gd-x64-1_66.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/TC_Build_dyn/CMakeFiles/CMakeTmp/Debug/cmTC_9af47.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/TC_Build_dyn/CMakeFiles/CMakeTmp/Debug/cmTC_9af47.lib" /MACHINE:X64  /machine:x64 cmTC_9af47.dir\Debug\src.obj
-  cmTC_9af47.vcxproj -> E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\cmTC_9af47.exe
+  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\cmTC_48ed0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp/Debug/cmTC_48ed0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp/Debug/cmTC_48ed0.lib" /MACHINE:X64  /machine:x64 cmTC_48ed0.dir\Debug\src.obj
+  cmTC_48ed0.vcxproj -> F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\cmTC_48ed0.exe
 FinalizeBuildStatus:
-  ” ©« "cmTC_9af47.dir\Debug\cmTC_9af47.tlog\unsuccessfulbuild" г¤ «пҐвбп.
-  ЋЎа йҐ­ЁҐ Є "cmTC_9af47.dir\Debug\cmTC_9af47.tlog\cmTC_9af47.lastbuildstate".
-‘Ў®аЄ  Їа®ҐЄв  "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\cmTC_9af47.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+  ” ©« "cmTC_48ed0.dir\Debug\cmTC_48ed0.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_48ed0.dir\Debug\cmTC_48ed0.tlog\cmTC_48ed0.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\cmTC_48ed0.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
 
 ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
     ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
     ЋиЁЎ®Є: 0
 
-Џа®и«® ўаҐ¬Ґ­Ё 00:00:04.09
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:03.49
+
+Source file was:
+
+  #include <regex>
+  int main() { std::wregex r(L".*"); }
+Performing C++ SOURCE FILE Test boost_filesystem_copy_links_without_NO_SCOPED_ENUM succeeded with the following output:
+Change Dir: F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/VSS/Main/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_5b684.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine ўҐабЁЁ 15.7.180.61344 ¤«п .NET Framework
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  29.07.2018 12:13:12.
+Џа®ҐЄв "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\cmTC_5b684.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_5b684.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_5b684.dir\Debug\cmTC_5b684.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_5b684.dir\Debug\cmTC_5b684.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /IC:\local\boost_1_66_0 /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D boost_filesystem_copy_links_without_NO_SCOPED_ENUM /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5b684.dir\Debug\\" /Fd"cmTC_5b684.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\src.cxx
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.14.26433 ¤«п x64
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  src.cxx
+  cl /c /IC:\local\boost_1_66_0 /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D boost_filesystem_copy_links_without_NO_SCOPED_ENUM /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5b684.dir\Debug\\" /Fd"cmTC_5b684.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\src.cxx
+  
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+Link:
+  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\cmTC_5b684.exe" /INCREMENTAL /NOLOGO "C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_system-vc141-mt-gd-x64-1_66.lib" "C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-gd-x64-1_66.lib" "C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_iostreams-vc141-mt-gd-x64-1_66.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp/Debug/cmTC_5b684.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp/Debug/cmTC_5b684.lib" /MACHINE:X64  /machine:x64 cmTC_5b684.dir\Debug\src.obj
+  cmTC_5b684.vcxproj -> F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\cmTC_5b684.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_5b684.dir\Debug\cmTC_5b684.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_5b684.dir\Debug\cmTC_5b684.tlog\cmTC_5b684.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\cmTC_5b684.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:04.02
 
 Source file was:
 
@@ -423,43 +464,43 @@ Source file was:
   #include <boost/filesystem/operations.hpp>
   int main() { boost::filesystem::copy_file(boost::filesystem::path(), boost::filesystem::path()); }
 Determining if the open exist passed with the following output:
-Change Dir: E:/TC_Build_dyn/CMakeFiles/CMakeTmp
+Change Dir: F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:/VSS/Main/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_8a2a2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Run Build Command:"E:/VSS/Main/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_adc6d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
 Microsoft (R) Build Engine ўҐабЁЁ 15.7.180.61344 ¤«п .NET Framework
 (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
 
-‘Ў®аЄ  ­ з в  28.07.2018 18:25:01.
-Џа®ҐЄв "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\cmTC_8a2a2.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+‘Ў®аЄ  ­ з в  29.07.2018 12:13:16.
+Џа®ҐЄв "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\cmTC_adc6d.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
 PrepareForBuild:
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_8a2a2.dir\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\".
-  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_8a2a2.dir\Debug\cmTC_8a2a2.tlog\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_adc6d.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_adc6d.dir\Debug\cmTC_adc6d.tlog\".
 InitializeBuildStatus:
-  ‘®§¤ ­ЁҐ "cmTC_8a2a2.dir\Debug\cmTC_8a2a2.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+  ‘®§¤ ­ЁҐ "cmTC_adc6d.dir\Debug\cmTC_adc6d.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
 ClCompile:
-  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8a2a2.dir\Debug\\" /Fd"cmTC_8a2a2.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue E:\TC_Build_dyn\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_adc6d.dir\Debug\\" /Fd"cmTC_adc6d.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
   ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.14.26433 ¤«п x64
   (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
   
   CheckSymbolExists.c
-  cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8a2a2.dir\Debug\\" /Fd"cmTC_8a2a2.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue E:\TC_Build_dyn\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_adc6d.dir\Debug\\" /Fd"cmTC_adc6d.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
   
 Link:
-  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\cmTC_8a2a2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/TC_Build_dyn/CMakeFiles/CMakeTmp/Debug/cmTC_8a2a2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/TC_Build_dyn/CMakeFiles/CMakeTmp/Debug/cmTC_8a2a2.lib" /MACHINE:X64  /machine:x64 cmTC_8a2a2.dir\Debug\CheckSymbolExists.obj
-  cmTC_8a2a2.vcxproj -> E:\TC_Build_dyn\CMakeFiles\CMakeTmp\Debug\cmTC_8a2a2.exe
+  E:\VSS\Main\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\cmTC_adc6d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp/Debug/cmTC_adc6d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp/Debug/cmTC_adc6d.lib" /MACHINE:X64  /machine:x64 cmTC_adc6d.dir\Debug\CheckSymbolExists.obj
+  cmTC_adc6d.vcxproj -> F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\Debug\cmTC_adc6d.exe
 FinalizeBuildStatus:
-  ” ©« "cmTC_8a2a2.dir\Debug\cmTC_8a2a2.tlog\unsuccessfulbuild" г¤ «пҐвбп.
-  ЋЎа йҐ­ЁҐ Є "cmTC_8a2a2.dir\Debug\cmTC_8a2a2.tlog\cmTC_8a2a2.lastbuildstate".
-‘Ў®аЄ  Їа®ҐЄв  "E:\TC_Build_dyn\CMakeFiles\CMakeTmp\cmTC_8a2a2.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+  ” ©« "cmTC_adc6d.dir\Debug\cmTC_adc6d.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_adc6d.dir\Debug\cmTC_adc6d.tlog\cmTC_adc6d.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "F:\tt2g\TC\DynamicLib_Build\CMakeFiles\CMakeTmp\cmTC_adc6d.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
 
 ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
     ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
     ЋиЁЎ®Є: 0
 
-Џа®и«® ўаҐ¬Ґ­Ё 00:00:02.15
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:02.09
 
-File E:/TC_Build_dyn/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File F:/tt2g/TC/DynamicLib_Build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <io.h>
 

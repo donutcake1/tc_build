@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C545BC92-2409-39EC-9C94-403BE0EF2407}</ProjectGuid>
+    <ProjectGuid>{EFF08B07-363E-38D2-82C2-2EA29B5331F0}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -56,26 +56,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\dep\CascLib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\tt2g\TC\StaticLib_Build\dep\CascLib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">casc.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">casc</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\dep\CascLib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\tt2g\TC\StaticLib_Build\dep\CascLib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">casc.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">casc</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\dep\CascLib\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\tt2g\TC\StaticLib_Build\dep\CascLib\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">casc.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">casc</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\dep\CascLib\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\tt2g\TC\StaticLib_Build\dep\CascLib\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">casc.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">casc</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\CascLib\src;F:\tt2g\Trinity2\dep;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -96,10 +96,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\CascLib\src;F:\tt2g\Trinity2\dep;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\CascLib\src;F:\tt2g\Trinity2\dep;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -112,7 +112,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\CascLib\src;F:\tt2g\Trinity2\dep;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -133,10 +133,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\CascLib\src;F:\tt2g\Trinity2\dep;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\CascLib\src;F:\tt2g\Trinity2\dep;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -149,7 +149,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\CascLib\src;F:\tt2g\Trinity2\dep;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -170,10 +170,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\CascLib\src;F:\tt2g\Trinity2\dep;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\CascLib\src;F:\tt2g\Trinity2\dep;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -186,7 +186,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\CascLib\src;F:\tt2g\Trinity2\dep;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -206,10 +206,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\CascLib\src;F:\tt2g\Trinity2\dep;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\CascLib\src;E:\TrinityCore-master\dep;E:\TrinityCore-master\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\CascLib\src;F:\tt2g\Trinity2\dep;F:\tt2g\Trinity2\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -221,10 +221,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\TrinityCore-master\dep\CascLib\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/TrinityCore-master/dep/CascLib/CMakeLists.txt</Message>
+    <CustomBuild Include="F:\tt2g\Trinity2\dep\CascLib\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/tt2g/Trinity2/dep/CascLib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_Static --check-stamp-file E:/TC_Build_Static/dep/CascLib/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/StaticLib_Build --check-stamp-file F:/tt2g/TC/StaticLib_Build/dep/CascLib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -232,12 +232,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/TrinityCore-master/dep/CascLib/CMakeLists.txt;E:\TrinityCore-master\dep\CascLib\CMakeLists.txt;E:\TrinityCore-master\dep\CascLib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\dep\CascLib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/tt2g/Trinity2/dep/CascLib/CMakeLists.txt;F:\tt2g\Trinity2\dep\CascLib\CMakeLists.txt;F:\tt2g\Trinity2\dep\CascLib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\tt2g\TC\StaticLib_Build\dep\CascLib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/TrinityCore-master/dep/CascLib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/tt2g/Trinity2/dep/CascLib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_Static --check-stamp-file E:/TC_Build_Static/dep/CascLib/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/StaticLib_Build --check-stamp-file F:/tt2g/TC/StaticLib_Build/dep/CascLib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -245,12 +245,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/TrinityCore-master/dep/CascLib/CMakeLists.txt;E:\TrinityCore-master\dep\CascLib\CMakeLists.txt;E:\TrinityCore-master\dep\CascLib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\dep\CascLib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/tt2g/Trinity2/dep/CascLib/CMakeLists.txt;F:\tt2g\Trinity2\dep\CascLib\CMakeLists.txt;F:\tt2g\Trinity2\dep\CascLib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\tt2g\TC\StaticLib_Build\dep\CascLib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/TrinityCore-master/dep/CascLib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/tt2g/Trinity2/dep/CascLib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_Static --check-stamp-file E:/TC_Build_Static/dep/CascLib/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/StaticLib_Build --check-stamp-file F:/tt2g/TC/StaticLib_Build/dep/CascLib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -258,12 +258,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/TrinityCore-master/dep/CascLib/CMakeLists.txt;E:\TrinityCore-master\dep\CascLib\CMakeLists.txt;E:\TrinityCore-master\dep\CascLib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\dep\CascLib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/tt2g/Trinity2/dep/CascLib/CMakeLists.txt;F:\tt2g\Trinity2\dep\CascLib\CMakeLists.txt;F:\tt2g\Trinity2\dep\CascLib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\tt2g\TC\StaticLib_Build\dep\CascLib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/TrinityCore-master/dep/CascLib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/tt2g/Trinity2/dep/CascLib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_Static --check-stamp-file E:/TC_Build_Static/dep/CascLib/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/StaticLib_Build --check-stamp-file F:/tt2g/TC/StaticLib_Build/dep/CascLib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -271,71 +271,71 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/TrinityCore-master/dep/CascLib/CMakeLists.txt;E:\TrinityCore-master\dep\CascLib\CMakeLists.txt;E:\TrinityCore-master\dep\CascLib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\dep\CascLib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/tt2g/Trinity2/dep/CascLib/CMakeLists.txt;F:\tt2g\Trinity2\dep\CascLib\CMakeLists.txt;F:\tt2g\Trinity2\dep\CascLib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\tt2g\TC\StaticLib_Build\dep\CascLib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\common\Common.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\common\Directory.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\common\DumpContext.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\common\DynamicArray.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\common\FileStream.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\common\ListFile.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\common\Map.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\common\RootHandler.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\jenkins\lookup3.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\common\Common.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\common\Directory.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\common\DumpContext.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\common\DynamicArray.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\common\FileStream.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\common\ListFile.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\common\Map.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\common\RootHandler.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\jenkins\lookup3.c">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascCommon.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascDecompress.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascDecrypt.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascDumpData.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascFiles.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascFindFile.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascOpenFile.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascOpenStorage.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascReadFile.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascRootFile_Diablo3.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascRootFile_Mndx.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascRootFile_Ovr.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascRootFile_SC1.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\CascRootFile_WoW6.cpp" />
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\libtomcrypt\src\hashes\hash_memory.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascCommon.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascDecompress.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascDecrypt.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascDumpData.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascFiles.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascFindFile.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascOpenFile.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascOpenStorage.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascReadFile.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascRootFile_Diablo3.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascRootFile_Mndx.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascRootFile_Ovr.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascRootFile_SC1.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\CascRootFile_WoW6.cpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\libtomcrypt\src\hashes\hash_memory.c">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\libtomcrypt\src\hashes\md5.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\libtomcrypt\src\hashes\md5.c">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\libtomcrypt\src\misc\crypt_argchk.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\libtomcrypt\src\misc\crypt_argchk.c">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\libtomcrypt\src\misc\crypt_hash_descriptor.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\libtomcrypt\src\misc\crypt_hash_descriptor.c">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\libtomcrypt\src\misc\crypt_hash_is_valid.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\libtomcrypt\src\misc\crypt_hash_is_valid.c">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\dep\CascLib\src\libtomcrypt\src\misc\crypt_libc.c">
+    <ClCompile Include="F:\tt2g\Trinity2\dep\CascLib\src\libtomcrypt\src\misc\crypt_libc.c">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
@@ -343,12 +343,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\TC_Build_Static\ZERO_CHECK.vcxproj">
-      <Project>{5076ACBC-691D-3525-A753-5CEA6DC4ADBF}</Project>
+    <ProjectReference Include="F:\tt2g\TC\StaticLib_Build\ZERO_CHECK.vcxproj">
+      <Project>{68DD6EE8-2A2B-38F4-8A7E-EDD5DD296D63}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\TC_Build_Static\dep\zlib\zlib.vcxproj">
-      <Project>{9772F744-20A2-3C11-B83B-56B95293D35C}</Project>
+    <ProjectReference Include="F:\tt2g\TC\StaticLib_Build\dep\zlib\zlib.vcxproj">
+      <Project>{11D7B9BF-8674-3744-81CC-605A21EEC263}</Project>
       <Name>zlib</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,4 +1,4 @@
-# Install script for directory: E:/TrinityCore-master/src/server/proto
+# Install script for directory: F:/tt2g/Trinity2/src/server/proto
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,7 +42,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Debug/proto.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Debug/proto.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/proto.dll")
@@ -52,7 +52,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE SHARED_LIBRARY FILE
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/Release/proto.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/Release/proto.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/proto.dll")
@@ -62,7 +62,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE SHARED_LIBRARY FILE
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/MinSizeRel/proto.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/MinSizeRel/proto.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files/TrinityCore/proto.dll")
@@ -72,7 +72,7 @@ file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE SHARED_LIBRARY FILE
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE SHARED_LIBRARY FILES "E:/TC_Build_dyn/bin/RelWithDebInfo/proto.dll")
+file(INSTALL DESTINATION "C:/Program Files/TrinityCore" TYPE SHARED_LIBRARY FILES "F:/tt2g/TC/DynamicLib_Build/bin/RelWithDebInfo/proto.dll")
   endif()
 endif()
 

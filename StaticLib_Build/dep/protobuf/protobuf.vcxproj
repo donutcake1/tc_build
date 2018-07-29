@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{47DF1903-394A-34F0-89CF-FB4CFEE33A10}</ProjectGuid>
+    <ProjectGuid>{C6A5118B-080F-3695-99DB-EABCD2AADD0C}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -56,26 +56,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\dep\protobuf\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\tt2g\TC\StaticLib_Build\dep\protobuf\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">protobuf.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">protobuf</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\dep\protobuf\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\tt2g\TC\StaticLib_Build\dep\protobuf\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">protobuf.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">protobuf</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\dep\protobuf\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\tt2g\TC\StaticLib_Build\dep\protobuf\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">protobuf.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">protobuf</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\dep\protobuf\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\tt2g\TC\StaticLib_Build\dep\protobuf\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">protobuf.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">protobuf</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\protobuf\src;F:\tt2g\Trinity2\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -96,10 +96,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_SCL_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\protobuf\src;F:\tt2g\Trinity2\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\protobuf\src;F:\tt2g\Trinity2\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -112,7 +112,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\protobuf\src;F:\tt2g\Trinity2\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -133,10 +133,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\protobuf\src;F:\tt2g\Trinity2\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\protobuf\src;F:\tt2g\Trinity2\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -149,7 +149,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\protobuf\src;F:\tt2g\Trinity2\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -170,10 +170,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\protobuf\src;F:\tt2g\Trinity2\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\protobuf\src;F:\tt2g\Trinity2\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -186,7 +186,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\protobuf\src;F:\tt2g\Trinity2\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -206,10 +206,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\protobuf\src;F:\tt2g\Trinity2\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\TrinityCore-master\dep\protobuf\src;E:\TrinityCore-master\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\Trinity2\dep\protobuf\src;F:\tt2g\Trinity2\dep\protobuf\tc_custom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -221,10 +221,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\TrinityCore-master\dep\protobuf\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/TrinityCore-master/dep/protobuf/CMakeLists.txt</Message>
+    <CustomBuild Include="F:\tt2g\Trinity2\dep\protobuf\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/tt2g/Trinity2/dep/protobuf/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_Static --check-stamp-file E:/TC_Build_Static/dep/protobuf/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/StaticLib_Build --check-stamp-file F:/tt2g/TC/StaticLib_Build/dep/protobuf/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -232,12 +232,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/TrinityCore-master/dep/protobuf/CMakeLists.txt;E:\TrinityCore-master\dep\protobuf\CMakeLists.txt;E:\TrinityCore-master\dep\protobuf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_Static\dep\protobuf\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/tt2g/Trinity2/dep/protobuf/CMakeLists.txt;F:\tt2g\Trinity2\dep\protobuf\CMakeLists.txt;F:\tt2g\Trinity2\dep\protobuf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\tt2g\TC\StaticLib_Build\dep\protobuf\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/TrinityCore-master/dep/protobuf/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/tt2g/Trinity2/dep/protobuf/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_Static --check-stamp-file E:/TC_Build_Static/dep/protobuf/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/StaticLib_Build --check-stamp-file F:/tt2g/TC/StaticLib_Build/dep/protobuf/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -245,12 +245,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/TrinityCore-master/dep/protobuf/CMakeLists.txt;E:\TrinityCore-master\dep\protobuf\CMakeLists.txt;E:\TrinityCore-master\dep\protobuf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_Static\dep\protobuf\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/tt2g/Trinity2/dep/protobuf/CMakeLists.txt;F:\tt2g\Trinity2\dep\protobuf\CMakeLists.txt;F:\tt2g\Trinity2\dep\protobuf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\tt2g\TC\StaticLib_Build\dep\protobuf\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/TrinityCore-master/dep/protobuf/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/tt2g/Trinity2/dep/protobuf/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_Static --check-stamp-file E:/TC_Build_Static/dep/protobuf/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/StaticLib_Build --check-stamp-file F:/tt2g/TC/StaticLib_Build/dep/protobuf/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -258,12 +258,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/TrinityCore-master/dep/protobuf/CMakeLists.txt;E:\TrinityCore-master\dep\protobuf\CMakeLists.txt;E:\TrinityCore-master\dep\protobuf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_Static\dep\protobuf\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/tt2g/Trinity2/dep/protobuf/CMakeLists.txt;F:\tt2g\Trinity2\dep\protobuf\CMakeLists.txt;F:\tt2g\Trinity2\dep\protobuf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\tt2g\TC\StaticLib_Build\dep\protobuf\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/TrinityCore-master/dep/protobuf/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/tt2g/Trinity2/dep/protobuf/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_Static --check-stamp-file E:/TC_Build_Static/dep/protobuf/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/StaticLib_Build --check-stamp-file F:/tt2g/TC/StaticLib_Build/dep/protobuf/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -271,50 +271,50 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/TrinityCore-master/dep/protobuf/CMakeLists.txt;E:\TrinityCore-master\dep\protobuf\CMakeLists.txt;E:\TrinityCore-master\dep\protobuf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_Static\dep\protobuf\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/tt2g/Trinity2/dep/protobuf/CMakeLists.txt;F:\tt2g\Trinity2\dep\protobuf\CMakeLists.txt;F:\tt2g\Trinity2\dep\protobuf\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\tt2g\TC\StaticLib_Build\dep\protobuf\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\compiler\importer.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\compiler\parser.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\descriptor.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\descriptor.pb.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\descriptor_database.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\dynamic_message.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\extension_set.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\extension_set_heavy.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\generated_message_reflection.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\generated_message_util.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\io\coded_stream.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\io\gzip_stream.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\io\printer.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\io\strtod.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\io\tokenizer.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\io\zero_copy_stream.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\io\zero_copy_stream_impl.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\io\zero_copy_stream_impl_lite.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\message.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\message_lite.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\reflection_ops.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\repeated_field.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\service.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\stubs\common.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\stubs\once.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\stubs\stringprintf.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\stubs\structurally_valid.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\stubs\strutil.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\stubs\substitute.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\text_format.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\unknown_field_set.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\wire_format.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\wire_format_lite.cc" />
-    <ClCompile Include="E:\TrinityCore-master\dep\protobuf\src\google\protobuf\stubs\atomicops_internals_x86_msvc.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\compiler\importer.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\compiler\parser.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\descriptor.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\descriptor.pb.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\descriptor_database.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\dynamic_message.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\extension_set.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\extension_set_heavy.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\generated_message_reflection.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\generated_message_util.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\io\coded_stream.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\io\gzip_stream.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\io\printer.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\io\strtod.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\io\tokenizer.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\io\zero_copy_stream.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\io\zero_copy_stream_impl.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\io\zero_copy_stream_impl_lite.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\message.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\message_lite.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\reflection_ops.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\repeated_field.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\service.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\stubs\common.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\stubs\once.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\stubs\stringprintf.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\stubs\structurally_valid.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\stubs\strutil.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\stubs\substitute.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\text_format.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\unknown_field_set.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\wire_format.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\wire_format_lite.cc" />
+    <ClCompile Include="F:\tt2g\Trinity2\dep\protobuf\src\google\protobuf\stubs\atomicops_internals_x86_msvc.cc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\TC_Build_Static\ZERO_CHECK.vcxproj">
-      <Project>{5076ACBC-691D-3525-A753-5CEA6DC4ADBF}</Project>
+    <ProjectReference Include="F:\tt2g\TC\StaticLib_Build\ZERO_CHECK.vcxproj">
+      <Project>{68DD6EE8-2A2B-38F4-8A7E-EDD5DD296D63}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
   </ItemGroup>

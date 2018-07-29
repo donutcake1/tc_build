@@ -1,112 +1,112 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\TrinityCore-master\src\server\shared\DataStores\DB2DatabaseLoader.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\shared\DataStores\DB2DatabaseLoader.cpp">
       <Filter>DataStores</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\shared\DataStores\DB2Store.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\shared\DataStores\DB2Store.cpp">
       <Filter>DataStores</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\shared\JSON\ProtobufJSON.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\shared\JSON\ProtobufJSON.cpp">
       <Filter>JSON</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\shared\Packets\ByteBuffer.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\shared\Packets\ByteBuffer.cpp">
       <Filter>Packets</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\shared\Realm\Realm.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\shared\Realm\Realm.cpp">
       <Filter>Realm</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\shared\Realm\RealmList.cpp">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\shared\Realm\RealmList.cpp">
       <Filter>Realm</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Memory.h" />
-    <ClInclude Include="E:\TrinityCore-master\src\server\shared\DataStores\DB2DatabaseLoader.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\shared\Memory.h" />
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\shared\DataStores\DB2DatabaseLoader.h">
       <Filter>DataStores</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\shared\DataStores\DB2Store.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\shared\DataStores\DB2Store.h">
       <Filter>DataStores</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\shared\DataStores\DBStorageIterator.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\shared\DataStores\DBStorageIterator.h">
       <Filter>DataStores</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Dynamic\FactoryHolder.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\shared\Dynamic\FactoryHolder.h">
       <Filter>Dynamic</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Dynamic\LinkedList.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\shared\Dynamic\LinkedList.h">
       <Filter>Dynamic</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Dynamic\ObjectRegistry.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\shared\Dynamic\ObjectRegistry.h">
       <Filter>Dynamic</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Dynamic\TypeList.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\shared\Dynamic\TypeList.h">
       <Filter>Dynamic</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Dynamic\LinkedReference\RefManager.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\shared\Dynamic\LinkedReference\RefManager.h">
       <Filter>Dynamic\LinkedReference</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Dynamic\LinkedReference\Reference.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\shared\Dynamic\LinkedReference\Reference.h">
       <Filter>Dynamic\LinkedReference</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\shared\JSON\ProtobufJSON.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\shared\JSON\ProtobufJSON.h">
       <Filter>JSON</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Networking\AsyncAcceptor.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\shared\Networking\AsyncAcceptor.h">
       <Filter>Networking</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Networking\NetworkThread.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\shared\Networking\NetworkThread.h">
       <Filter>Networking</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Networking\Socket.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\shared\Networking\Socket.h">
       <Filter>Networking</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Networking\SocketMgr.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\shared\Networking\SocketMgr.h">
       <Filter>Networking</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Networking\SslSocket.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\shared\Networking\SslSocket.h">
       <Filter>Networking</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Packets\ByteBuffer.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\shared\Packets\ByteBuffer.h">
       <Filter>Packets</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Realm\Realm.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\shared\Realm\Realm.h">
       <Filter>Realm</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\shared\Realm\RealmList.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\shared\Realm\RealmList.h">
       <Filter>Realm</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\TC_Build_dyn\CMakeFiles\898f983f08f99b21c30e06d2b100a3bb\shared_CXX_prefix.hxx.rule">
+    <CustomBuild Include="F:\tt2g\TC\DynamicLib_Build\CMakeFiles\0f0a31b9fa25bbd29efa99c0fdfd55ec\shared_CXX_prefix.hxx.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="E:\TrinityCore-master\src\server\shared\CMakeLists.txt" />
+    <CustomBuild Include="F:\tt2g\Trinity2\src\server\shared\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{41B6D89B-2ED2-3AA6-B2F1-698E1A49DE85}</UniqueIdentifier>
+      <UniqueIdentifier>{0C5CD29E-FB95-35DA-AEAB-014F6BCEE985}</UniqueIdentifier>
     </Filter>
     <Filter Include="DataStores">
-      <UniqueIdentifier>{B4C4DCE5-2A76-369D-972D-C0C356F440D5}</UniqueIdentifier>
+      <UniqueIdentifier>{215EC194-AF7D-3882-AEC9-AFC68ACA0B24}</UniqueIdentifier>
     </Filter>
     <Filter Include="Dynamic">
-      <UniqueIdentifier>{49588AD4-AAD9-3CD7-A61A-8987EA8354B9}</UniqueIdentifier>
+      <UniqueIdentifier>{77CF2040-61F7-37FD-85F8-B5C5B905F625}</UniqueIdentifier>
     </Filter>
     <Filter Include="Dynamic\LinkedReference">
-      <UniqueIdentifier>{2B7F52EB-1459-35B5-94DA-A50B74650A90}</UniqueIdentifier>
+      <UniqueIdentifier>{0E611058-3543-317D-8998-1759866E14FF}</UniqueIdentifier>
     </Filter>
     <Filter Include="JSON">
-      <UniqueIdentifier>{FF17DEF0-0232-3FD8-A9DA-01018B6275DC}</UniqueIdentifier>
+      <UniqueIdentifier>{C2C4A781-646B-36E0-8AFF-88D4C4C7E085}</UniqueIdentifier>
     </Filter>
     <Filter Include="Networking">
-      <UniqueIdentifier>{26E93558-25A4-3AFD-BE32-CE44FE81E10E}</UniqueIdentifier>
+      <UniqueIdentifier>{7F96F3D9-D076-38A9-8A05-CF2CC3566F2D}</UniqueIdentifier>
     </Filter>
     <Filter Include="Packets">
-      <UniqueIdentifier>{02478BE5-4930-3B51-A83D-5C816A7FF3AC}</UniqueIdentifier>
+      <UniqueIdentifier>{6A3634C8-75AE-341D-B871-F3B63897926E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Realm">
-      <UniqueIdentifier>{B9E6DFC5-0B85-3A5D-8265-CD38B4863B83}</UniqueIdentifier>
+      <UniqueIdentifier>{B40CD14A-3AF1-382B-BF4D-B1ACA61F24CF}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

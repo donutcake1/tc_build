@@ -1,4 +1,4 @@
-# Install script for directory: E:/TrinityCore-master/dep/recastnavigation
+# Install script for directory: F:/tt2g/Trinity2/dep/recastnavigation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/TC_Build_dyn/dep/recastnavigation/Detour/cmake_install.cmake")
-  include("E:/TC_Build_dyn/dep/recastnavigation/Recast/cmake_install.cmake")
+  include("F:/tt2g/TC/DynamicLib_Build/dep/recastnavigation/Detour/cmake_install.cmake")
+  include("F:/tt2g/TC/DynamicLib_Build/dep/recastnavigation/Recast/cmake_install.cmake")
 
 endif()
 

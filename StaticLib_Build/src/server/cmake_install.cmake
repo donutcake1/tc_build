@@ -1,4 +1,4 @@
-# Install script for directory: E:/TrinityCore-master/src/server
+# Install script for directory: F:/tt2g/Trinity2/src/server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/TC_Build_Static/src/server/database/cmake_install.cmake")
-  include("E:/TC_Build_Static/src/server/proto/cmake_install.cmake")
-  include("E:/TC_Build_Static/src/server/shared/cmake_install.cmake")
-  include("E:/TC_Build_Static/src/server/bnetserver/cmake_install.cmake")
-  include("E:/TC_Build_Static/src/server/game/cmake_install.cmake")
-  include("E:/TC_Build_Static/src/server/scripts/cmake_install.cmake")
-  include("E:/TC_Build_Static/src/server/worldserver/cmake_install.cmake")
+  include("F:/tt2g/TC/StaticLib_Build/src/server/database/cmake_install.cmake")
+  include("F:/tt2g/TC/StaticLib_Build/src/server/proto/cmake_install.cmake")
+  include("F:/tt2g/TC/StaticLib_Build/src/server/shared/cmake_install.cmake")
+  include("F:/tt2g/TC/StaticLib_Build/src/server/bnetserver/cmake_install.cmake")
+  include("F:/tt2g/TC/StaticLib_Build/src/server/game/cmake_install.cmake")
+  include("F:/tt2g/TC/StaticLib_Build/src/server/scripts/cmake_install.cmake")
+  include("F:/tt2g/TC/StaticLib_Build/src/server/worldserver/cmake_install.cmake")
 
 endif()
 

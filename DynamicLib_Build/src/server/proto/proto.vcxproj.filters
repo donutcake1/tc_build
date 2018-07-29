@@ -1,236 +1,236 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\account_service.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\account_service.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\account_types.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\account_types.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\attribute_types.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\attribute_types.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\authentication_service.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\authentication_service.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\challenge_service.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\challenge_service.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\channel_service.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\channel_service.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\channel_types.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\channel_types.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\connection_service.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\connection_service.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\content_handle_types.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\content_handle_types.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\entity_types.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\entity_types.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\friends_service.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\friends_service.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\friends_types.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\friends_types.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\game_utilities_service.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\game_utilities_service.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\game_utilities_types.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\game_utilities_types.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\invitation_types.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\invitation_types.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\notification_types.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\notification_types.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\presence_service.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\presence_service.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\presence_types.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\presence_types.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\profanity_filter_config.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\profanity_filter_config.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\report_service.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\report_service.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\report_types.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\report_types.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\resource_service.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\resource_service.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\role_types.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\role_types.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\rpc_config.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\rpc_config.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\rpc_types.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\rpc_types.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\user_manager_service.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\user_manager_service.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\user_manager_types.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\user_manager_types.pb.cc">
       <Filter>Client</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\client\v1\channel_id.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\client\v1\channel_id.pb.cc">
       <Filter>Client\client\v1</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\global_extensions\field_options.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\global_extensions\field_options.pb.cc">
       <Filter>Client\global_extensions</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\global_extensions\method_options.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\global_extensions\method_options.pb.cc">
       <Filter>Client\global_extensions</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Client\global_extensions\service_options.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Client\global_extensions\service_options.pb.cc">
       <Filter>Client\global_extensions</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\Login\Login.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\Login\Login.pb.cc">
       <Filter>Login</Filter>
     </ClCompile>
-    <ClCompile Include="E:\TrinityCore-master\src\server\proto\RealmList\RealmList.pb.cc">
+    <ClCompile Include="F:\tt2g\Trinity2\src\server\proto\RealmList\RealmList.pb.cc">
       <Filter>RealmList</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\BattlenetRpcErrorCodes.h" />
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\ServiceBase.h" />
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\account_service.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\BattlenetRpcErrorCodes.h" />
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\ServiceBase.h" />
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\account_service.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\account_types.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\account_types.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\attribute_types.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\attribute_types.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\authentication_service.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\authentication_service.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\challenge_service.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\challenge_service.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\channel_service.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\channel_service.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\channel_types.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\channel_types.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\connection_service.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\connection_service.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\content_handle_types.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\content_handle_types.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\entity_types.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\entity_types.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\friends_service.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\friends_service.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\friends_types.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\friends_types.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\game_utilities_service.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\game_utilities_service.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\game_utilities_types.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\game_utilities_types.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\invitation_types.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\invitation_types.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\notification_types.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\notification_types.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\presence_service.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\presence_service.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\presence_types.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\presence_types.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\profanity_filter_config.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\profanity_filter_config.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\report_service.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\report_service.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\report_types.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\report_types.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\resource_service.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\resource_service.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\role_types.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\role_types.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\rpc_config.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\rpc_config.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\rpc_types.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\rpc_types.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\user_manager_service.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\user_manager_service.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\user_manager_types.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\user_manager_types.pb.h">
       <Filter>Client</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\client\v1\channel_id.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\client\v1\channel_id.pb.h">
       <Filter>Client\client\v1</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\global_extensions\field_options.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\global_extensions\field_options.pb.h">
       <Filter>Client\global_extensions</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\global_extensions\method_options.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\global_extensions\method_options.pb.h">
       <Filter>Client\global_extensions</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Client\global_extensions\service_options.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Client\global_extensions\service_options.pb.h">
       <Filter>Client\global_extensions</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\Login\Login.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\Login\Login.pb.h">
       <Filter>Login</Filter>
     </ClInclude>
-    <ClInclude Include="E:\TrinityCore-master\src\server\proto\RealmList\RealmList.pb.h">
+    <ClInclude Include="F:\tt2g\Trinity2\src\server\proto\RealmList\RealmList.pb.h">
       <Filter>RealmList</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\TC_Build_dyn\CMakeFiles\4c180e585d0c16e98004aa353697b50b\proto_CXX_prefix.hxx.rule">
+    <CustomBuild Include="F:\tt2g\TC\DynamicLib_Build\CMakeFiles\e73202863beac9586daa63a75843ffbe\proto_CXX_prefix.hxx.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="E:\TrinityCore-master\src\server\proto\CMakeLists.txt" />
+    <CustomBuild Include="F:\tt2g\Trinity2\src\server\proto\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{41B6D89B-2ED2-3AA6-B2F1-698E1A49DE85}</UniqueIdentifier>
+      <UniqueIdentifier>{0C5CD29E-FB95-35DA-AEAB-014F6BCEE985}</UniqueIdentifier>
     </Filter>
     <Filter Include="Client">
-      <UniqueIdentifier>{7B7DF981-128C-3967-BE47-30D7EE897507}</UniqueIdentifier>
+      <UniqueIdentifier>{6932CE0D-46E8-3D7D-8EE2-FE7DEAA2A0C8}</UniqueIdentifier>
     </Filter>
     <Filter Include="Client\client">
-      <UniqueIdentifier>{EEB57F2D-48AF-3CA7-89D6-D68A640C7EA3}</UniqueIdentifier>
+      <UniqueIdentifier>{61F8E957-4BA8-35C7-85EB-CF5A579C2AF1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Client\client\v1">
-      <UniqueIdentifier>{95E760C3-0FAE-3197-A99C-E00B47ACA044}</UniqueIdentifier>
+      <UniqueIdentifier>{9C3661A6-D22E-3BE8-8BD7-401CA1455614}</UniqueIdentifier>
     </Filter>
     <Filter Include="Client\global_extensions">
-      <UniqueIdentifier>{C734C7D3-1216-379A-912C-049C61DC181F}</UniqueIdentifier>
+      <UniqueIdentifier>{3A6672E3-6CE2-3E51-B620-765545DF4C22}</UniqueIdentifier>
     </Filter>
     <Filter Include="Login">
-      <UniqueIdentifier>{5C0CA212-4D3A-3664-AC27-C98E2B6390D9}</UniqueIdentifier>
+      <UniqueIdentifier>{F4D805FB-DF29-3E5F-9082-0FBAD0F99543}</UniqueIdentifier>
     </Filter>
     <Filter Include="RealmList">
-      <UniqueIdentifier>{4DA53822-6BAF-3F7F-B467-E840C6B34AFA}</UniqueIdentifier>
+      <UniqueIdentifier>{57934AEE-CFA2-3FBF-8B79-1EE7398AD518}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

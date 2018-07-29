@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E4FBE681-0EAD-3265-A1A2-3E19D3401C53}</ProjectGuid>
+    <ProjectGuid>{8654E069-4616-3275-AE1A-3808C6A2858A}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -56,25 +56,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_dyn\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\tt2g\TC\DynamicLib_Build\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">connection_patcher.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">connection_patcher</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_dyn\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\tt2g\TC\DynamicLib_Build\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">connection_patcher.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">connection_patcher</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_dyn\bin\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\tt2g\TC\DynamicLib_Build\bin\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">connection_patcher.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">connection_patcher</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_dyn\bin\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\tt2g\TC\DynamicLib_Build\bin\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">connection_patcher.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">connection_patcher</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -83,7 +83,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\TC\DynamicLib_Build;F:\tt2g\Trinity2\src\common;F:\tt2g\Trinity2\src\common\Asio;F:\tt2g\Trinity2\src\common\Collision;F:\tt2g\Trinity2\src\common\Collision\Management;F:\tt2g\Trinity2\src\common\Collision\Maps;F:\tt2g\Trinity2\src\common\Collision\Models;F:\tt2g\Trinity2\src\common\Configuration;F:\tt2g\Trinity2\src\common\Cryptography;F:\tt2g\Trinity2\src\common\Cryptography\Authentication;F:\tt2g\Trinity2\src\common\DataStores;F:\tt2g\Trinity2\src\common\Debugging;F:\tt2g\Trinity2\src\common\Logging;F:\tt2g\Trinity2\src\common\Metric;F:\tt2g\Trinity2\src\common\Platform;F:\tt2g\Trinity2\src\common\Threading;F:\tt2g\Trinity2\src\common\Utilities;C:\local\boost_1_66_0;F:\tt2g\Trinity2\dep\fmt;F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;F:\tt2g\Trinity2\dep\recastnavigation\Detour\Include;F:\tt2g\Trinity2\dep\SFMT;F:\tt2g\Trinity2\dep\utf8cpp;C:\OpenSSL-Win64\include;F:\tt2g\Trinity2\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -99,15 +99,15 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;TC_HAS_BROKEN_WSTRING_REGEX;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;TC_HAS_BROKEN_WSTRING_REGEX;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\tt2g\TC\DynamicLib_Build;F:\tt2g\Trinity2\src\common;F:\tt2g\Trinity2\src\common\Asio;F:\tt2g\Trinity2\src\common\Collision;F:\tt2g\Trinity2\src\common\Collision\Management;F:\tt2g\Trinity2\src\common\Collision\Maps;F:\tt2g\Trinity2\src\common\Collision\Models;F:\tt2g\Trinity2\src\common\Configuration;F:\tt2g\Trinity2\src\common\Cryptography;F:\tt2g\Trinity2\src\common\Cryptography\Authentication;F:\tt2g\Trinity2\src\common\DataStores;F:\tt2g\Trinity2\src\common\Debugging;F:\tt2g\Trinity2\src\common\Logging;F:\tt2g\Trinity2\src\common\Metric;F:\tt2g\Trinity2\src\common\Platform;F:\tt2g\Trinity2\src\common\Threading;F:\tt2g\Trinity2\src\common\Utilities;C:\local\boost_1_66_0;F:\tt2g\Trinity2\dep\fmt;F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;F:\tt2g\Trinity2\dep\recastnavigation\Detour\Include;F:\tt2g\Trinity2\dep\SFMT;F:\tt2g\Trinity2\dep\utf8cpp;C:\OpenSSL-Win64\include;F:\tt2g\Trinity2\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\TC\DynamicLib_Build;F:\tt2g\Trinity2\src\common;F:\tt2g\Trinity2\src\common\Asio;F:\tt2g\Trinity2\src\common\Collision;F:\tt2g\Trinity2\src\common\Collision\Management;F:\tt2g\Trinity2\src\common\Collision\Maps;F:\tt2g\Trinity2\src\common\Collision\Models;F:\tt2g\Trinity2\src\common\Configuration;F:\tt2g\Trinity2\src\common\Cryptography;F:\tt2g\Trinity2\src\common\Cryptography\Authentication;F:\tt2g\Trinity2\src\common\DataStores;F:\tt2g\Trinity2\src\common\Debugging;F:\tt2g\Trinity2\src\common\Logging;F:\tt2g\Trinity2\src\common\Metric;F:\tt2g\Trinity2\src\common\Platform;F:\tt2g\Trinity2\src\common\Threading;F:\tt2g\Trinity2\src\common\Utilities;C:\local\boost_1_66_0;F:\tt2g\Trinity2\dep\fmt;F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;F:\tt2g\Trinity2\dep\recastnavigation\Detour\Include;F:\tt2g\Trinity2\dep\SFMT;F:\tt2g\Trinity2\dep\utf8cpp;C:\OpenSSL-Win64\include;F:\tt2g\Trinity2\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -115,13 +115,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\common\Debug\common.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_system-vc141-mt-gd-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-gd-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_thread-vc141-mt-gd-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-gd-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_iostreams-vc141-mt-gd-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_regex-vc141-mt-gd-x64-1_66.lib;..\..\..\dep\fmt\Debug\fmt.lib;..\..\..\dep\g3dlite\Debug\g3dlib.lib;..\..\..\dep\recastnavigation\Detour\Debug\Detour.lib;..\..\..\dep\zlib\Debug\zlib.lib;C:\OpenSSL-Win64\lib\VC\libssl64MDd.lib;C:\OpenSSL-Win64\lib\VC\libcrypto64MDd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\common\Debug\common.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_system-vc141-mt-gd-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-gd-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_thread-vc141-mt-gd-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-gd-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_iostreams-vc141-mt-gd-x64-1_66.lib;..\..\..\dep\fmt\Debug\fmt.lib;..\..\..\dep\g3dlite\Debug\g3dlib.lib;..\..\..\dep\recastnavigation\Detour\Debug\Detour.lib;..\..\..\dep\zlib\Debug\zlib.lib;C:\OpenSSL-Win64\lib\VC\libssl64MDd.lib;C:\OpenSSL-Win64\lib\VC\libcrypto64MDd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/TC_Build_dyn/src/tools/connection_patcher/Debug/connection_patcher.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/TC_Build_dyn/bin/Debug/connection_patcher.pdb</ProgramDataBaseFile>
+      <ImportLibrary>F:/tt2g/TC/DynamicLib_Build/src/tools/connection_patcher/Debug/connection_patcher.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/tt2g/TC/DynamicLib_Build/bin/Debug/connection_patcher.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -130,7 +130,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\TC\DynamicLib_Build;F:\tt2g\Trinity2\src\common;F:\tt2g\Trinity2\src\common\Asio;F:\tt2g\Trinity2\src\common\Collision;F:\tt2g\Trinity2\src\common\Collision\Management;F:\tt2g\Trinity2\src\common\Collision\Maps;F:\tt2g\Trinity2\src\common\Collision\Models;F:\tt2g\Trinity2\src\common\Configuration;F:\tt2g\Trinity2\src\common\Cryptography;F:\tt2g\Trinity2\src\common\Cryptography\Authentication;F:\tt2g\Trinity2\src\common\DataStores;F:\tt2g\Trinity2\src\common\Debugging;F:\tt2g\Trinity2\src\common\Logging;F:\tt2g\Trinity2\src\common\Metric;F:\tt2g\Trinity2\src\common\Platform;F:\tt2g\Trinity2\src\common\Threading;F:\tt2g\Trinity2\src\common\Utilities;C:\local\boost_1_66_0;F:\tt2g\Trinity2\dep\fmt;F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;F:\tt2g\Trinity2\dep\recastnavigation\Detour\Include;F:\tt2g\Trinity2\dep\SFMT;F:\tt2g\Trinity2\dep\utf8cpp;C:\OpenSSL-Win64\include;F:\tt2g\Trinity2\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -144,17 +144,17 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;TC_HAS_BROKEN_WSTRING_REGEX;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;TC_HAS_BROKEN_WSTRING_REGEX;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\tt2g\TC\DynamicLib_Build;F:\tt2g\Trinity2\src\common;F:\tt2g\Trinity2\src\common\Asio;F:\tt2g\Trinity2\src\common\Collision;F:\tt2g\Trinity2\src\common\Collision\Management;F:\tt2g\Trinity2\src\common\Collision\Maps;F:\tt2g\Trinity2\src\common\Collision\Models;F:\tt2g\Trinity2\src\common\Configuration;F:\tt2g\Trinity2\src\common\Cryptography;F:\tt2g\Trinity2\src\common\Cryptography\Authentication;F:\tt2g\Trinity2\src\common\DataStores;F:\tt2g\Trinity2\src\common\Debugging;F:\tt2g\Trinity2\src\common\Logging;F:\tt2g\Trinity2\src\common\Metric;F:\tt2g\Trinity2\src\common\Platform;F:\tt2g\Trinity2\src\common\Threading;F:\tt2g\Trinity2\src\common\Utilities;C:\local\boost_1_66_0;F:\tt2g\Trinity2\dep\fmt;F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;F:\tt2g\Trinity2\dep\recastnavigation\Detour\Include;F:\tt2g\Trinity2\dep\SFMT;F:\tt2g\Trinity2\dep\utf8cpp;C:\OpenSSL-Win64\include;F:\tt2g\Trinity2\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\TC\DynamicLib_Build;F:\tt2g\Trinity2\src\common;F:\tt2g\Trinity2\src\common\Asio;F:\tt2g\Trinity2\src\common\Collision;F:\tt2g\Trinity2\src\common\Collision\Management;F:\tt2g\Trinity2\src\common\Collision\Maps;F:\tt2g\Trinity2\src\common\Collision\Models;F:\tt2g\Trinity2\src\common\Configuration;F:\tt2g\Trinity2\src\common\Cryptography;F:\tt2g\Trinity2\src\common\Cryptography\Authentication;F:\tt2g\Trinity2\src\common\DataStores;F:\tt2g\Trinity2\src\common\Debugging;F:\tt2g\Trinity2\src\common\Logging;F:\tt2g\Trinity2\src\common\Metric;F:\tt2g\Trinity2\src\common\Platform;F:\tt2g\Trinity2\src\common\Threading;F:\tt2g\Trinity2\src\common\Utilities;C:\local\boost_1_66_0;F:\tt2g\Trinity2\dep\fmt;F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;F:\tt2g\Trinity2\dep\recastnavigation\Detour\Include;F:\tt2g\Trinity2\dep\SFMT;F:\tt2g\Trinity2\dep\utf8cpp;C:\OpenSSL-Win64\include;F:\tt2g\Trinity2\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -162,13 +162,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\common\Release\common.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_system-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_thread-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_iostreams-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_regex-vc141-mt-x64-1_66.lib;..\..\..\dep\fmt\Release\fmt.lib;..\..\..\dep\g3dlite\Release\g3dlib.lib;..\..\..\dep\recastnavigation\Detour\Release\Detour.lib;..\..\..\dep\zlib\Release\zlib.lib;C:\OpenSSL-Win64\lib\VC\libssl64MD.lib;C:\OpenSSL-Win64\lib\VC\libcrypto64MD.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\common\Release\common.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_system-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_thread-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_iostreams-vc141-mt-x64-1_66.lib;..\..\..\dep\fmt\Release\fmt.lib;..\..\..\dep\g3dlite\Release\g3dlib.lib;..\..\..\dep\recastnavigation\Detour\Release\Detour.lib;..\..\..\dep\zlib\Release\zlib.lib;C:\OpenSSL-Win64\lib\VC\libssl64MD.lib;C:\OpenSSL-Win64\lib\VC\libcrypto64MD.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/TC_Build_dyn/src/tools/connection_patcher/Release/connection_patcher.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/TC_Build_dyn/bin/Release/connection_patcher.pdb</ProgramDataBaseFile>
+      <ImportLibrary>F:/tt2g/TC/DynamicLib_Build/src/tools/connection_patcher/Release/connection_patcher.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/tt2g/TC/DynamicLib_Build/bin/Release/connection_patcher.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -177,7 +177,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\TC\DynamicLib_Build;F:\tt2g\Trinity2\src\common;F:\tt2g\Trinity2\src\common\Asio;F:\tt2g\Trinity2\src\common\Collision;F:\tt2g\Trinity2\src\common\Collision\Management;F:\tt2g\Trinity2\src\common\Collision\Maps;F:\tt2g\Trinity2\src\common\Collision\Models;F:\tt2g\Trinity2\src\common\Configuration;F:\tt2g\Trinity2\src\common\Cryptography;F:\tt2g\Trinity2\src\common\Cryptography\Authentication;F:\tt2g\Trinity2\src\common\DataStores;F:\tt2g\Trinity2\src\common\Debugging;F:\tt2g\Trinity2\src\common\Logging;F:\tt2g\Trinity2\src\common\Metric;F:\tt2g\Trinity2\src\common\Platform;F:\tt2g\Trinity2\src\common\Threading;F:\tt2g\Trinity2\src\common\Utilities;C:\local\boost_1_66_0;F:\tt2g\Trinity2\dep\fmt;F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;F:\tt2g\Trinity2\dep\recastnavigation\Detour\Include;F:\tt2g\Trinity2\dep\SFMT;F:\tt2g\Trinity2\dep\utf8cpp;C:\OpenSSL-Win64\include;F:\tt2g\Trinity2\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -191,17 +191,17 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;TC_HAS_BROKEN_WSTRING_REGEX;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;TC_HAS_BROKEN_WSTRING_REGEX;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\tt2g\TC\DynamicLib_Build;F:\tt2g\Trinity2\src\common;F:\tt2g\Trinity2\src\common\Asio;F:\tt2g\Trinity2\src\common\Collision;F:\tt2g\Trinity2\src\common\Collision\Management;F:\tt2g\Trinity2\src\common\Collision\Maps;F:\tt2g\Trinity2\src\common\Collision\Models;F:\tt2g\Trinity2\src\common\Configuration;F:\tt2g\Trinity2\src\common\Cryptography;F:\tt2g\Trinity2\src\common\Cryptography\Authentication;F:\tt2g\Trinity2\src\common\DataStores;F:\tt2g\Trinity2\src\common\Debugging;F:\tt2g\Trinity2\src\common\Logging;F:\tt2g\Trinity2\src\common\Metric;F:\tt2g\Trinity2\src\common\Platform;F:\tt2g\Trinity2\src\common\Threading;F:\tt2g\Trinity2\src\common\Utilities;C:\local\boost_1_66_0;F:\tt2g\Trinity2\dep\fmt;F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;F:\tt2g\Trinity2\dep\recastnavigation\Detour\Include;F:\tt2g\Trinity2\dep\SFMT;F:\tt2g\Trinity2\dep\utf8cpp;C:\OpenSSL-Win64\include;F:\tt2g\Trinity2\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\TC\DynamicLib_Build;F:\tt2g\Trinity2\src\common;F:\tt2g\Trinity2\src\common\Asio;F:\tt2g\Trinity2\src\common\Collision;F:\tt2g\Trinity2\src\common\Collision\Management;F:\tt2g\Trinity2\src\common\Collision\Maps;F:\tt2g\Trinity2\src\common\Collision\Models;F:\tt2g\Trinity2\src\common\Configuration;F:\tt2g\Trinity2\src\common\Cryptography;F:\tt2g\Trinity2\src\common\Cryptography\Authentication;F:\tt2g\Trinity2\src\common\DataStores;F:\tt2g\Trinity2\src\common\Debugging;F:\tt2g\Trinity2\src\common\Logging;F:\tt2g\Trinity2\src\common\Metric;F:\tt2g\Trinity2\src\common\Platform;F:\tt2g\Trinity2\src\common\Threading;F:\tt2g\Trinity2\src\common\Utilities;C:\local\boost_1_66_0;F:\tt2g\Trinity2\dep\fmt;F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;F:\tt2g\Trinity2\dep\recastnavigation\Detour\Include;F:\tt2g\Trinity2\dep\SFMT;F:\tt2g\Trinity2\dep\utf8cpp;C:\OpenSSL-Win64\include;F:\tt2g\Trinity2\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -209,13 +209,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\common\MinSizeRel\common.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_system-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_thread-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_iostreams-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_regex-vc141-mt-x64-1_66.lib;..\..\..\dep\fmt\MinSizeRel\fmt.lib;..\..\..\dep\g3dlite\MinSizeRel\g3dlib.lib;..\..\..\dep\recastnavigation\Detour\MinSizeRel\Detour.lib;..\..\..\dep\zlib\MinSizeRel\zlib.lib;C:\OpenSSL-Win64\lib\VC\libssl64MD.lib;C:\OpenSSL-Win64\lib\VC\libcrypto64MD.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\common\MinSizeRel\common.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_system-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_thread-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_iostreams-vc141-mt-x64-1_66.lib;..\..\..\dep\fmt\MinSizeRel\fmt.lib;..\..\..\dep\g3dlite\MinSizeRel\g3dlib.lib;..\..\..\dep\recastnavigation\Detour\MinSizeRel\Detour.lib;..\..\..\dep\zlib\MinSizeRel\zlib.lib;C:\OpenSSL-Win64\lib\VC\libssl64MD.lib;C:\OpenSSL-Win64\lib\VC\libcrypto64MD.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/TC_Build_dyn/src/tools/connection_patcher/MinSizeRel/connection_patcher.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/TC_Build_dyn/bin/MinSizeRel/connection_patcher.pdb</ProgramDataBaseFile>
+      <ImportLibrary>F:/tt2g/TC/DynamicLib_Build/src/tools/connection_patcher/MinSizeRel/connection_patcher.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/tt2g/TC/DynamicLib_Build/bin/MinSizeRel/connection_patcher.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -224,7 +224,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\TC\DynamicLib_Build;F:\tt2g\Trinity2\src\common;F:\tt2g\Trinity2\src\common\Asio;F:\tt2g\Trinity2\src\common\Collision;F:\tt2g\Trinity2\src\common\Collision\Management;F:\tt2g\Trinity2\src\common\Collision\Maps;F:\tt2g\Trinity2\src\common\Collision\Models;F:\tt2g\Trinity2\src\common\Configuration;F:\tt2g\Trinity2\src\common\Cryptography;F:\tt2g\Trinity2\src\common\Cryptography\Authentication;F:\tt2g\Trinity2\src\common\DataStores;F:\tt2g\Trinity2\src\common\Debugging;F:\tt2g\Trinity2\src\common\Logging;F:\tt2g\Trinity2\src\common\Metric;F:\tt2g\Trinity2\src\common\Platform;F:\tt2g\Trinity2\src\common\Threading;F:\tt2g\Trinity2\src\common\Utilities;C:\local\boost_1_66_0;F:\tt2g\Trinity2\dep\fmt;F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;F:\tt2g\Trinity2\dep\recastnavigation\Detour\Include;F:\tt2g\Trinity2\dep\SFMT;F:\tt2g\Trinity2\dep\utf8cpp;C:\OpenSSL-Win64\include;F:\tt2g\Trinity2\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj /Zc:throwingNew</AdditionalOptions>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -239,15 +239,15 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;TC_HAS_BROKEN_WSTRING_REGEX;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;TC_HAS_BROKEN_WSTRING_REGEX;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_API_USE_DYNAMIC_LINKING;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;FMT_USE_OVERRIDE;FMT_USE_VARIADIC_TEMPLATES;FMT_USE_RVALUE_REFERENCES;FMT_USE_DELETED_FUNCTIONS;FMT_USE_EXTERN_TEMPLATES;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\tt2g\TC\DynamicLib_Build;F:\tt2g\Trinity2\src\common;F:\tt2g\Trinity2\src\common\Asio;F:\tt2g\Trinity2\src\common\Collision;F:\tt2g\Trinity2\src\common\Collision\Management;F:\tt2g\Trinity2\src\common\Collision\Maps;F:\tt2g\Trinity2\src\common\Collision\Models;F:\tt2g\Trinity2\src\common\Configuration;F:\tt2g\Trinity2\src\common\Cryptography;F:\tt2g\Trinity2\src\common\Cryptography\Authentication;F:\tt2g\Trinity2\src\common\DataStores;F:\tt2g\Trinity2\src\common\Debugging;F:\tt2g\Trinity2\src\common\Logging;F:\tt2g\Trinity2\src\common\Metric;F:\tt2g\Trinity2\src\common\Platform;F:\tt2g\Trinity2\src\common\Threading;F:\tt2g\Trinity2\src\common\Utilities;C:\local\boost_1_66_0;F:\tt2g\Trinity2\dep\fmt;F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;F:\tt2g\Trinity2\dep\recastnavigation\Detour\Include;F:\tt2g\Trinity2\dep\SFMT;F:\tt2g\Trinity2\dep\utf8cpp;C:\OpenSSL-Win64\include;F:\tt2g\Trinity2\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\TC_Build_dyn;E:\TrinityCore-master\src\common;E:\TrinityCore-master\src\common\Asio;E:\TrinityCore-master\src\common\Collision;E:\TrinityCore-master\src\common\Collision\Management;E:\TrinityCore-master\src\common\Collision\Maps;E:\TrinityCore-master\src\common\Collision\Models;E:\TrinityCore-master\src\common\Configuration;E:\TrinityCore-master\src\common\Cryptography;E:\TrinityCore-master\src\common\Cryptography\Authentication;E:\TrinityCore-master\src\common\DataStores;E:\TrinityCore-master\src\common\Debugging;E:\TrinityCore-master\src\common\Logging;E:\TrinityCore-master\src\common\Metric;E:\TrinityCore-master\src\common\Platform;E:\TrinityCore-master\src\common\Threading;E:\TrinityCore-master\src\common\Utilities;C:\local\boost_1_66_0;E:\TrinityCore-master\dep\fmt;E:\TrinityCore-master\dep\g3dlite\include;E:\TrinityCore-master\dep\zlib;E:\TrinityCore-master\dep\recastnavigation\Detour\Include;E:\TrinityCore-master\dep\SFMT;E:\TrinityCore-master\dep\utf8cpp;C:\OpenSSL-Win64\include;E:\TrinityCore-master\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\tt2g\TC\DynamicLib_Build;F:\tt2g\Trinity2\src\common;F:\tt2g\Trinity2\src\common\Asio;F:\tt2g\Trinity2\src\common\Collision;F:\tt2g\Trinity2\src\common\Collision\Management;F:\tt2g\Trinity2\src\common\Collision\Maps;F:\tt2g\Trinity2\src\common\Collision\Models;F:\tt2g\Trinity2\src\common\Configuration;F:\tt2g\Trinity2\src\common\Cryptography;F:\tt2g\Trinity2\src\common\Cryptography\Authentication;F:\tt2g\Trinity2\src\common\DataStores;F:\tt2g\Trinity2\src\common\Debugging;F:\tt2g\Trinity2\src\common\Logging;F:\tt2g\Trinity2\src\common\Metric;F:\tt2g\Trinity2\src\common\Platform;F:\tt2g\Trinity2\src\common\Threading;F:\tt2g\Trinity2\src\common\Utilities;C:\local\boost_1_66_0;F:\tt2g\Trinity2\dep\fmt;F:\tt2g\Trinity2\dep\g3dlite\include;F:\tt2g\Trinity2\dep\zlib;F:\tt2g\Trinity2\dep\recastnavigation\Detour\Include;F:\tt2g\Trinity2\dep\SFMT;F:\tt2g\Trinity2\dep\utf8cpp;C:\OpenSSL-Win64\include;F:\tt2g\Trinity2\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -255,13 +255,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\common\RelWithDebInfo\common.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_system-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_thread-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_iostreams-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_regex-vc141-mt-x64-1_66.lib;..\..\..\dep\fmt\RelWithDebInfo\fmt.lib;..\..\..\dep\g3dlite\RelWithDebInfo\g3dlib.lib;..\..\..\dep\recastnavigation\Detour\RelWithDebInfo\Detour.lib;..\..\..\dep\zlib\RelWithDebInfo\zlib.lib;C:\OpenSSL-Win64\lib\VC\libssl64MD.lib;C:\OpenSSL-Win64\lib\VC\libcrypto64MD.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\common\RelWithDebInfo\common.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_system-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_filesystem-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_thread-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_program_options-vc141-mt-x64-1_66.lib;C:\local\boost_1_66_0\lib64-msvc-14.1\libboost_iostreams-vc141-mt-x64-1_66.lib;..\..\..\dep\fmt\RelWithDebInfo\fmt.lib;..\..\..\dep\g3dlite\RelWithDebInfo\g3dlib.lib;..\..\..\dep\recastnavigation\Detour\RelWithDebInfo\Detour.lib;..\..\..\dep\zlib\RelWithDebInfo\zlib.lib;C:\OpenSSL-Win64\lib\VC\libssl64MD.lib;C:\OpenSSL-Win64\lib\VC\libcrypto64MD.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/TC_Build_dyn/src/tools/connection_patcher/RelWithDebInfo/connection_patcher.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/TC_Build_dyn/bin/RelWithDebInfo/connection_patcher.pdb</ProgramDataBaseFile>
+      <ImportLibrary>F:/tt2g/TC/DynamicLib_Build/src/tools/connection_patcher/RelWithDebInfo/connection_patcher.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/tt2g/TC/DynamicLib_Build/bin/RelWithDebInfo/connection_patcher.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -269,10 +269,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\TrinityCore-master\src\tools\connection_patcher\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/TrinityCore-master/src/tools/connection_patcher/CMakeLists.txt</Message>
+    <CustomBuild Include="F:\tt2g\Trinity2\src\tools\connection_patcher\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/tt2g/Trinity2/src/tools/connection_patcher/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_dyn --check-stamp-file E:/TC_Build_dyn/src/tools/connection_patcher/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/DynamicLib_Build --check-stamp-file F:/tt2g/TC/DynamicLib_Build/src/tools/connection_patcher/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -280,12 +280,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/TrinityCore-master/src/tools/connection_patcher/CMakeLists.txt;E:\TrinityCore-master\src\tools\connection_patcher\CMakeLists.txt;E:\TrinityCore-master\src\tools\connection_patcher\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\TC_Build_dyn\src\tools\connection_patcher\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/tt2g/Trinity2/src/tools/connection_patcher/CMakeLists.txt;F:\tt2g\Trinity2\src\tools\connection_patcher\CMakeLists.txt;F:\tt2g\Trinity2\src\tools\connection_patcher\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\tt2g\TC\DynamicLib_Build\src\tools\connection_patcher\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/TrinityCore-master/src/tools/connection_patcher/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/tt2g/Trinity2/src/tools/connection_patcher/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_dyn --check-stamp-file E:/TC_Build_dyn/src/tools/connection_patcher/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/DynamicLib_Build --check-stamp-file F:/tt2g/TC/DynamicLib_Build/src/tools/connection_patcher/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -293,12 +293,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/TrinityCore-master/src/tools/connection_patcher/CMakeLists.txt;E:\TrinityCore-master\src\tools\connection_patcher\CMakeLists.txt;E:\TrinityCore-master\src\tools\connection_patcher\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\TC_Build_dyn\src\tools\connection_patcher\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/tt2g/Trinity2/src/tools/connection_patcher/CMakeLists.txt;F:\tt2g\Trinity2\src\tools\connection_patcher\CMakeLists.txt;F:\tt2g\Trinity2\src\tools\connection_patcher\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\tt2g\TC\DynamicLib_Build\src\tools\connection_patcher\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/TrinityCore-master/src/tools/connection_patcher/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/tt2g/Trinity2/src/tools/connection_patcher/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_dyn --check-stamp-file E:/TC_Build_dyn/src/tools/connection_patcher/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/DynamicLib_Build --check-stamp-file F:/tt2g/TC/DynamicLib_Build/src/tools/connection_patcher/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -306,12 +306,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/TrinityCore-master/src/tools/connection_patcher/CMakeLists.txt;E:\TrinityCore-master\src\tools\connection_patcher\CMakeLists.txt;E:\TrinityCore-master\src\tools\connection_patcher\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\TC_Build_dyn\src\tools\connection_patcher\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/tt2g/Trinity2/src/tools/connection_patcher/CMakeLists.txt;F:\tt2g\Trinity2\src\tools\connection_patcher\CMakeLists.txt;F:\tt2g\Trinity2\src\tools\connection_patcher\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\tt2g\TC\DynamicLib_Build\src\tools\connection_patcher\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/TrinityCore-master/src/tools/connection_patcher/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/tt2g/Trinity2/src/tools/connection_patcher/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/TrinityCore-master -BE:/TC_Build_dyn --check-stamp-file E:/TC_Build_dyn/src/tools/connection_patcher/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HF:/tt2g/Trinity2 -BF:/tt2g/TC/DynamicLib_Build --check-stamp-file F:/tt2g/TC/DynamicLib_Build/src/tools/connection_patcher/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -319,50 +319,50 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/TrinityCore-master/src/tools/connection_patcher/CMakeLists.txt;E:\TrinityCore-master\src\tools\connection_patcher\CMakeLists.txt;E:\TrinityCore-master\src\tools\connection_patcher\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\TC_Build_dyn\src\tools\connection_patcher\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/tt2g/Trinity2/src/tools/connection_patcher/CMakeLists.txt;F:\tt2g\Trinity2\src\tools\connection_patcher\CMakeLists.txt;F:\tt2g\Trinity2\src\tools\connection_patcher\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\tt2g\TC\DynamicLib_Build\src\tools\connection_patcher\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\TrinityCore-master\src\tools\connection_patcher\Helper.cpp" />
-    <ClInclude Include="E:\TrinityCore-master\src\tools\connection_patcher\Helper.hpp" />
-    <ClCompile Include="E:\TrinityCore-master\src\tools\connection_patcher\Patcher.cpp" />
-    <ClInclude Include="E:\TrinityCore-master\src\tools\connection_patcher\Patcher.hpp" />
-    <ClCompile Include="E:\TrinityCore-master\src\tools\connection_patcher\Program.cpp" />
-    <ClInclude Include="E:\TrinityCore-master\src\tools\connection_patcher\Constants\BinaryTypes.hpp" />
-    <ClInclude Include="E:\TrinityCore-master\src\tools\connection_patcher\Patches\Common.hpp" />
-    <ClInclude Include="E:\TrinityCore-master\src\tools\connection_patcher\Patches\Mac.hpp" />
-    <ClInclude Include="E:\TrinityCore-master\src\tools\connection_patcher\Patches\Windows.hpp" />
-    <ClInclude Include="E:\TrinityCore-master\src\tools\connection_patcher\Patterns\Common.hpp" />
-    <ClInclude Include="E:\TrinityCore-master\src\tools\connection_patcher\Patterns\Mac.hpp" />
-    <ClInclude Include="E:\TrinityCore-master\src\tools\connection_patcher\Patterns\Windows.hpp" />
-    <ClCompile Include="E:\TrinityCore-master\src\common\Debugging\WheatyExceptionReport.cpp" />
-    <ClInclude Include="E:\TrinityCore-master\src\common\Debugging\WheatyExceptionReport.h" />
+    <ClCompile Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Helper.cpp" />
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Helper.hpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Patcher.cpp" />
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Patcher.hpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Program.cpp" />
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Constants\BinaryTypes.hpp" />
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Patches\Common.hpp" />
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Patches\Mac.hpp" />
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Patches\Windows.hpp" />
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Patterns\Common.hpp" />
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Patterns\Mac.hpp" />
+    <ClInclude Include="F:\tt2g\Trinity2\src\tools\connection_patcher\Patterns\Windows.hpp" />
+    <ClCompile Include="F:\tt2g\Trinity2\src\common\Debugging\WheatyExceptionReport.cpp" />
+    <ClInclude Include="F:\tt2g\Trinity2\src\common\Debugging\WheatyExceptionReport.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\TC_Build_dyn\ZERO_CHECK.vcxproj">
-      <Project>{5746EE2B-DDA6-3213-9440-0EF3CA40737E}</Project>
+    <ProjectReference Include="F:\tt2g\TC\DynamicLib_Build\ZERO_CHECK.vcxproj">
+      <Project>{DEA9712D-D0B4-3EF7-9E6C-8614A015C13A}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\TC_Build_dyn\dep\recastnavigation\Detour\Detour.vcxproj">
-      <Project>{2DF5BA17-FDCC-3D5F-B07D-8EDC673FC792}</Project>
+    <ProjectReference Include="F:\tt2g\TC\DynamicLib_Build\dep\recastnavigation\Detour\Detour.vcxproj">
+      <Project>{BE8CBEDE-52D1-3F49-BB95-E93DFC2A9CC2}</Project>
       <Name>Detour</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\TC_Build_dyn\src\common\common.vcxproj">
-      <Project>{69C44556-F244-3F44-9D2E-C2D70F3682D5}</Project>
+    <ProjectReference Include="F:\tt2g\TC\DynamicLib_Build\src\common\common.vcxproj">
+      <Project>{C1BCB286-A6B1-33D3-921A-5EB0261E5BAC}</Project>
       <Name>common</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\TC_Build_dyn\dep\fmt\fmt.vcxproj">
-      <Project>{2314C1D3-2D8F-36FD-AAA7-7C317D20CF80}</Project>
+    <ProjectReference Include="F:\tt2g\TC\DynamicLib_Build\dep\fmt\fmt.vcxproj">
+      <Project>{51F92536-EBA8-38E5-8252-5524AC757FF0}</Project>
       <Name>fmt</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\TC_Build_dyn\dep\g3dlite\g3dlib.vcxproj">
-      <Project>{60323DC6-AAD4-3C76-902A-1C409E962331}</Project>
+    <ProjectReference Include="F:\tt2g\TC\DynamicLib_Build\dep\g3dlite\g3dlib.vcxproj">
+      <Project>{706EF4D2-2B77-3102-AAA6-2C0FB55022C3}</Project>
       <Name>g3dlib</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\TC_Build_dyn\dep\zlib\zlib.vcxproj">
-      <Project>{BA2C8058-BCB0-3C66-A737-51F02E458BBB}</Project>
+    <ProjectReference Include="F:\tt2g\TC\DynamicLib_Build\dep\zlib\zlib.vcxproj">
+      <Project>{D8F421E5-B4D4-3559-A347-646603DF8665}</Project>
       <Name>zlib</Name>
     </ProjectReference>
   </ItemGroup>

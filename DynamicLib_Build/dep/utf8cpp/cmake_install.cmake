@@ -1,4 +1,4 @@
-# Install script for directory: E:/TrinityCore-master/dep/utf8cpp
+# Install script for directory: F:/tt2g/Trinity2/dep/utf8cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
